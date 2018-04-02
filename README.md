@@ -18,6 +18,3 @@ Download now the latest release on [userstyles.org](https://userstyles.org/style
 Licensed under [MIT](https://github.com/Prologh/tekstowo-full-dark/blob/master/LICENSE).
 
 ![alt text](https://raw.githubusercontent.com/Prologh/tekstowo-full-dark/master/tekstowo-full-dark/img/000.png "Home page")
-
-![Song lyrics preview](https://raw.githubusercontent.com/Prologh/tekstowo-full-dark/master/tekstowo-full-dark/img/001.png "Song lyrics preview")
-
