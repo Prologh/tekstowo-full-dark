@@ -1,19 +1,19 @@
 ﻿li.topmenu-last a {
-    color: $navbar-link-color;
-    background: $navbar-link-bg;
+    color: $navbar-link-color !important;
+    background: $navbar-link-bg !important;
 
     &:hover {
-        color: $navbar-link-hover-color;
-        background: $navbar-link-hover-bg;
+        color: $navbar-link-hover-color !important;
+        background: $navbar-link-hover-bg !important;
     }
 
     &.active {
-        color: $navbar-link-active-color;
-        background: $navbar-link-active-bg;
+        color: $navbar-link-active-color !important;
+        background: $navbar-link-active-bg !important;
 
         &:hover {
-            color: $navbar-link-active-hover-color;
-            background: $navbar-link-active-hover-bg;
+            color: $navbar-link-active-hover-color !important;
+            background: $navbar-link-active-hover-bg !important;
         }
     }
 }

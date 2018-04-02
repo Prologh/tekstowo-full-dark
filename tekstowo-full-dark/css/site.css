@@ -1,17 +1,4 @@
 ﻿/* ### Variables ### */
-li.topmenu-last a {
-  color: #bebebe;
-  background: #1C1C1C; }
-  li.topmenu-last a:hover {
-    color: white;
-    background: #62ae25; }
-  li.topmenu-last a.active {
-    color: white;
-    background: #62ae25; }
-    li.topmenu-last a.active:hover {
-      color: white;
-      background: #62ae25; }
-
 /* ### Classes ### */
 @-moz-document regexp("https?://www\\.tekstowo\\.pl/.*") {
   /** BOTTOM **/
@@ -22,6 +9,18 @@ li.topmenu-last a {
   /** BOX **/
   /** blue icons **/
   /** end of blue icons **/
+  li.topmenu-last a {
+    color: #bebebe !important;
+    background: #1C1C1C !important; }
+    li.topmenu-last a:hover {
+      color: white !important;
+      background: #62ae25 !important; }
+    li.topmenu-last a.active {
+      color: white !important;
+      background: #62ae25 !important; }
+      li.topmenu-last a.active:hover {
+        color: white !important;
+        background: #62ae25 !important; }
   body {
     background: #131313;
     color: #909090; }
