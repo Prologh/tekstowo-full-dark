@@ -1,0 +1,19 @@
+﻿li.topmenu-last a {
+    color: $navbar-link-color;
+    background: $navbar-link-bg;
+
+    &:hover {
+        color: $navbar-link-hover-color;
+        background: $navbar-link-hover-bg;
+    }
+
+    &.active {
+        color: $navbar-link-active-color;
+        background: $navbar-link-active-bg;
+
+        &:hover {
+            color: $navbar-link-active-hover-color;
+            background: $navbar-link-active-hover-bg;
+        }
+    }
+}

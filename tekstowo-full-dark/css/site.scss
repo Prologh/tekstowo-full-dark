@@ -1,4 +1,5 @@
 ﻿@import '_variables';
+@import '_no-bg-overrides';
 
 /* ### Classes ### */
 
@@ -41,29 +42,20 @@
         color: #fff
     }
 
-    ul.topmenu {
-        background: $box-bg;
-    }
-
-    ul.topmenu li.topmenu-first {
-        background: $box-bg;
-    }
-
-    ul.topmenu li.topmenu-last {
-        background: $box-bg;
-    }
-
-    ul.topmenu li.topmenu-last.fb {
-        background: none;
+    ul.topmenu,
+    ul.topmenu li.topmenu-first,
+    ul.topmenu li.topmenu-last,
+    ul.topmenu li.topmenu-last.fb,
+    ul.topmenu li a {
+        background: $navbar-link-bg;
     }
 
     ul.topmenu li a {
-        color: #fff;
-        background: $box-bg;
+        color: $navbar-link-color;
     }
 
     ul.topmenu li.fb a {
-        background-color: #2B5293;
+        background-color: $brand-info;
         background-image: none;
     }
 
@@ -79,12 +71,24 @@
         background-color: #3B5FA2;
     }
 
-    ul.topmenu li a:hover {
-    }
+    ul.topmenu li a {
+        color: $navbar-link-color;
+        background: $navbar-link-bg;
 
-    ul.topmenu li a.active {
-        color: $navbar-link-active-color;
-        background: $navbar-link-active-bg;
+        &:hover {
+            color: $navbar-link-hover-color;
+            background: $navbar-link-hover-bg;
+        }
+
+        &.active {
+            color: $navbar-link-active-color;
+            background: $navbar-link-active-bg;
+
+            &:hover {
+                color: $navbar-link-active-hover-color;
+                background: $navbar-link-active-hover-bg;
+            }
+        }
     }
     /** BOTTOM **/
     #bottom {
