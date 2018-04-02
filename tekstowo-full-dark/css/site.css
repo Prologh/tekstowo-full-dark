@@ -2,6 +2,7 @@
 /* ### Classes ### */
 @-moz-document regexp("https?://www\\.tekstowo\\.pl/.*") {
   /* Rules that hide all kind of stuff (mostly useless parts of page) */
+  /* Rules that hide all kind of stuff (mostly useless parts of page) */
   /** BOTTOM **/
   /** CENTER **/
   /** LEFT **/
@@ -22,6 +23,15 @@
       li.topmenu-last a.active:hover {
         color: white !important;
         background: #62ae25 !important; }
+  body > div#contener > div.top-top > a:after {
+    position: absolute;
+    top: 10px;
+    padding-left: 22px;
+    color: #74be2f;
+    font-size: 42px;
+    content: "tekstowo.pl"; }
+  body > div#contener > div.top-top > a > img {
+    display: none; }
   body > div#contener div#center > div.left-corner {
     display: none; }
   body {

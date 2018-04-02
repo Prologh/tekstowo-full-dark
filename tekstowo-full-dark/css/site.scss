@@ -3,9 +3,9 @@
 /* ### Classes ### */
 
 @-moz-document regexp("https?://www\\.tekstowo\\.pl/.*") {
-
     // Imports
     @import 'components/_no-bg-overrides';
+    @import 'components/_convertions';
     @import 'components/_concealing';
 
     body {
