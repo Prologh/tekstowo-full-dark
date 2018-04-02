@@ -6,7 +6,7 @@ namespace tekstowo_full_dark
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            return;
         }
     }
 }
