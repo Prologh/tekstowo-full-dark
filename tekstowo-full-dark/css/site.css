@@ -1,6 +1,7 @@
 ﻿/* ### Variables ### */
 /* ### Classes ### */
 @-moz-document regexp("https?://www\\.tekstowo\\.pl/.*") {
+  /* Rules that hide all kind of stuff (mostly useless parts of page) */
   /** BOTTOM **/
   /** CENTER **/
   /** LEFT **/
@@ -21,6 +22,8 @@
       li.topmenu-last a.active:hover {
         color: white !important;
         background: #62ae25 !important; }
+  body > div#contener div#center > div.left-corner {
+    display: none; }
   body {
     background: #131313;
     color: #909090; }

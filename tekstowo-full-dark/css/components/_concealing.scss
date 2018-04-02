@@ -1,0 +1,5 @@
+﻿/* Rules that hide all kind of stuff (mostly useless parts of page) */
+
+body > div#contener div#center > div.left-corner {
+    display: none;
+}

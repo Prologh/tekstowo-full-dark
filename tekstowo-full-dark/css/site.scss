@@ -1,11 +1,12 @@
-﻿@import '_variables';
+﻿@import 'components/_variables';
 
 /* ### Classes ### */
 
 @-moz-document regexp("https?://www\\.tekstowo\\.pl/.*") {
 
     // Imports
-    @import '_no-bg-overrides';
+    @import 'components/_no-bg-overrides';
+    @import 'components/_concealing';
 
     body {
         background: $body-bg;
