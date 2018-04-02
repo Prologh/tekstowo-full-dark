@@ -15,4 +15,4 @@ Bootstrap alike.
 Download now the latest release on [userstyles.org](https://userstyles.org/styles/157867/tekstowo-full-dark)
 
 ## License
-Licesed under MIT.
+Licesed under [MIT](https://github.com/Prologh/tekstowo-full-dark/blob/master/LICENSE).
