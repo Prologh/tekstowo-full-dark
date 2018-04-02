@@ -1,4 +1,5 @@
-﻿/* ### Variables ### */
+﻿@charset "UTF-8";
+/* ### Variables ### */
 /* ### Classes ### */
 @-moz-document regexp("https?://www\\.tekstowo\\.pl/.*") {
   /* Rules that hide all kind of stuff (mostly useless parts of page) */
@@ -23,13 +24,21 @@
       li.topmenu-last a.active:hover {
         color: white !important;
         background: #62ae25 !important; }
-  body > div#contener > div.top-top > a:after {
+  body > div#contener > div.top-top > a:before {
     position: absolute;
     top: 10px;
     padding-left: 22px;
     color: #74be2f;
     font-size: 42px;
     content: "tekstowo.pl"; }
+  body > div#contener > div.top-top > a:after {
+    position: absolute;
+    top: 30px;
+    padding-left: 40px;
+    color: #909090;
+    font-size: 10px;
+    font-style: italic;
+    content: "teraz możesz je przeczytać"; }
   body > div#contener > div.top-top > a > img {
     display: none; }
   body > div#contener div#center > div.left-corner {

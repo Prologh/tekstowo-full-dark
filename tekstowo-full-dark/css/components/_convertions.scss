@@ -1,14 +1,25 @@
-﻿/* Rules that hide all kind of stuff (mostly useless parts of page) */
+﻿/* Rules that convert images to .css content (mostly because images have white parts already) */
 
+// Convert brand logo
 body > div#contener > div.top-top > a {
 
-    &:after{
+    &:before {
         position: absolute;
         top: 10px;
         padding-left: 22px;
         color: $brand-primary;
         font-size: 42px;
         content: "tekstowo.pl";
+    }
+
+    &:after {
+        position: absolute;
+        top: 58px;
+        padding-left: 25px;
+        color: $text-base-color;
+        font-size: 14px;
+        font-style: italic;
+        content: "teraz możesz je przeczytać";
     }
 
     & > img {
