@@ -6,7 +6,9 @@
 
     // Import components
     @import 'components/_buttons';
+    @import 'components/_controls';
     @import 'components/_icons';
+    @import 'components/_labels';
     @import 'components/_logo';
     @import 'components/_navbar';
 
@@ -174,30 +176,12 @@
         color: #fff;
     }
 
-    .blue-box input.search-send {
-        background: $box-bg;
-    }
-
-    .blue-box input.search-text {
-        background: $box-bg;
-        color: #2469ad;
-    }
-
     a.search-adv {
         color: #fff;
     }
 
     fieldset.search label.mini {
         color: #fff
-    }
-
-    input.search-text {
-        background: rgb(53, 53, 53);
-        color: rgb(150, 150, 150);
-    }
-
-    input.search-send {
-        background: $box-bg;
     }
 
     ul.nav.alfabet li.active {

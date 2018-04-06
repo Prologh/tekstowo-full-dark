@@ -1,2 +1,29 @@
 ﻿/* Rules that affect buttons */
 
+.blue-box input.search-send,
+input.search-send {
+    width: 0;
+    height: 0;
+    padding: 0;
+    position: relative;
+    background: none;
+}
+
+// Search button
+fieldset.search {
+    position: relative;
+
+    &:after {
+        color: $button-primary-color;
+        background: $button-primary-bg;
+        border: 1px solid $border-dark-color;
+        display: block;
+        padding: 6px 20px;
+        font-weight: bold;
+        position: absolute;
+        bottom: -4px;
+        right: 10px;
+        cursor: pointer;
+        content: "Szukaj";
+    }
+}

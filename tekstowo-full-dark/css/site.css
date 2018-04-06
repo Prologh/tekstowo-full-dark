@@ -3,7 +3,9 @@
 /* SASS custom mixins */
 @-moz-document regexp("https?://www\\.tekstowo\\.pl/.*") {
   /* Rules that affect buttons */
+  /* Rules that affect textareas */
   /* Rules that affect icons */
+  /* Rules that affect labels */
   /* Rules that affect site logo */
   /* Rules that affect site navbar */
   /** BOTTOM **/
@@ -14,6 +16,45 @@
   /** BOX **/
   /** blue icons **/
   /** end of blue icons **/
+  .blue-box input.search-send,
+  input.search-send {
+    width: 0;
+    height: 0;
+    padding: 0;
+    position: relative;
+    background: none; }
+  fieldset.search {
+    position: relative; }
+    fieldset.search:after {
+      color: #d0d0d0;
+      background: #62ae25;
+      border: 1px solid #333333;
+      display: block;
+      padding: 6px 20px;
+      font-weight: bold;
+      position: absolute;
+      bottom: -4px;
+      right: 10px;
+      content: "Szukaj"; }
+  textarea, textarea.textarea-comm {
+    border: 1px solid #666666;
+    min-height: 80px !important;
+    height: auto;
+    resize: vertical; }
+  input[type=text],
+  input[type=email],
+  input[type=number],
+  input[type=password],
+  input[type=tel],
+  .blue-box input.search-text,
+  input.search-text,
+  textarea,
+  textarea.textarea-comm {
+    color: #aaaaaa;
+    background: #343434;
+    border: none;
+    border-width: 0;
+    border-radius: 0; }
   div.glosowanie a.na-plus,
   div.glosowanie a.na-minus {
     background: #1C1C1C;
@@ -45,6 +86,8 @@
     background: #970000;
     transform: rotate(90deg);
     content: ""; }
+  fieldset > label.big-text[for=s-autor] {
+    margin: 0 10px 0 0; }
   body > div#contener > div.top-top > a:before {
     position: absolute;
     top: 10px;
@@ -168,20 +211,10 @@
     background: #1C1C1C; }
   .blue-box .big-text {
     color: #fff; }
-  .blue-box input.search-send {
-    background: #1C1C1C; }
-  .blue-box input.search-text {
-    background: #1C1C1C;
-    color: #2469ad; }
   a.search-adv {
     color: #fff; }
   fieldset.search label.mini {
     color: #fff; }
-  input.search-text {
-    background: #353535;
-    color: #969696; }
-  input.search-send {
-    background: #1C1C1C; }
   ul.nav.alfabet li.active {
     color: #970000; }
   ul.alfabet li a:hover {

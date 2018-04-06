@@ -1,0 +1,6 @@
+﻿/* Rules that affect labels */
+
+// Move label for song author to the left, so 'Search' button have more space
+fieldset > label.big-text[for=s-autor] {
+    margin: 0 10px 0 0;
+}

@@ -65,5 +65,15 @@ $border-light-color: lighten($border-base-color, 20%);
 $border-dark-color: darken($border-base-color, 20%);
 
 // Controls, inputs, textareas
-$input-base-color: $text-base-color;
-$input-base-bg: darken($box-bg, 20%);
+$input-base-color: lighten($text-base-color, 10%);
+$input-base-bg: lighten($box-light-bg, 5%);
+
+// Buttons
+$button-base-color: lighten($text-base-color, 25%);
+$button-base-bg: $box-bg;
+
+$button-box-color: $button-base-color;
+$button-box-bg: $box-light-bg;
+
+$button-primary-color: $button-base-color;
+$button-primary-bg: $brand-primary-dark;
