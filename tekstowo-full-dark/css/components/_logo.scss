@@ -1,6 +1,6 @@
-﻿/* Rules that convert images to .css content (mostly because images have white parts already) */
+﻿/* Rules that affect site logo */
 
-// Convert brand logo
+// Convert brand logo to text
 body > div#contener > div.top-top > a {
 
     &:before {
@@ -25,4 +25,9 @@ body > div#contener > div.top-top > a {
     & > img {
         display: none;
     }
+}
+
+// Hide "Teksty piosenek" anchor link under logo
+body > div#contener div#center > div.left-corner {
+    display: none;
 }

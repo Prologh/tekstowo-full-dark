@@ -1,0 +1,52 @@
+﻿/* Rules that affect icons */
+
+// Voting icons
+div.glosowanie a.na-plus,
+div.glosowanie a.na-minus {
+    background: $box-bg;
+    border-radius: 50%;
+    position: relative;
+
+    &:hover {
+        background: lighten($box-bg, 10%);
+    }
+}
+
+// Add more space in between
+div.glosowanie a.na-plus {
+    margin-right: 2px;
+}
+
+// Voting plus icon
+div.glosowanie a.na-plus {
+    &:before,
+    &:after{
+        position: absolute;
+        top: 5px;
+        left: 12px;
+        display: block;
+        height: 16px;
+        width: 2px;
+        background: $brand-primary-dark;
+        content: "";
+    }
+
+    &:after {
+        transform: rotate(90deg);
+    }
+}
+
+// Voting minus icon
+div.glosowanie a.na-minus {
+    &:before {
+        position: absolute;
+        top: 5px;
+        left: 12px;
+        display: block;
+        height: 16px;
+        width: 2px;
+        background: $brand-danger;
+        transform: rotate(90deg);
+        content: "";
+    }
+}

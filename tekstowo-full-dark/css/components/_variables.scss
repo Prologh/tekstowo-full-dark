@@ -1,6 +1,4 @@
-﻿@import '_mixins';
-
-/* ### Variables ### */
+﻿/* ### Variables ### */
 
 // Colors
 $gray-base:             #131313 !default;
@@ -65,3 +63,7 @@ $pagination-color: $brand-danger;
 $border-base-color: $gray;
 $border-light-color: lighten($border-base-color, 20%);
 $border-dark-color: darken($border-base-color, 20%);
+
+// Controls, inputs, textareas
+$input-base-color: $text-base-color;
+$input-base-bg: darken($box-bg, 20%);

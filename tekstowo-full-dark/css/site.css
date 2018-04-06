@@ -1,9 +1,11 @@
 ﻿@charset "UTF-8";
 /* ### Variables ### */
-/* ### Classes ### */
+/* SASS custom mixins */
 @-moz-document regexp("https?://www\\.tekstowo\\.pl/.*") {
-  /* Rules that convert images to .css content (mostly because images have white parts already) */
-  /* Rules that hide all kind of stuff (mostly useless parts of page) */
+  /* Rules that affect buttons */
+  /* Rules that affect icons */
+  /* Rules that affect site logo */
+  /* Rules that affect site navbar */
   /** BOTTOM **/
   /** CENTER **/
   /** LEFT **/
@@ -12,18 +14,37 @@
   /** BOX **/
   /** blue icons **/
   /** end of blue icons **/
-  li.topmenu-last a {
-    color: #bebebe !important;
-    background: #1C1C1C !important; }
-    li.topmenu-last a:hover {
-      color: white !important;
-      background: #62ae25 !important; }
-    li.topmenu-last a.active {
-      color: white !important;
-      background: #62ae25 !important; }
-      li.topmenu-last a.active:hover {
-        color: white !important;
-        background: #62ae25 !important; }
+  div.glosowanie a.na-plus,
+  div.glosowanie a.na-minus {
+    background: #1C1C1C;
+    border-radius: 50%;
+    position: relative; }
+    div.glosowanie a.na-plus:hover,
+    div.glosowanie a.na-minus:hover {
+      background: #363636; }
+  div.glosowanie a.na-plus {
+    margin-right: 2px; }
+  div.glosowanie a.na-plus:before, div.glosowanie a.na-plus:after {
+    position: absolute;
+    top: 5px;
+    left: 12px;
+    display: block;
+    height: 16px;
+    width: 2px;
+    background: #62ae25;
+    content: ""; }
+  div.glosowanie a.na-plus:after {
+    transform: rotate(90deg); }
+  div.glosowanie a.na-minus:before {
+    position: absolute;
+    top: 5px;
+    left: 12px;
+    display: block;
+    height: 16px;
+    width: 2px;
+    background: #970000;
+    transform: rotate(90deg);
+    content: ""; }
   body > div#contener > div.top-top > a:before {
     position: absolute;
     top: 10px;
@@ -43,6 +64,22 @@
     display: none; }
   body > div#contener div#center > div.left-corner {
     display: none; }
+  li.topmenu-last a {
+    color: #bebebe !important;
+    background: #1C1C1C !important; }
+    li.topmenu-last a:hover {
+      color: white !important;
+      background: #62ae25 !important; }
+    li.topmenu-last a.active {
+      color: white !important;
+      background: #62ae25 !important; }
+      li.topmenu-last a.active:hover {
+        color: white !important;
+        background: #62ae25 !important; }
+  body > div#contener div#center div.right-corner {
+    padding: 0;
+    background: #131313;
+    font-size: .9em; }
   body {
     background: #131313;
     color: #909090; }
