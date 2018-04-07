@@ -1,4 +1,4 @@
-﻿// Variables
+﻿// Import variables
 @import 'components/_variables';
 @import 'components/_mixins';
 
@@ -8,6 +8,7 @@
     @import 'components/_buttons';
     @import 'components/_controls';
     @import 'components/_icons';
+    @import 'components/_facebook';
     @import 'components/_labels';
     @import 'components/_logo';
     @import 'components/_navbar';
@@ -47,55 +48,6 @@
 
     .white {
         color: #fff
-    }
-
-    ul.topmenu,
-    ul.topmenu li.topmenu-first,
-    ul.topmenu li.topmenu-last,
-    ul.topmenu li.topmenu-last.fb,
-    ul.topmenu li a {
-        background: $navbar-link-bg;
-    }
-
-    ul.topmenu li a {
-        color: $navbar-link-color;
-    }
-
-    ul.topmenu li.fb a {
-        background-color: $brand-info;
-        background-image: none;
-    }
-
-    ul.topmenu li.fb a span {
-        background: $box-bg;
-    }
-
-    ul.topmenu li.fb a span:hover {
-        background-color: #3B5FA2;
-    }
-
-    ul.topmenu li.fb a:hover {
-        background-color: #3B5FA2;
-    }
-
-    ul.topmenu li a {
-        color: $navbar-link-color;
-        background: $navbar-link-bg;
-
-        &:hover {
-            color: $navbar-link-hover-color;
-            background: $navbar-link-hover-bg;
-        }
-
-        &.active {
-            color: $navbar-link-active-color;
-            background: $navbar-link-active-bg;
-
-            &:hover {
-                color: $navbar-link-active-hover-color;
-                background: $navbar-link-active-hover-bg;
-            }
-        }
     }
     /** BOTTOM **/
     #bottom {

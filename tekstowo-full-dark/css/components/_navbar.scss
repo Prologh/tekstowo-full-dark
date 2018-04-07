@@ -1,9 +1,19 @@
 ﻿/* Rules that affect site navbar */
 
-// Override 'no-bg' class
+// Change background for navbars
+ul.topmenu,
+ul.topmenu li.topmenu-first,
+ul.topmenu li.topmenu-last,
+ul.topmenu li.topmenu-last.fb,
+ul.topmenu li a,
+li.topmenu-last a {
+    background: $navbar-link-bg !important;
+}
+
+// Main navbar
+ul.topmenu li a,
 li.topmenu-last a {
     color: $navbar-link-color !important;
-    background: $navbar-link-bg !important;
 
     &:hover {
         color: $navbar-link-hover-color !important;
@@ -19,6 +29,10 @@ li.topmenu-last a {
             background: $navbar-link-active-hover-bg !important;
         }
     }
+
+    &:not(.active):focus {
+        background: darken($navbar-link-bg, 2%) !important;
+    }
 }
 
 // Reset the background of site stats under navbar
@@ -26,4 +40,5 @@ body > div#contener div#center div.right-corner {
     padding: 0;
     background: $body-bg;
     font-size: .9em;
+    font-weight: initial;
 }

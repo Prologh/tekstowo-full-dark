@@ -1,0 +1,18 @@
+﻿/* Rules that affect facebook plugin */
+
+ul.topmenu li.fb a {
+    background-color: $brand-info;
+    background-image: none;
+}
+
+ul.topmenu li.fb a span {
+    background: $box-bg;
+}
+
+ul.topmenu li.fb a span:hover {
+    background-color: #3B5FA2;
+}
+
+ul.topmenu li.fb a:hover {
+    background-color: #3B5FA2;
+}
