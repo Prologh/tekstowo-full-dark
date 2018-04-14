@@ -68,12 +68,23 @@ $border-dark-color: darken($border-base-color, 20%);
 $input-base-color: lighten($text-base-color, 10%);
 $input-base-bg: lighten($box-light-bg, 5%);
 
-// Buttons
+/* Buttons */
+// Base button
 $button-base-color: lighten($text-base-color, 35%);
 $button-base-bg: $box-bg;
 
+// Box button
 $button-box-color: $button-base-color;
 $button-box-bg: $box-light-bg;
 
+// Primary button
 $button-primary-color: $button-base-color;
 $button-primary-bg: $brand-primary-dark;
+$button-primary-hover-color: $button-primary-color;
+$button-primary-hover-bg: lighten($button-primary-bg, 5%);
+
+// Facebook button
+$button-facebook-color: $button-base-color;
+$button-facebook-bg: $brand-info;
+$button-facebook-hover-color: $button-facebook-color;
+$button-facebook-hover-bg: lighten($button-facebook-bg, 5%);

@@ -28,21 +28,62 @@ fieldset.search {
     }
 }
 
-// Login button
-fieldset.login > .login-send {
-    position: relative;
+// Login containter
+fieldset.login {
+    margin: 10px 20px;
+    height: 30px;
+    // Login button
+    & > .login-send {
+        background: none;
+        position: relative;
+        margin-top: 0;
+        height: 0px;
+        width: 0px;
 
-    &:after {
-        color: $button-primary-color;
-        background: $button-primary-bg;
-        border: 1px solid $border-dark-color;
-        display: block;
-        padding: 6px 20px;
-        font-weight: bold;
-        position: absolute;
-        bottom: -4px;
-        right: 10px;
-        cursor: pointer;
-        content: "Zaloguj";
+        &:after {
+            color: $button-primary-color;
+            background: $button-primary-bg;
+            border: 1px solid $border-dark-color;
+            display: block;
+            padding: 6px 20px;
+            font-weight: bold;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            cursor: pointer;
+            content: "Zaloguj";
+
+            &:hover {
+                color: $button-primary-hover-color;
+                background: $button-primary-hover-bg;
+            }
+        }
+    }
+    // Facebook login button
+    & .fb-button {
+        background: none;
+        position: relative;
+        margin-top: 0;
+        height: 0px;
+        top: 0px;
+
+        &:after {
+            color: $button-facebook-color;
+            background: $button-facebook-bg;
+            border: 1px solid $border-dark-color;
+            display: block;
+            padding: 6px 20px;
+            font-weight: bold;
+            position: absolute;
+            top: 0px;
+            right: 0px;
+            cursor: pointer;
+            content: "f Zaloguj";
+
+            &:hover {
+                color: $button-primary-hover-color;
+                background: $button-primary-hover-bg;
+            }
+        }
     }
 }
