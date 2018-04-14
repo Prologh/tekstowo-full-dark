@@ -12,7 +12,6 @@ div.glosowanie a.na-minus {
     }
 }
 
-// Add more space in between
 div.glosowanie a.na-plus {
     margin-right: 2px;
 }
@@ -20,7 +19,7 @@ div.glosowanie a.na-plus {
 // Voting plus icon
 div.glosowanie a.na-plus {
     &:before,
-    &:after{
+    &:after {
         position: absolute;
         top: 5px;
         left: 12px;
@@ -48,5 +47,21 @@ div.glosowanie a.na-minus {
         background: $brand-danger;
         transform: rotate(90deg);
         content: "";
+    }
+}
+
+// Top 5 icon
+body div#contener div#center > div.left-column > div:nth-child(6) > h3.marginb10.margint5 {
+    & > img {
+        width: 0px;
+        height: 0px;
+        margin: 0 4px;
+        vertical-align: 0px;
+    }
+
+    &:before {
+        content: "5";
+        position: absolute;
+        left: 43px;
     }
 }
