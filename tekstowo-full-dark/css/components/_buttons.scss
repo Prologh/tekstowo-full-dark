@@ -2,11 +2,18 @@
 
 .blue-box input.search-send,
 input.search-send {
-    width: 0;
-    height: 0;
+    background: $button-primary-bg;
+    border: 1px solid $border-dark-color;
+    width: 60px;
+    height: 23px;
     padding: 0;
-    position: relative;
-    background: none;
+    position: absolute;
+    top: 0px;
+    right: 23px;
+
+    &:hover {
+        background: $button-primary-hover-bg;
+    }
 }
 
 // Search button
@@ -15,14 +22,10 @@ fieldset.search {
 
     &:after {
         color: $button-primary-color;
-        background: $button-primary-bg;
-        border: 1px solid $border-dark-color;
-        display: block;
-        padding: 6px 20px;
         font-weight: bold;
         position: absolute;
-        bottom: -4px;
-        right: 10px;
+        top: 3px;
+        right: 35px;
         cursor: pointer;
         content: "Szukaj";
     }
