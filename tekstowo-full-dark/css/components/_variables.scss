@@ -19,22 +19,22 @@ $brand-danger:          #970000 !default;
 // Background color for `<body>`.
 $body-bg: $gray-base !default;
 
+// Boxes, containers
+$box-bg: $gray-darker;
+$box-light-bg: $gray-dark;
+
 // Global text color on `<body>`.
 $text-base-color: #909090 !default;
 $text-light-color: lighten($text-base-color, 10%) !default;
 $text-dark-color: darken($text-base-color, 10%) !default;
 
-// Global textual link color.
-$link-color: lighten($gray, 15%) !default;
-$link-hover-color: lighten($link-color, 10%) !default;
-
-// Boxes, containers
-$box-bg: $gray-darker;
-$box-light-bg: $gray-dark;
-
 // Links color
-$link-color: lighten($text-base-color, 8%);
-$link-color-hover: lighten($link-color, 15%);
+$link-color: lighten($text-base-color, 8%) !default;
+$link-hover-color: lighten($link-color, 15%) !default;
+
+// Primary links color
+$link-primary-color: $brand-primary;
+$link-primary-hover-color: lighten($link-primary-color, 5%) !default;
 
 // Headers color
 $header-1-color: $brand-primary-dark;

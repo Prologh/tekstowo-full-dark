@@ -1,0 +1,34 @@
+﻿/* Rules that affect anchor links */
+
+// Global links color
+a {
+    color: $link-color;
+
+    &:hover {
+        color: $link-hover-color;
+    }
+
+    &.green {
+        color: $link-primary-color;
+
+        &:hover {
+            color: $link-primary-hover-color;
+        }
+    }
+}
+
+// Alphabet
+ul.alfabet li a {
+    color: $link-color;
+    padding: 4px 7.5px;
+    width: initial;
+    height: initial;
+    &:hover {
+        color: $link-hover-color;
+        background: $box-light-bg;
+    }
+}
+
+ul.nav.alfabet li a:hover {
+    color: $brand-danger;
+}
