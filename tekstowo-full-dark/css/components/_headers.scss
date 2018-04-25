@@ -1,0 +1,8 @@
+﻿/* Rules that affect headers */
+
+.green-box,
+.blue-box {
+    &.big-text {
+        color: $header-4-color;
+    }
+}

@@ -60,37 +60,10 @@
         border-bottom: 1px solid $border-base-color;
     }
     /** CENTER **/
-    #center {
-        background: $body-bg;
-    }
 
-    #center .left-corner {
-        background: $box-bg;
-    }
-
-    #center .right-corner {
-        background: $box-bg;
-    }
-
-    .big-buttons div {
-        background: $box-bg;
-    }
-
-    .dodaj-soundtrack, .dodaj-tekst, .zaproponuj-utwor {
-        color: #fff;
-        background: $box-bg;
-    }
-
-    .green-box .big-text {
-        color: #fff;
-    }
-
-    .blue-box .big-text {
-        color: #fff;
-    }
 
     a.search-adv {
-        color: #fff;
+        color: $text-base-color;
     }
 
     fieldset.search label.mini {
@@ -113,41 +86,7 @@
         color: $brand-primary-dark;
     }
 
-    .left-box-top, .left-box-bottom, .left-box-top-green, .left-box-bottom-green {
-        background: $box-bg;
-    }
 
-    .left-box-top-green {
-        background: $box-bg;
-    }
-
-    .blue .left-box-top-green {
-        background: $box-bg;
-    }
-
-    .left-box-bottom {
-        background: $box-bg;
-    }
-
-    .left-box-bottom-green {
-        background: $box-bg;
-    }
-
-    .blue .left-box-bottom-green {
-        background: $box-bg;
-    }
-
-    .left-box-content, .left-box-content-green {
-        background: $box-bg;
-    }
-
-    .left-box-content-green {
-        background: $box-bg;
-    }
-
-    .blue .left-box-content-green {
-        background: $box-bg;
-    }
 
     fieldset.login input.login-text, fieldset.login input.long-long {
         background: $box-bg;
@@ -178,7 +117,7 @@
     }
 
     select {
-        border: 1px solid #e6e6e6
+        border: 1px solid #e6e6e6;
     }
 
     .formRow.song-item .caption .instrumental, .formRow.box label.opt .instrumental {

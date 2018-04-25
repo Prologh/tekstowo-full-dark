@@ -4,14 +4,14 @@
 a {
     color: $link-color;
 
-    &:hover {
+    &:hover, &:focus {
         color: $link-hover-color;
     }
 
     &.green {
         color: $link-primary-color;
 
-        &:hover {
+        &:hover, &:focus {
             color: $link-primary-hover-color;
         }
     }
@@ -23,12 +23,43 @@ ul.alfabet li a {
     padding: 4px 7.5px;
     width: initial;
     height: initial;
-    &:hover {
+
+    &:hover, &:focus {
         color: $link-hover-color;
         background: $box-light-bg;
     }
 }
 
-ul.nav.alfabet li a:hover {
-    color: $brand-danger;
+ul.nav.alfabet li a {
+    &:hover, &:focus {
+        color: $brand-danger;
+    }
+}
+
+// Add song/sountrack
+.dodaj-soundtrack,
+.dodaj-tekst,
+.zaproponuj-utwor {
+    color: $link-color;
+    line-height: initial;
+    display: block;
+    height: initial;
+    width: initial;
+    padding: 8.63px 6px;
+    margin-top: 0;
+
+    &:hover, &:focus {
+        color: $link-hover-color;
+        background: $box-light-bg;
+    }
+}
+
+// Change the fixed size of containers for add song/soundtrack links
+body div#contener div#center div.big-buttons {
+    & div,
+    & div.marginb5 {
+        width: initial;
+        height: initial;
+        text-align: center;
+    }
 }

@@ -1,12 +1,30 @@
 ﻿/* Rules that affect anchor links */
 
-.zaproponuj-utwor,
+#center {
+    background: $body-bg;
+}
+
 .dodaj-soundtrack,
+.dodaj-tekst,
+.zaproponuj-utwor,
 .green-box,
 .green-box .left-side,
 .green-box .right-side,
 .blue-box,
 .blue-box .left-side,
-.blue-box .right-side {
+.blue-box .right-side
+#center,
+#center .left-corner,
+#center .right-corner,
+.big-buttons div,
+.left-box-top,
+.left-box-bottom,
+.left-box-top-green,
+.left-box-bottom-green,
+.left-box-content,
+.left-box-content-green,
+.blue .left-box-top-green,
+.blue .left-box-bottom-green,
+.blue .left-box-content-green {
     background: $box-bg;
 }
