@@ -1,10 +1,11 @@
 ﻿// Import variables
-@import 'components/_variables';
-@import 'components/_mixins';
+@import '_variables';
+@import '_mixins';
 
 @-moz-document regexp("https?://www\\.tekstowo\\.pl/.*") {
     // Import components
     @import 'components/_buttons';
+    @import 'components/_containters';
     @import 'components/_controls';
     @import 'components/_icons';
     @import 'components/_facebook';
@@ -21,8 +22,6 @@
     p.redinfo {
         color: $brand-danger;
     }
-
-
 
     h2 {
         color: $brand-primary-dark;
@@ -82,40 +81,8 @@
         background: $box-bg;
     }
 
-    .zaproponuj-utwor {
-        background: $box-bg;
-    }
-
-    .dodaj-soundtrack {
-        background: $box-bg;
-    }
-
-    .green-box {
-        background: $box-bg;
-    }
-
-    .green-box .left-side {
-        background: $box-bg;
-    }
-
-    .green-box .right-side {
-        background: $box-bg;
-    }
-
     .green-box .big-text {
         color: #fff;
-    }
-
-    .blue-box {
-        background: $box-bg;
-    }
-
-    .blue-box .left-side {
-        background: $box-bg;
-    }
-
-    .blue-box .right-side {
-        background: $box-bg;
     }
 
     .blue-box .big-text {
