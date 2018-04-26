@@ -63,3 +63,15 @@ body div#contener div#center div.big-buttons {
         text-align: center;
     }
 }
+
+// Go to rankings link
+body div#contener div#center > div.right-column > div.box-lista > div.box-content {
+    margin-bottom: 0;
+
+    & a.bold.text-right.block {
+        background: $body-bg;
+        margin: 0 !important;
+        font-weight: initial;
+        padding-top: 5px;
+    }
+}
