@@ -9,6 +9,7 @@
     @import 'components/_controls';
     @import 'components/_icons';
     @import 'components/_facebook';
+    @import 'components/_headers.scss';
     @import 'components/_labels';
     @import 'components/_links';
     @import 'components/_logo';
@@ -60,8 +61,6 @@
         border-bottom: 1px solid $border-base-color;
     }
     /** CENTER **/
-
-
     a.search-adv {
         color: $text-base-color;
     }
