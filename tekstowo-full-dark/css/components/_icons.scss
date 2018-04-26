@@ -1,10 +1,9 @@
 ﻿/* Rules that affect icons */
 
 // Voting icons
-div.glosowanie a.na-plus,
-div.glosowanie a.na-minus {
+a.na-plus,
+a.na-minus {
     background: $box-bg;
-    border-radius: 50%;
     position: relative;
 
     &:hover {
@@ -12,12 +11,9 @@ div.glosowanie a.na-minus {
     }
 }
 
-div.glosowanie a.na-plus {
-    margin-right: 2px;
-}
 
 // Voting plus icon
-div.glosowanie a.na-plus {
+a.na-plus {
     &:before,
     &:after {
         position: absolute;
@@ -36,7 +32,7 @@ div.glosowanie a.na-plus {
 }
 
 // Voting minus icon
-div.glosowanie a.na-minus {
+a.na-minus {
     &:before {
         position: absolute;
         top: 5px;
