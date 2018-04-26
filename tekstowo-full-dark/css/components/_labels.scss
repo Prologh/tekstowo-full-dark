@@ -4,3 +4,9 @@
 fieldset > label.big-text[for=s-autor] {
     margin: 0 10px 0 0;
 }
+
+label,
+fieldset.search label.mini {
+    color: $label-base-color;
+    background: $label-base-bg;
+}

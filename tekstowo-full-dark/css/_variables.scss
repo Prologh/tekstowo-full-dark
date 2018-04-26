@@ -68,6 +68,10 @@ $border-dark-color: darken($border-base-color, 20%);
 $input-base-color: lighten($text-base-color, 10%);
 $input-base-bg: lighten($box-light-bg, 5%);
 
+// Labels
+$label-base-color: lighten($text-base-color, 5%);
+$label-base-bg: $box-bg;
+
 /* Buttons */
 // Base button
 $button-base-color: lighten($text-base-color, 35%);
