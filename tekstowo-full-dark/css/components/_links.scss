@@ -75,3 +75,19 @@ body div#contener div#center > div.right-column > div.box-lista > div.box-conten
         padding-top: 5px;
     }
 }
+
+// Links in popular artists container.
+div#art_box_move.to-move > div#art_box a.popularny {
+    margin: 0;
+    padding: 0 7px;
+    width: 76px;
+    height: 135px;
+
+    &:hover, &:focus {
+        background: $box-light-bg;
+
+        & b.fanow {
+            color: $link-primary-hover-color;
+        }
+    }
+}
