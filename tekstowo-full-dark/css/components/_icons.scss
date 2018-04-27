@@ -70,10 +70,10 @@ a#art_box_left {
     border-top: 20px solid transparent;
     border-bottom: 20px solid transparent;
     border-right: 27px solid lighten($box-bg, 6%);
-    top: 72px;
+    top: 71px;
     left: 10px;
 
-    &:hover, &:focus {
+    &:hover {
         border-right: 27px solid lighten($box-bg, 12%);
     }
 }
@@ -86,10 +86,10 @@ a#art_box_right {
     border-top: 20px solid transparent;
     border-bottom: 20px solid transparent;
     border-left: 27px solid lighten($box-bg, 6%);
-    top: 72px;
+    top: 71px;
     right: 10px;
 
-    &:hover, &:focus {
+    &:hover {
         border-left: 27px solid lighten($box-bg, 12%);
     }
 }

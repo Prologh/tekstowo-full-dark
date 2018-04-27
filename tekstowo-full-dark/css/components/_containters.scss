@@ -29,7 +29,13 @@
     background: $box-bg;
 }
 
+// Footer.
+div#bottom {
+    padding: 20px 0 10px;
+}
+
 // Popular artists.
 div.popularni {
     margin-top: 10px;
+    height: 216px;
 }

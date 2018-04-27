@@ -77,17 +77,27 @@ body div#contener div#center > div.right-column > div.box-lista > div.box-conten
 }
 
 // Links in popular artists container.
-div#art_box_move.to-move > div#art_box a.popularny {
-    margin: 0;
-    padding: 0 7px;
-    width: 76px;
-    height: 135px;
+div#art_box_move.to-move {
+    top: 46px;
 
-    &:hover, &:focus {
-        background: $box-light-bg;
+    & > div#art_box a.popularny {
+        margin: 0;
+        padding: 7px;
+        width: 76px;
+        height: 135px;
 
         & b.fanow {
-            color: $link-primary-hover-color;
+            width: 100%;
+            bottom: 7px;
+            font-weight: bold;
+        }
+
+        &:hover, &:focus {
+            background: $box-light-bg;
+
+            & b.fanow {
+                color: $link-primary-hover-color;
+            }
         }
     }
 }
