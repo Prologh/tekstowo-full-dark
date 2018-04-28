@@ -133,7 +133,6 @@
     }
 
     .addcomm-button {
-        background: $box-bg;
         color: #fff;
     }
 
@@ -956,28 +955,8 @@
         text-indent: -20000px
     }
 
-    .link-gg {
-        background: $box-bg;
-    }
-
     .social .link-gg {
         right: 192px;
-        position: absolute;
-    }
-
-    .link-fb {
-        background: $box-bg;
-        right: 160px;
-        position: absolute;
-    }
-
-    .link-bu {
-        background: $box-bg;
-    }
-
-    .link-sl {
-        background: $box-bg;
-        right: 126px;
         position: absolute;
     }
 
@@ -2120,14 +2099,6 @@
 
     .teledysk .mobile-wrap {
         background-color: #000;
-    }
-
-    .teledysk a.mobile .play {
-        background: $box-bg;
-    }
-
-    .teledysk a.mobile .play:hover {
-        background: rgb(71, 71, 71);
     }
 
     .fb-box {
