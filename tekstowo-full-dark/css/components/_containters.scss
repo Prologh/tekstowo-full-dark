@@ -25,8 +25,17 @@
 .left-box-content-green,
 .blue .left-box-top-green,
 .blue .left-box-bottom-green,
-.blue .left-box-content-green {
+.blue .left-box-content-green,
+fieldset.login.rejestracja,
+div#center > div.right-column > div:nth-child(6),
+div#center > div.right-column > div.teledysk-right-top,
+div#center > div.right-column > div.teledysk-right {
     background: $box-bg;
+}
+
+// Important override.
+div#center > div.right-column > div:nth-child(6) > div.teledysk-left > div.box-przeboje.no-bg {
+    background: $box-bg !important;
 }
 
 // Footer.
