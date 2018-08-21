@@ -1,7 +1,7 @@
 
 # Tekstowo Full Dark Theme
 
-README / 25 April 2018
+README / 21 August 2018
 
 ## About
 CSS theme for [tekstowo.pl](http://www.tekstowo.pl/). Get flat, dark grey feeling for night surfing. Most of the images are converted into css rules.
