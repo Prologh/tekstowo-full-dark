@@ -4,6 +4,7 @@
     background: $body-bg;
 }
 
+.box-big,
 .dodaj-soundtrack,
 .dodaj-tekst,
 .zaproponuj-utwor,
@@ -33,7 +34,7 @@ div#center > div.right-column > div.teledysk-right {
     background: $box-bg;
 }
 
-// Important override.
+// Important override of popular songs.
 div#center > div.right-column > div:nth-child(6) > div.teledysk-left > div.box-przeboje.no-bg {
     background: $box-bg !important;
 }
@@ -47,4 +48,10 @@ div#bottom {
 div.popularni {
     margin-top: 10px;
     height: 216px;
+}
+
+.box-big {
+    width: 518px;
+    border: none;
+    padding: 5px 5px 5px 8px
 }
