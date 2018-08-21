@@ -1227,7 +1227,7 @@
     }
 
     .blue .revisions .nick_link, .blue .text-link {
-        color: #255EAE
+        color: $brand-info;
     }
 
     .drukuj {
@@ -1326,33 +1326,6 @@
 
     .reklama-komentarz .bar strong {
         color: #f60
-    }
-
-    .blue .comm_show_more a, .blue .komentarz p a {
-        color: #255EAE
-    }
-
-    .blue .comm_show_more a:hover, .blue .komentarz p a:hover {
-        color: #2C70CE
-    }
-
-    .comm_show_more {
-        border-bottom: 1px solid #e5e5e5;
-        border-top: 1px solid #e5e5e5;
-        margin: 20px 0;
-        height: 24px;
-        padding-top: 7px;
-        text-align: right
-    }
-
-    .comm_show_more a, .komentarz p a {
-        color: #6BB332;
-        font-size: 11px;
-        padding-right: 5px;
-    }
-
-    .comm_show_more a:hover, .komentarz p a:hover {
-        color: #80D43C
     }
 
     form .error {

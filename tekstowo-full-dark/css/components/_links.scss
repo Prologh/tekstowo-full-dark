@@ -101,3 +101,26 @@ div#art_box_move.to-move {
         }
     }
 }
+
+// Show more comments, show related comment link.
+.comm_show_more a {
+    background: $box-bg;
+}
+
+.comm_show_more a, .komentarz p a {
+    color: $link-primary-color;
+    padding: 6px 12px;
+
+    &:hover {
+        color: $link-primary-hover-color;
+        background: $box-light-bg;
+    }
+}
+
+.blue .comm_show_more a, .blue .komentarz p a {
+    color: $link-info-color;
+
+    &:hover {
+        color: $link-info-hover-color;
+    }
+}
