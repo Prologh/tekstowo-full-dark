@@ -6,8 +6,15 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Update="css\site.min.css">
+    <None Update="css\site.css">
       <DependentUpon>site.scss</DependentUpon>
+    </None>
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <None Update="css\site.min.css">
+      <DependentUpon>site.css</DependentUpon>
     </None>
   </ItemGroup>
 
