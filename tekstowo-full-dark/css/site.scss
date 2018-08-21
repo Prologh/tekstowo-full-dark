@@ -1240,11 +1240,6 @@
         background: $box-bg;
     }
 
-    .komentarz {
-        float: left;
-        margin-top: 10px
-    }
-
     .komentarz .icons span {
         display: block;
         float: left;
@@ -1258,11 +1253,7 @@
     }
 
     .komentarz .bar {
-        width: 620px;
-        float: right;
-        background: #f7f7f7;
-        color: #999;
-        padding: 3px 10px
+        color: $text-base-color;
     }
 
     .komentarz .desc {
