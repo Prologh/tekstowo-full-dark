@@ -1,8 +1,8 @@
 [
   {
-    "outputFileName": "css/site.css",
+    "outputFileName": "css/site.min.css",
     "inputFiles": [
-      "css/site.min.css"
+      "css/site.css"
     ],
     "minify": {
       "enabled": true,
