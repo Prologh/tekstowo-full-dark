@@ -1,0 +1,12 @@
+[
+  {
+    "outputFileName": "css/site.css",
+    "inputFiles": [
+      "css/site.min.css"
+    ],
+    "minify": {
+      "enabled": true,
+      "renameLocals": true
+    }
+  }
+]
