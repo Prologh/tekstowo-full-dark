@@ -36,6 +36,10 @@ $link-hover-color: lighten($link-color, 15%) !default;
 $link-primary-color: $brand-primary;
 $link-primary-hover-color: lighten($link-primary-color, 5%) !default;
 
+// Info links color
+$link-info-color: $brand-info;
+$link-info-hover-color: lighten($link-info-color, 5%) !default;
+
 // Headers color
 $header-1-color: $brand-primary-dark;
 $header-2-color: lighten($text-base-color, 8%) !default;
