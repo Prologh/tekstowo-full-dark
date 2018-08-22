@@ -98,6 +98,28 @@
                 font-size: 24px;
                 z-index: 1;
                 content: "f"; }
+    input.addcomm-button[type=submit] {
+        background: transparent;
+        border: 1px solid #333333;
+        width: 116px;
+        height: 25px;
+        padding: 0;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 60; }
+    #addCommentForm > fieldset > div.formRow.text-center {
+        position: relative; }
+        #addCommentForm > fieldset > div.formRow.text-center::after {
+            color: #e9e9e9;
+            background: #62ae25;
+            padding: 3.5px 13px;
+            font-weight: bold;
+            position: absolute;
+            top: 9px;
+            right: 290px;
+            z-index: 40;
+            content: "Dodaj komentarz"; }
     #center {
         background: #131313; }
     .box-big,
