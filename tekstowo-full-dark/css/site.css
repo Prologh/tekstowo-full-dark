@@ -315,6 +315,18 @@
         color: #255EAE; }
         .blue .comm_show_more a:hover, .blue .komentarz p a:hover {
             color: #2969c3; }
+    .komentarz .bar a,
+    .komentarz .bar strong {
+        color: #74be2f; }
+        .komentarz .bar a:hover,
+        .komentarz .bar strong:hover {
+            color: #81ce39; }
+    .blue .komentarz .bar a,
+    .blue .komentarz .bar strong {
+        color: #255EAE; }
+        .blue .komentarz .bar a:hover,
+        .blue .komentarz .bar strong:hover {
+            color: #2969c3; }
     body > div#contener > div.top-top > a:before {
         position: absolute;
         top: 10px;
@@ -1179,13 +1191,6 @@
     .komentarz textarea {
         width: 100%;
         margin-top: 5px; }
-    .komentarz .bar strong {
-        color: #6bb332;
-        font-size: 1.2em; }
-    .komentarz .bar a {
-        color: #6bb332; }
-    .blue .komentarz .bar strong {
-        color: #255EAE; }
     .komentarz .bar .icons {
         float: right;
         margin-top: 3px; }

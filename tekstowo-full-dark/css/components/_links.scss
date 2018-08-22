@@ -124,3 +124,23 @@ div#art_box_move.to-move {
         color: $link-info-hover-color;
     }
 }
+
+// Comment author link.
+.komentarz .bar a,
+.komentarz .bar strong {
+    color: $link-primary-color;
+
+    &:hover {
+        color: $link-primary-hover-color;
+    }
+}
+
+.blue .komentarz .bar a,
+.blue .komentarz .bar strong {
+    color: $link-info-color;
+
+    &:hover {
+        color: $link-info-hover-color;
+    }
+}
+
