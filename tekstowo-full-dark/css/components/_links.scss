@@ -125,7 +125,7 @@ div#art_box_move.to-move {
     }
 }
 
-// Comment author link.
+// Link to comment author on comment bar.
 .komentarz .bar a,
 .komentarz .bar strong {
     color: $link-primary-color;
@@ -144,3 +144,21 @@ div#art_box_move.to-move {
     }
 }
 
+// Links on left navbar for signed in user.
+ul.login {
+    margin: 0 -9px;
+
+    & li {
+
+
+        & a {
+            padding: 2.5px 14px 2.5px 24px;
+            margin-bottom: 0;
+
+            &.msg {
+                display: block;
+                background: none;
+            }
+        }
+    }
+}

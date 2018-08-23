@@ -349,6 +349,14 @@
         .blue .komentarz .bar a:hover,
         .blue .komentarz .bar strong:hover {
             color: #2969c3; }
+    ul.login {
+        margin: 0 -9px; }
+        ul.login li a {
+            padding: 2.5px 14px 2.5px 24px;
+            margin-bottom: 0; }
+            ul.login li a.msg {
+                display: block;
+                background: none; }
     body > div#contener > div.top-top > a:before {
         position: absolute;
         top: 10px;
@@ -473,9 +481,6 @@
         color: #fff; }
     ul.login li a.inni {
         background: #1C1C1C; }
-    ul.login li a.msg {
-        background: #1C1C1C;
-        width: auto; }
     ul.login li a.ulubione {
         background: #1C1C1C; }
     ul.login li a.dodane {
