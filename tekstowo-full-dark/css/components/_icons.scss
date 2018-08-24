@@ -93,3 +93,44 @@ a#art_box_right {
         border-left: 27px solid lighten($box-bg, 12%);
     }
 }
+
+// Set relative on icon's parent.
+#center > div.big-buttons > div:nth-child(2) {
+    position: relative;
+}
+
+// Search icon for search for song anchor link.
+a.zaproponuj-utwor {
+    &:before, &:after {
+        margin: -8px 0 0;
+        position: absolute;
+        top: 50%;
+        content: "";
+    }
+
+    &:before {
+        left: 14px;
+        width: 6px;
+        height: 6px;
+        border: 3px solid $link-color;
+        border-radius: 12px;
+    }
+
+    &:after {
+        left: 24px;
+        width: 3px;
+        height: 7px;
+        border-radius: 0px 0px 40px 40px;
+        margin-top: 0;
+        background: $link-color;
+        transform: rotate(-45deg);
+    }
+
+    &:hover:before, &:focus:before {
+        border-color: $link-primary-hover-color;
+    }
+
+    &:hover:after, &:focus:after {
+        background-color: $link-primary-hover-color;
+    }
+}
