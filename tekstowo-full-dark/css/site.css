@@ -56,8 +56,6 @@ a.zaproponuj-utwor {
     /** BOTTOM **/
     /** CENTER **/
     /** LEFT **/
-    /** blue icons **/
-    /** end of blue icons **/
     /** BOX **/
     /** blue icons **/
     /** end of blue icons **/
@@ -389,14 +387,18 @@ a.zaproponuj-utwor {
         .blue .komentarz .bar a:hover,
         .blue .komentarz .bar strong:hover {
             color: #2969c3; }
-    ul.login {
+    ul.login, .blue ul.login {
         margin: 0 -9px; }
-        ul.login li a {
+        ul.login li a, .blue ul.login li a {
             padding: 2.5px 14px 2.5px 24px;
-            margin-bottom: 0; }
-            ul.login li a.msg {
-                display: block;
+            margin-bottom: 0;
+            display: block;
+            width: initial; }
+            ul.login li a.msg, ul.login li a.inni, ul.login li a.ulubione, ul.login li a.dodane, ul.login li a.zapros, ul.login li a.edytuj, ul.login li a.wyloguj, .blue ul.login li a.msg, .blue ul.login li a.inni, .blue ul.login li a.ulubione, .blue ul.login li a.dodane, .blue ul.login li a.zapros, .blue ul.login li a.edytuj, .blue ul.login li a.wyloguj {
                 background: none; }
+            ul.login li a:hover, ul.login li a:focus, .blue ul.login li a:hover, .blue ul.login li a:focus {
+                color: #cbcbcb;
+                background: #272727; }
     body > div#contener > div.top-top > a:before {
         position: absolute;
         top: 10px;
@@ -519,36 +521,6 @@ a.zaproponuj-utwor {
     .green-button {
         background: #1C1C1C;
         color: #fff; }
-    ul.login li a.inni {
-        background: #1C1C1C; }
-    ul.login li a.ulubione {
-        background: #1C1C1C; }
-    ul.login li a.dodane {
-        background: #1C1C1C; }
-    ul.login li a.zapros {
-        background: #1C1C1C; }
-    ul.login li a.edytuj {
-        background: #1C1C1C; }
-    ul.login li a.wyloguj {
-        background: #1C1C1C; }
-    ul.login li a:hover {
-        color: #62ae25; }
-    .blue ul.login li a.msg {
-        background: #1C1C1C; }
-    .blue ul.login li a.inni {
-        background: #1C1C1C; }
-    .blue ul.login li a.ulubione {
-        background: #1C1C1C; }
-    .blue ul.login li a.dodane {
-        background: #1C1C1C; }
-    .blue ul.login li a.zapros {
-        background: #1C1C1C; }
-    .blue ul.login li a.edytuj {
-        background: #1C1C1C; }
-    .blue ul.login li a.wyloguj {
-        background: #1C1C1C; }
-    .blue ul.login li a:hover {
-        color: #255EAE; }
     h3.top-track {
         border-bottom: 1px dashed #e8e8e8; }
     .top-tracks {

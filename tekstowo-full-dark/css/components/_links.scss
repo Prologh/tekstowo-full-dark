@@ -145,19 +145,25 @@ div#art_box_move.to-move {
 }
 
 // Links on left navbar for signed in user.
-ul.login {
+ul.login, .blue ul.login {
     margin: 0 -9px;
 
     & li {
 
-
         & a {
             padding: 2.5px 14px 2.5px 24px;
             margin-bottom: 0;
+            display: block;
+            width: initial;
 
-            &.msg {
-                display: block;
+            // Override background-image rule for various classes.
+            &.msg, &.inni, &.ulubione, &.dodane, &.zapros, &.edytuj, &.wyloguj {
                 background: none;
+            }
+
+            &:hover, &:focus {
+                color: $link-hover-color;
+                background: $box-light-bg;
             }
         }
     }
