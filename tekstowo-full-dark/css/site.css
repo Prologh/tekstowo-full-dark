@@ -7,6 +7,46 @@
     /* Rules that affect all kind of containers */
     /* Rules that affect textareas */
     /* Rules that affect icons */
+    /*// Set relative on icon's parent.
+#center > div.big-buttons > div:nth-child(2) {
+    position: relative;
+}
+
+// Search icon for search for song anchor link.
+a.zaproponuj-utwor {
+    &:before, &:after {
+        margin: -8px 0 0;
+        position: absolute;
+        top: 50%;
+        content: "";
+    }
+
+    &:before {
+        left: 14px;
+        width: 6px;
+        height: 6px;
+        border: 3px solid $link-color;
+        border-radius: 12px;
+    }
+
+    &:after {
+        left: 24px;
+        width: 3px;
+        height: 7px;
+        border-radius: 0px 0px 40px 40px;
+        margin-top: 0;
+        background: $link-color;
+        transform: rotate(-45deg);
+    }
+
+    &:hover:before, &:focus:before {
+        border-color: $link-primary-hover-color;
+    }
+
+    &:hover:after, &:focus:after {
+        background-color: $link-primary-hover-color;
+    }
+}*/
     /* Rules that affect facebook plugin */
     /* Rules that affect headers */
     /* Rules that affect labels */
@@ -245,31 +285,6 @@
         right: 10px; }
         a#art_box_right:hover {
             border-left: 27px solid #3b3b3b; }
-    #center > div.big-buttons > div:nth-child(2) {
-        position: relative; }
-    a.zaproponuj-utwor:before, a.zaproponuj-utwor:after {
-        margin: -8px 0 0;
-        position: absolute;
-        top: 50%;
-        content: ""; }
-    a.zaproponuj-utwor:before {
-        left: 24px;
-        width: 6px;
-        height: 6px;
-        border: 3px solid #a4a4a4;
-        /*background: transparent;*/
-        border-radius: 12px; }
-    a.zaproponuj-utwor:after {
-        left: 14px;
-        width: 3px;
-        height: 7px;
-        margin-top: 0;
-        background: #a4a4a4;
-        transform: rotate(-45deg); }
-    a.zaproponuj-utwor:hover:before, a.zaproponuj-utwor:focus:before {
-        border-color: #81ce39; }
-    a.zaproponuj-utwor:hover:after, a.zaproponuj-utwor:focus:after {
-        background-color: #81ce39; }
     ul.topmenu li.fb a {
         background-color: #255EAE;
         background-image: none; }
