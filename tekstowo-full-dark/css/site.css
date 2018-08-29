@@ -53,6 +53,7 @@ a.zaproponuj-utwor {
     /* Rules that affect anchor links */
     /* Rules that affect site logo */
     /* Rules that affect site navbar */
+    /* Rules that affect overlays */
     /** BOTTOM **/
     /** CENTER **/
     /** LEFT **/
@@ -452,6 +453,9 @@ a.zaproponuj-utwor {
         background: #131313;
         font-size: .9em;
         font-weight: initial; }
+    .modal-mask {
+        background: #000;
+        opacity: 0.7; }
     body {
         background: #131313;
         color: #909090; }
