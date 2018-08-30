@@ -1119,13 +1119,12 @@
 
     .revisions {
         padding: 7px 0;
-        background: #f7f7f7;
         max-width: 355px;
     }
 
     .revisions .entry {
         padding: 5px;
-        border-bottom: 1px solid #dedede;
+        border-bottom-color: $border-base-color;
         white-space: nowrap;
         font-size: 12px
     }
