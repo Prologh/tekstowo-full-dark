@@ -82,7 +82,9 @@ $button-base-bg: $box-bg;
 
 // Box button
 $button-box-color: $button-base-color;
-$button-box-bg: $box-light-bg;
+$button-box-bg: lighten($box-light-bg, 5%);
+$button-box-hover-color: $button-box-color;
+$button-box-hover-bg: lighten($button-box-bg, 5%);
 
 // Primary button
 $button-primary-color: $button-base-color;
