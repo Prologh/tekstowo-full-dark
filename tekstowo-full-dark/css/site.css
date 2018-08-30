@@ -453,8 +453,10 @@ a.zaproponuj-utwor {
         background: #131313;
         font-size: .9em;
         font-weight: initial; }
+    .mask {
+        background: #000; }
     .modal-mask {
-        background: #000 !important;
+        background: #000;
         opacity: 0.7; }
     body {
         background: #131313;
@@ -1599,10 +1601,6 @@ a.zaproponuj-utwor {
         background: #131313; }
     td.pop_content {
         background-color: #FFF; }
-    td.pop_content h2.dialog_title {
-        background: #970000 none repeat scroll 0 0;
-        border: 1px solid #970000;
-        color: #cccccc; }
     td.pop_content h2.dialog_loading {
         background: #131313; }
     td.pop_content .dialog_content {
@@ -1621,10 +1619,6 @@ a.zaproponuj-utwor {
         color: #666; }
     .info b {
         color: #000; }
-    .mask {
-        background: #fff; }
-    .modal-mask {
-        background: #fff; }
     .ytVid .duration {
         color: #FFF;
         background-color: #000; }

@@ -1,6 +1,10 @@
 ﻿/* Rules that affect overlays */
 
+.mask {
+    background: #000;
+}
+
 .modal-mask {
-    background: #000 !important;
+    background: #000;
     opacity: 0.7;
 }

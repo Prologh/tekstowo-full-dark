@@ -1802,12 +1802,6 @@
         background-color: #FFF;
     }
 
-    td.pop_content h2.dialog_title {
-        background: $brand-danger none repeat scroll 0 0;
-        border: 1px solid $brand-danger;
-        color: rgb(204, 204, 204);
-    }
-
     td.pop_content h2.dialog_loading {
         background: #131313;
     }
@@ -1840,14 +1834,6 @@
 
     .info b {
         color: #000
-    }
-
-    .mask {
-        background: #fff
-    }
-
-    .modal-mask {
-        background: #fff
     }
 
     .ytVid .duration {
