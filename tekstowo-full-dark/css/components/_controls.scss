@@ -23,3 +23,8 @@ textarea.textarea-comm {
     border-radius: 0;
 }
 
+input[type="submit"]:enabled,
+input[type="button"]:enabled,
+button:enabled {
+    cursor: pointer;
+}
