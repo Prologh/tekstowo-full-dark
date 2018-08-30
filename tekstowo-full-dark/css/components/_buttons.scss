@@ -42,7 +42,7 @@ div.left-column div.left-box-content fieldset.login {
         height: 0px;
         width: 0px;
 
-        &:after, &:hover:after {
+        &:after, &:hover:after, &:focus:after {
             color: $button-primary-color;
             background: $button-primary-bg;
             border: 1px solid $border-dark-color;
@@ -56,7 +56,7 @@ div.left-column div.left-box-content fieldset.login {
             content: "Zaloguj";
         }
 
-        &:hover:after {
+        &:hover:after, &:focus:after {
             color: $button-primary-hover-color;
             background: $button-primary-hover-bg;
         }
@@ -69,7 +69,7 @@ div.left-column div.left-box-content fieldset.login {
         height: 0px;
         top: 0px;
 
-        &:after, &:hover:after {
+        &:after, &:hover:after, &:focus:after {
             color: $button-facebook-color;
             background: $button-facebook-bg;
             border: 1px solid $border-dark-color;
@@ -83,7 +83,7 @@ div.left-column div.left-box-content fieldset.login {
             content: "Zaloguj";
         }
 
-        &:hover:after {
+        &:hover:after, &:focus:after {
             color: $button-facebook-hover-color;
             background: $button-facebook-hover-bg;
         }

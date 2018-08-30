@@ -91,7 +91,7 @@ a.zaproponuj-utwor {
             margin-top: 0;
             height: 0px;
             width: 0px; }
-            div.left-column div.left-box-content fieldset.login > .login-send:after, div.left-column div.left-box-content fieldset.login > .login-send:hover:after {
+            div.left-column div.left-box-content fieldset.login > .login-send:after, div.left-column div.left-box-content fieldset.login > .login-send:hover:after, div.left-column div.left-box-content fieldset.login > .login-send:focus:after {
                 color: #e9e9e9;
                 background: #62ae25;
                 border: 1px solid #333333;
@@ -103,7 +103,7 @@ a.zaproponuj-utwor {
                 left: 0px;
                 cursor: pointer;
                 content: "Zaloguj"; }
-            div.left-column div.left-box-content fieldset.login > .login-send:hover:after {
+            div.left-column div.left-box-content fieldset.login > .login-send:hover:after, div.left-column div.left-box-content fieldset.login > .login-send:focus:after {
                 color: #e9e9e9;
                 background: #6ec329; }
         div.left-column div.left-box-content fieldset.login .fb-button {
@@ -112,7 +112,7 @@ a.zaproponuj-utwor {
             margin-top: 0;
             height: 0px;
             top: 0px; }
-            div.left-column div.left-box-content fieldset.login .fb-button:after, div.left-column div.left-box-content fieldset.login .fb-button:hover:after {
+            div.left-column div.left-box-content fieldset.login .fb-button:after, div.left-column div.left-box-content fieldset.login .fb-button:hover:after, div.left-column div.left-box-content fieldset.login .fb-button:focus:after {
                 color: #e9e9e9;
                 background: #255EAE;
                 border: 1px solid #333333;
@@ -124,7 +124,7 @@ a.zaproponuj-utwor {
                 right: 0px;
                 cursor: pointer;
                 content: "Zaloguj"; }
-            div.left-column div.left-box-content fieldset.login .fb-button:hover:after {
+            div.left-column div.left-box-content fieldset.login .fb-button:hover:after, div.left-column div.left-box-content fieldset.login .fb-button:focus:after {
                 color: #e9e9e9;
                 background: #2969c3; }
             div.left-column div.left-box-content fieldset.login .fb-button:before {
