@@ -152,3 +152,32 @@ td.pop_content .dialog_buttons input {
         background: $button-box-hover-bg;
     }
 }
+
+// Show song revision history.
+.pokaz-rev,
+.blue .pokaz-rev {
+    color: $button-box-color;
+    background: $button-box-bg;
+    border-width: $button-box-border-width;
+    border-style: $button-box-border-style;
+    border-color: $button-box-border-color;
+    border-radius: 0;
+    padding: 2px 12px;
+
+    &.opened {
+        border-radius: 0;
+
+        & .icon {
+            background: $button-box-bg;
+        }
+    }
+
+    & .icon {
+        display: block;
+        width: 12px;
+        height: 12px;
+        float: right;
+        background: $button-box-bg;
+        margin-top: 8px
+    }
+}

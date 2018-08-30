@@ -68,6 +68,12 @@ $border-base-color: $gray;
 $border-light-color: lighten($border-base-color, 20%);
 $border-dark-color: darken($border-base-color, 20%);
 
+// Border width
+$border-base-width: 1px;
+
+// Border style
+$border-base-style: solid;
+
 // Controls, inputs, textareas
 $input-base-color: lighten($text-base-color, 10%);
 $input-base-bg: lighten($box-light-bg, 5%);
@@ -79,12 +85,18 @@ $label-base-bg: $box-bg;
 // Base button
 $button-base-color: lighten($text-base-color, 35%);
 $button-base-bg: $box-bg;
+$button-base-border-width: $border-base-width;
+$button-base-border-style: $border-base-style;
+$button-base-border-color: $border-base-color;
 
 // Box button
 $button-box-color: $button-base-color;
 $button-box-bg: lighten($box-light-bg, 5%);
 $button-box-hover-color: $button-box-color;
 $button-box-hover-bg: lighten($button-box-bg, 5%);
+$button-box-border-width: $button-base-border-width;
+$button-box-border-style: $button-base-border-style;
+$button-box-border-color: $button-base-border-color;
 
 // Primary button
 $button-primary-color: $button-base-color;

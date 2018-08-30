@@ -171,6 +171,29 @@ a.zaproponuj-utwor {
         td.pop_content .dialog_buttons input:focus, td.pop_content .dialog_buttons input:hover {
             color: #e9e9e9;
             background: #414141; }
+    .pokaz-rev,
+    .blue .pokaz-rev {
+        color: #e9e9e9;
+        background: #343434;
+        border-width: 1px;
+        border-style: solid;
+        border-color: #666666;
+        border-radius: 0;
+        padding: 2px 12px; }
+        .pokaz-rev.opened,
+        .blue .pokaz-rev.opened {
+            border-radius: 0; }
+            .pokaz-rev.opened .icon,
+            .blue .pokaz-rev.opened .icon {
+                background: #343434; }
+        .pokaz-rev .icon,
+        .blue .pokaz-rev .icon {
+            display: block;
+            width: 12px;
+            height: 12px;
+            float: right;
+            background: #343434;
+            margin-top: 8px; }
     #center {
         background: #131313; }
     .box-big,
@@ -1161,60 +1184,6 @@ a.zaproponuj-utwor {
         text-decoration: underline;
         font-weight: bold;
         padding-left: 10px; }
-    .pokaz-rev {
-        color: #fff;
-        margin: 0;
-        display: inline-block;
-        text-decoration: none;
-        font-size: 13px;
-        display: block;
-        line-height: 30px;
-        max-width: 335px;
-        padding: 0 10px;
-        -webkit-border-radius: 3px;
-        -moz-border-radius: 3px;
-        border-radius: 3px;
-        background: #8ed63f;
-        background: -moz-linear-gradient(top, #8ed63f 0%, #55a31d 100%);
-        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #8ed63f), color-stop(100%, #55a31d));
-        background: -webkit-linear-gradient(top, #8ed63f 0%, #55a31d 100%);
-        background: -o-linear-gradient(top, #8ed63f 0%, #55a31d 100%);
-        background: -ms-linear-gradient(top, #8ed63f 0%, #55a31d 100%);
-        background: linear-gradient(to bottom, #8ed63f 0%, #55a31d 100%); }
-    .blue .pokaz-rev {
-        background: #3e8ad6;
-        background: -moz-linear-gradient(top, #3e8ad6 0%, #255EAE 100%);
-        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #3e8ad6), color-stop(100%, #255EAE));
-        background: -webkit-linear-gradient(top, #3e8ad6 0%, #255EAE 100%);
-        background: -o-linear-gradient(top, #3e8ad6 0%, #255EAE 100%);
-        background: -ms-linear-gradient(top, #3e8ad6 0%, #255EAE 100%);
-        background: linear-gradient(to bottom, #3e8ad6 0%, #255EAE 100%); }
-    .pokaz-rev.opened {
-        -webkit-border-top-left-radius: 3px;
-        -webkit-border-top-right-radius: 3px;
-        -moz-border-radius-topleft: 3px;
-        -moz-border-radius-topright: 3px;
-        border-top-left-radius: 3px;
-        border-top-right-radius: 3px;
-        -webkit-border-bottom-right-radius: 0;
-        -webkit-border-bottom-left-radius: 0;
-        -moz-border-radius-bottomright: 0;
-        -moz-border-radius-bottomleft: 0;
-        border-bottom-right-radius: 0;
-        border-bottom-left-radius: 0; }
-    .pokaz-rev .icon {
-        display: block;
-        width: 12px;
-        height: 12px;
-        float: right;
-        background: #1C1C1C;
-        margin-top: 8px; }
-    .pokaz-rev.opened .icon {
-        background: #1C1C1C; }
-    .blue .pokaz-rev .icon {
-        background: #1C1C1C; }
-    .blue .pokaz-rev.opened .icon {
-        background: #1C1C1C; }
     .revisions {
         padding: 7px 0;
         max-width: 355px; }
