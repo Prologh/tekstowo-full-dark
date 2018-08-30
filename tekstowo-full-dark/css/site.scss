@@ -13,6 +13,7 @@
     @import 'components/_labels';
     @import 'components/_links';
     @import 'components/_logo';
+    @import 'components/_modals';
     @import 'components/_navbar';
     @import 'components/_overlays';
 
@@ -1774,59 +1775,7 @@
         background-color: rgba(13, 13, 13, 0.7);
     }
 
-    td.pop_topleft {
-        background: #131313
-    }
 
-    td.pop_topright {
-        background: #131313
-    }
-
-    td.pop_bottomleft {
-        background: #131313
-    }
-
-    td.pop_bottomright {
-        background: #131313
-    }
-
-    td.pop_top, td.pop_bottom {
-        background: #131313
-    }
-
-    td.pop_side {
-        background: #131313
-    }
-
-    td.pop_content {
-        background-color: #FFF;
-    }
-
-    td.pop_content h2.dialog_loading {
-        background: #131313;
-    }
-
-    td.pop_content .dialog_content {
-        background: #FFF none repeat scroll 0 0;
-        border-color: $brand-danger;
-    }
-
-    td.pop_content .dialog_body {
-        border-bottom: 1px solid #CCC;
-    }
-
-    td.pop_content .dialog_summary {
-        background: #FFF none repeat scroll 0 0;
-        border-bottom: 1px solid #CCC;
-    }
-
-    td.pop_content .dialog_buttons {
-        background: #FFF none repeat scroll 0 0;
-    }
-
-    td.pop_content .dialog_footer {
-        background: #F2F2F2 none repeat scroll 0 50%
-    }
 
     .info {
         color: #666

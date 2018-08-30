@@ -25,7 +25,7 @@ $box-light-bg: $gray-dark;
 
 // Global text color on `<body>`.
 $text-base-color: #909090 !default;
-$text-light-color: lighten($text-base-color, 10%) !default;
+$text-light-color: lighten($text-base-color, 30%) !default;
 $text-dark-color: darken($text-base-color, 10%) !default;
 
 // Links color
@@ -76,7 +76,6 @@ $input-base-bg: lighten($box-light-bg, 5%);
 $label-base-color: lighten($text-base-color, 5%);
 $label-base-bg: $box-bg;
 
-/* Buttons */
 // Base button
 $button-base-color: lighten($text-base-color, 35%);
 $button-base-bg: $box-bg;
@@ -96,3 +95,31 @@ $button-facebook-color: $button-base-color;
 $button-facebook-bg: $brand-info;
 $button-facebook-hover-color: $button-facebook-color;
 $button-facebook-hover-bg: lighten($button-facebook-bg, 5%);
+
+// Modals - base
+$modal-base-color: $text-base-color;
+$modal-base-bg: $box-bg;
+$modal-base-border-color: $body-bg;
+$modal-base-header-color: $text-light-color;
+$modal-base-header-bg: $brand-primary-dark;
+
+// Modals - danger
+$modal-danger-color: $modal-base-color;
+$modal-danger-bg: $modal-base-bg;
+$modal-danger-border-color: $modal-base-border-color;
+$modal-danger-header-color: $modal-base-header-color;
+$modal-danger-header-bg: $brand-danger;
+
+// Modals - info
+$modal-info-color: $modal-base-color;
+$modal-info-bg: $modal-base-bg;
+$modal-info-border-color: $modal-base-border-color;
+$modal-info-header-color: $modal-base-header-color;
+$modal-info-header-bg: $brand-info;
+
+// Modals - warning
+$modal-warning-color: $modal-base-color;
+$modal-warning-bg: $modal-base-bg;
+$modal-warning-border-color: $modal-base-border-color;
+$modal-warning-header-color: $modal-base-header-color;
+$modal-warning-header-bg: $brand-warning;

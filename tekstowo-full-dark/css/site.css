@@ -1,6 +1,5 @@
 ﻿@charset "UTF-8";
 /* ### Variables ### */
-/* Buttons */
 /* SASS custom mixins */
 @-moz-document regexp("https?://www\\.tekstowo\\.pl/.*") {
     /* Rules that affect buttons */
@@ -419,6 +418,33 @@ a.zaproponuj-utwor {
         display: none; }
     body > div#contener div#center > div.left-corner {
         display: none; }
+    td.pop_content,
+    td.pop_content h2.dialog_loading,
+    td.pop_content .dialog_content,
+    td.pop_content .dialog_summary,
+    td.pop_content .dialog_buttons,
+    td.pop_content .dialog_footer {
+        background: #1C1C1C; }
+    td.pop_content .dialog_content,
+    td.pop_content .dialog_body,
+    td.pop_content .dialog_summary,
+    td.pop_content h2.dialog_title {
+        border: none; }
+    td.pop_topleft,
+    td.pop_topright,
+    td.pop_bottomleft,
+    td.pop_bottomright,
+    td.pop_top,
+    td.pop_bottom,
+    td.pop_side {
+        background: #131313; }
+    td.pop_content h2.dialog_title {
+        background: #970000;
+        color: #dddddd; }
+    #pop_content > h2 > span {
+        text-align: center; }
+    #pop_content > div > div {
+        text-align: center; }
     ul.topmenu,
     ul.topmenu li.topmenu-first,
     ul.topmenu li.topmenu-last,
@@ -1587,34 +1613,6 @@ a.zaproponuj-utwor {
         background: #1C1C1C; }
     * html .dark_dialog_overlay {
         background-color: rgba(13, 13, 13, 0.7); }
-    td.pop_topleft {
-        background: #131313; }
-    td.pop_topright {
-        background: #131313; }
-    td.pop_bottomleft {
-        background: #131313; }
-    td.pop_bottomright {
-        background: #131313; }
-    td.pop_top, td.pop_bottom {
-        background: #131313; }
-    td.pop_side {
-        background: #131313; }
-    td.pop_content {
-        background-color: #FFF; }
-    td.pop_content h2.dialog_loading {
-        background: #131313; }
-    td.pop_content .dialog_content {
-        background: #FFF none repeat scroll 0 0;
-        border-color: #970000; }
-    td.pop_content .dialog_body {
-        border-bottom: 1px solid #CCC; }
-    td.pop_content .dialog_summary {
-        background: #FFF none repeat scroll 0 0;
-        border-bottom: 1px solid #CCC; }
-    td.pop_content .dialog_buttons {
-        background: #FFF none repeat scroll 0 0; }
-    td.pop_content .dialog_footer {
-        background: #F2F2F2 none repeat scroll 0 50%; }
     .info {
         color: #666; }
     .info b {
