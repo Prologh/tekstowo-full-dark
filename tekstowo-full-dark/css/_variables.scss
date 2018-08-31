@@ -4,9 +4,9 @@
 $gray-base:             #131313 !default;
 $gray-darker:           #1C1C1C !default;
 $gray-dark:             #272727 !default;
-$gray:                  #666666 !default;
-$gray-light:            #999999 !default;
-$gray-lighter:          #CCCCCC !default;
+$gray:                  #666    !default;
+$gray-light:            #999    !default;
+$gray-lighter:          #CCC    !default;
 
 // Brand colors
 $brand-primary:         #74be2f !default;
@@ -25,28 +25,34 @@ $box-light-bg: $gray-dark;
 
 // Global text color on `<body>`.
 $text-base-color: #909090 !default;
-$text-light-color: lighten($text-base-color, 30%) !default;
-$text-dark-color: darken($text-base-color, 10%) !default;
+$text-light-color: lighten($text-base-color, 30%);
+$text-dark-color: darken($text-base-color, 10%);
 
 // Links color
-$link-color: lighten($text-base-color, 8%) !default;
-$link-hover-color: lighten($link-color, 15%) !default;
+$link-color: lighten($text-base-color, 8%);
+$link-hover-color: lighten($link-color, 15%);
 
 // Primary links color
 $link-primary-color: $brand-primary;
-$link-primary-hover-color: lighten($link-primary-color, 5%) !default;
+$link-primary-hover-color: lighten($link-primary-color, 5%);
 
 // Info links color
 $link-info-color: $brand-info;
-$link-info-hover-color: lighten($link-info-color, 5%) !default;
+$link-info-hover-color: lighten($link-info-color, 5%);
+
+// Block link with background change on hover & focus.
+$link-block-color: $link-color;
+$link-block-bg: $box-bg;
+$link-block-hover-color: $link-hover-color;
+$link-block-hover-bg: lighten($link-block-bg, 5%);
 
 // Headers color
 $header-1-color: $brand-primary-dark;
-$header-2-color: lighten($text-base-color, 8%) !default;
-$header-3-color: lighten($text-base-color, 8%) !default;
-$header-4-color: lighten($text-base-color, 8%) !default;
-$header-5-color: lighten($text-base-color, 8%) !default;
-$header-6-color: lighten($text-base-color, 8%) !default;
+$header-2-color: lighten($text-base-color, 8%);
+$header-3-color: lighten($text-base-color, 8%);
+$header-4-color: lighten($text-base-color, 8%);
+$header-5-color: lighten($text-base-color, 8%);
+$header-6-color: lighten($text-base-color, 8%);
 
 // Navbar links
 $navbar-link-color: lighten($link-color, 10%);

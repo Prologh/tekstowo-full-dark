@@ -178,7 +178,7 @@ a.zaproponuj-utwor {
         background: #343434;
         border-width: 1px;
         border-style: solid;
-        border-color: #666666;
+        border-color: #666;
         border-radius: 0;
         padding: 2px 12px; }
         .pokaz-rev.opened,
@@ -244,7 +244,7 @@ a.zaproponuj-utwor {
         text-align: center;
         margin: 20px auto; }
     textarea, textarea.textarea-comm {
-        border: 1px solid #666666;
+        border: 1px solid #666;
         min-height: 80px !important;
         height: auto;
         resize: vertical; }
@@ -441,20 +441,28 @@ a.zaproponuj-utwor {
             ul.login li a:hover, ul.login li a:focus, .blue ul.login li a:hover, .blue ul.login li a:focus {
                 color: #cbcbcb;
                 background: #272727; }
-    #center > div.left-column > div:nth-child(3) > ul {
-        margin-left: 0; }
-        #center > div.left-column > div:nth-child(3) > ul.arrows li {
+    div.left-box-content > ul.arrows {
+        margin-left: -9px;
+        margin-right: -9px; }
+    ul.arrows {
+        float: none !important; }
+        ul.arrows > li {
             list-style: none;
             margin: 0; }
-            #center > div.left-column > div:nth-child(3) > ul.arrows li a.green {
+            ul.arrows > li a,
+            ul.arrows > li a.green,
+            ul.arrows > li a.blue {
                 color: #a4a4a4;
-                margin: 0 -9px;
-                padding: 5px 18px;
-                display: block;
-                text-align: center; }
-                #center > div.left-column > div:nth-child(3) > ul.arrows li a.green:hover, #center > div.left-column > div:nth-child(3) > ul.arrows li a.green:focus {
+                background: #1C1C1C;
+                padding: 5px 14px 5px 24px;
+                display: block; }
+                ul.arrows > li a:hover, ul.arrows > li a:focus,
+                ul.arrows > li a.green:hover,
+                ul.arrows > li a.green:focus,
+                ul.arrows > li a.blue:hover,
+                ul.arrows > li a.blue:focus {
                     color: #cbcbcb;
-                    background: #272727; }
+                    background: #292929; }
     body > div#contener > div.top-top > a:before {
         position: absolute;
         top: 10px;
@@ -562,8 +570,8 @@ a.zaproponuj-utwor {
     #stopka {
         color: #777777; }
     #stopka p {
-        border-top: 1px solid #666666;
-        border-bottom: 1px solid #666666; }
+        border-top: 1px solid #666;
+        border-bottom: 1px solid #666; }
     a.search-adv {
         color: #909090; }
     ul.nav.alfabet li.active {
@@ -1204,7 +1212,7 @@ a.zaproponuj-utwor {
         max-width: 355px; }
     .revisions .entry {
         padding: 5px;
-        border-bottom-color: #666666;
+        border-bottom-color: #666;
         white-space: nowrap;
         font-size: 12px; }
     .revisions .entry .fixed {
