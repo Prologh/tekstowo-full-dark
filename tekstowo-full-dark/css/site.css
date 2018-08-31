@@ -1,6 +1,7 @@
 ﻿@charset "UTF-8";
 /* ### Variables ### */
 /* SASS custom mixins */
+/* Borders */
 @-moz-document regexp("https?://www\\.tekstowo\\.pl/.*") {
     /* Rules that affect buttons */
     /* Rules that affect all kind of containers */
