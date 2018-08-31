@@ -447,7 +447,10 @@ a.zaproponuj-utwor {
             margin: 0; }
             #center > div.left-column > div:nth-child(3) > ul.arrows li a.green {
                 color: #a4a4a4;
-                padding: 2.5px 14px; }
+                margin: 0 -9px;
+                padding: 5px 18px;
+                display: block;
+                text-align: center; }
                 #center > div.left-column > div:nth-child(3) > ul.arrows li a.green:hover, #center > div.left-column > div:nth-child(3) > ul.arrows li a.green:focus {
                     color: #cbcbcb;
                     background: #272727; }

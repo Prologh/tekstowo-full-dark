@@ -85,6 +85,8 @@ $label-base-bg: $box-bg;
 // Base button
 $button-base-color: lighten($text-base-color, 35%);
 $button-base-bg: $box-bg;
+$button-base-hover-color: lighten($button-base-color, 5%);
+$button-base-hover-bg: lighten($button-base-bg, 5%);
 $button-base-border-width: $border-base-width;
 $button-base-border-style: $border-base-style;
 $button-base-border-color: $border-base-color;
