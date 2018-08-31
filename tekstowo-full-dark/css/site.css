@@ -440,6 +440,17 @@ a.zaproponuj-utwor {
             ul.login li a:hover, ul.login li a:focus, .blue ul.login li a:hover, .blue ul.login li a:focus {
                 color: #cbcbcb;
                 background: #272727; }
+    #center > div.left-column > div:nth-child(3) > ul {
+        margin-left: 0; }
+        #center > div.left-column > div:nth-child(3) > ul.arrows li {
+            list-style: none;
+            margin: 0; }
+            #center > div.left-column > div:nth-child(3) > ul.arrows li a.green {
+                color: #a4a4a4;
+                padding: 2.5px 14px; }
+                #center > div.left-column > div:nth-child(3) > ul.arrows li a.green:hover, #center > div.left-column > div:nth-child(3) > ul.arrows li a.green:focus {
+                    color: #cbcbcb;
+                    background: #272727; }
     body > div#contener > div.top-top > a:before {
         position: absolute;
         top: 10px;
