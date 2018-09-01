@@ -139,13 +139,6 @@ $modal-base-border-color: $body-bg;
 $modal-base-header-color: $text-light-color;
 $modal-base-header-bg: $brand-primary-dark;
 
-// Modals - danger
-$modal-danger-color: $modal-base-color;
-$modal-danger-bg: $modal-base-bg;
-$modal-danger-border-color: $modal-base-border-color;
-$modal-danger-header-color: $modal-base-header-color;
-$modal-danger-header-bg: $brand-danger;
-
 // Modals - info
 $modal-info-color: $modal-base-color;
 $modal-info-bg: $modal-base-bg;
@@ -159,3 +152,10 @@ $modal-warning-bg: $modal-base-bg;
 $modal-warning-border-color: $modal-base-border-color;
 $modal-warning-header-color: $modal-base-header-color;
 $modal-warning-header-bg: $brand-warning;
+
+// Modals - danger
+$modal-danger-color: $modal-base-color;
+$modal-danger-bg: $modal-base-bg;
+$modal-danger-border-color: $modal-base-border-color;
+$modal-danger-header-color: $modal-base-header-color;
+$modal-danger-header-bg: $brand-danger;
