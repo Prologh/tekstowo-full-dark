@@ -3,11 +3,11 @@
 // Voting icons
 a.na-plus,
 a.na-minus {
-    background: $box-bg;
+    background: $link-block-bg;
     position: relative;
 
     &:hover {
-        background: lighten($box-bg, 10%);
+        background: $link-block-hover-bg;
     }
 }
 
@@ -69,12 +69,12 @@ a#art_box_left {
     background: transparent;
     border-top: 20px solid transparent;
     border-bottom: 20px solid transparent;
-    border-right: 27px solid lighten($box-bg, 6%);
+    border-right: 27px solid lighten($link-block-bg, 6%);
     top: 71px;
     left: 10px;
 
     &:hover {
-        border-right: 27px solid lighten($box-bg, 12%);
+        border-right: 27px solid lighten($link-block-bg, 12%);
     }
 }
 
@@ -85,12 +85,12 @@ a#art_box_right {
     background: transparent;
     border-top: 20px solid transparent;
     border-bottom: 20px solid transparent;
-    border-left: 27px solid lighten($box-bg, 6%);
+    border-left: 27px solid lighten($link-block-bg, 6%);
     top: 71px;
     right: 10px;
 
     &:hover {
-        border-left: 27px solid lighten($box-bg, 12%);
+        border-left: 27px solid lighten($link-block-bg, 12%);
     }
 }
 

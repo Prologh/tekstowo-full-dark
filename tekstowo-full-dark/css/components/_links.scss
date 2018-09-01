@@ -104,7 +104,7 @@ div#art_box_move.to-move {
 
 // Show more comments, show related comment link.
 .comm_show_more a {
-    background: $box-bg;
+    background: $link-block-bg;
 }
 
 .comm_show_more a, .komentarz p a {
@@ -113,7 +113,7 @@ div#art_box_move.to-move {
 
     &:hover {
         color: $link-primary-hover-color;
-        background: $box-light-bg;
+        background: $link-block-hover-bg;
     }
 }
 

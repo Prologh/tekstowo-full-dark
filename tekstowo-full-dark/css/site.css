@@ -272,7 +272,7 @@ a.zaproponuj-utwor {
         position: relative; }
         a.na-plus:hover,
         a.na-minus:hover {
-            background: #363636; }
+            background: #292929; }
     a.na-plus:before, a.na-plus:after {
         position: absolute;
         top: 5px;
@@ -412,7 +412,7 @@ a.zaproponuj-utwor {
         padding: 6px 12px; }
         .comm_show_more a:hover, .komentarz p a:hover {
             color: #81ce39;
-            background: #272727; }
+            background: #292929; }
     .blue .comm_show_more a, .blue .komentarz p a {
         color: #255EAE; }
         .blue .comm_show_more a:hover, .blue .komentarz p a:hover {
