@@ -28,6 +28,14 @@ $text-base-color: #909090 !default;
 $text-light-color: lighten($text-base-color, 30%);
 $text-dark-color: darken($text-base-color, 10%);
 
+// Headers color
+$header-1-color: $brand-primary-dark;
+$header-2-color: lighten($text-base-color, 8%);
+$header-3-color: lighten($text-base-color, 8%);
+$header-4-color: lighten($text-base-color, 8%);
+$header-5-color: lighten($text-base-color, 8%);
+$header-6-color: lighten($text-base-color, 8%);
+
 // Links color
 $link-color: lighten($text-base-color, 8%);
 $link-hover-color: lighten($link-color, 15%);
@@ -40,19 +48,12 @@ $link-primary-hover-color: lighten($link-primary-color, 5%);
 $link-info-color: $brand-info;
 $link-info-hover-color: lighten($link-info-color, 5%);
 
-// Block link with background change on hover & focus.
+// Block link with background change on hover & focus
+// Button-like, usually displayed as block
 $link-block-color: $link-color;
 $link-block-bg: $box-bg;
 $link-block-hover-color: $link-hover-color;
 $link-block-hover-bg: lighten($link-block-bg, 5%);
-
-// Headers color
-$header-1-color: $brand-primary-dark;
-$header-2-color: lighten($text-base-color, 8%);
-$header-3-color: lighten($text-base-color, 8%);
-$header-4-color: lighten($text-base-color, 8%);
-$header-5-color: lighten($text-base-color, 8%);
-$header-6-color: lighten($text-base-color, 8%);
 
 // Navbar links
 $navbar-link-color: lighten($link-color, 10%);
