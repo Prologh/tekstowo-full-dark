@@ -48,6 +48,14 @@ $link-primary-hover-color: lighten($link-primary-color, 5%);
 $link-info-color: $brand-info;
 $link-info-hover-color: lighten($link-info-color, 5%);
 
+// Warning links color
+$link-warning-color: $brand-warning;
+$link-warning-hover-color: lighten($link-warning-color, 5%);
+
+// Danger links color
+$link-danger-color: $brand-danger;
+$link-danger-hover-color: lighten($link-danger-color, 5%);
+
 // Block link with background change on hover & focus
 // Button-like, usually displayed as block
 $link-block-color: $link-color;
