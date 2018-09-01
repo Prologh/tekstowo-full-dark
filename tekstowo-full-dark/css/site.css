@@ -463,6 +463,19 @@ a.zaproponuj-utwor {
                 ul.arrows > li a.blue:focus {
                     color: #cbcbcb;
                     background: #292929; }
+    .top5 {
+        width: 100%;
+        margin: 3px 0;
+        padding: 0; }
+        .top5 img {
+            border: 1px solid #CCC;
+            padding: 0; }
+        .top5 span {
+            color: #74be2f; }
+        .top5:hover, .top5:focus {
+            background: #292929; }
+            .top5:hover span, .top5:focus span {
+                color: #81ce39; }
     body > div#contener > div.top-top > a:before {
         position: absolute;
         top: 10px;
@@ -630,14 +643,6 @@ a.zaproponuj-utwor {
         color: #b6b6b6; }
     .top-tracks img {
         background: #1C1C1C; }
-    .top5 img {
-        border: 1px solid #cdcdcd; }
-    .top5 span {
-        color: #62ae25; }
-    .punkty {
-        background: #1C1C1C;
-        padding: 0 15px;
-        margin: 10px 0; }
     .box-top {
         height: 38px;
         background: #1C1C1C;

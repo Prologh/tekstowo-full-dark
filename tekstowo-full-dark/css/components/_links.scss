@@ -168,12 +168,18 @@ ul.login, .blue ul.login {
     }
 }
 
-// Links under sign in buttons on left navbar.
-div.left-box-content > ul.arrows {
-    margin-left: -9px;
-    margin-right: -9px;
+// Add negative horizontal margin
+// to counterweight padding
+// in order to create full-width anchor links.
+div.left-box-content {
+
+    & > ul.arrows {
+        margin-left: -9px;
+        margin-right: -9px;
+    }
 }
 
+// Links under sign in buttons on left navbar.
 ul.arrows {
     float: none !important;
 
@@ -193,6 +199,30 @@ ul.arrows {
                 color: $link-block-hover-color;
                 background: $link-block-hover-bg;
             }
+        }
+    }
+}
+
+// Top 5 user profiles on left navbar.
+.top5 {
+    width: 100%;
+    margin: 3px 0;
+    padding: 0;
+
+    & img {
+        @include border($image-border-width, $image-border-style, $image-border-color);
+        padding: 0;
+    }
+
+    & span {
+        color: $link-primary-color;
+    }
+
+    &:hover, &:focus {
+        background: $link-block-hover-bg;
+
+        & span {
+            color: $link-primary-hover-color;
         }
     }
 }

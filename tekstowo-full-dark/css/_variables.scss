@@ -118,6 +118,11 @@ $button-facebook-bg: $brand-info;
 $button-facebook-hover-color: $button-facebook-color;
 $button-facebook-hover-bg: lighten($button-facebook-bg, 5%);
 
+// Images
+$image-border-width: $border-base-width;
+$image-border-style: $border-base-style;
+$image-border-color: $gray-lighter;
+
 // Modals - base
 $modal-base-color: $text-base-color;
 $modal-base-bg: $box-bg;
