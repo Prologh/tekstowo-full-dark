@@ -134,3 +134,44 @@ a.zaproponuj-utwor {
         background-color: $link-primary-hover-color;
     }
 }*/
+
+// Print song lyrics icon.
+.drukuj {
+    position: relative;
+
+    &:before, &:after {
+        content: '';
+        background: transparent;
+        top: 5.5px;
+        position: absolute;
+    }
+
+    &:before {
+        right: 10px;
+        width: 8px;
+        height: 12px;
+        border: 1.5px solid $link-block-color;
+    }
+
+    &:after {
+        right: 15px;
+        border-width: 3px;
+        border-style: solid;
+        border-top-color: $link-block-bg;
+        border-right-color: $link-block-color;
+        border-bottom-color: $link-block-color;
+        border-left-color: $link-block-bg;
+    }
+
+    &:hover:before, &:focus:before {
+        border-color: $link-block-hover-color;
+    }
+
+    &:hover:after, &:focus:after {
+        border-top-color: $link-block-hover-bg;
+        border-right-color: $link-block-hover-color;
+        border-bottom-color: $link-block-hover-color;
+        border-left-color: $link-block-hover-bg;
+    }
+}
+

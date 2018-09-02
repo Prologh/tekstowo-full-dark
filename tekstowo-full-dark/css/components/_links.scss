@@ -226,3 +226,15 @@ ul.arrows {
         }
     }
 }
+
+// Print song lyrics icon.
+.drukuj {
+    color: $link-block-color;
+    background: $link-block-bg;
+
+    &:focus, &:hover {
+        color: $link-block-hover-color;
+        background: $link-block-hover-bg;
+    }
+}
+

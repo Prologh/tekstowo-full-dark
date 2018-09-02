@@ -335,6 +335,33 @@ a.zaproponuj-utwor {
         right: 10px; }
         a#art_box_right:hover {
             border-left: 27px solid #3b3b3b; }
+    .drukuj {
+        position: relative; }
+        .drukuj:before, .drukuj:after {
+            content: '';
+            background: transparent;
+            top: 5.5px;
+            position: absolute; }
+        .drukuj:before {
+            right: 10px;
+            width: 8px;
+            height: 12px;
+            border: 1.5px solid #a4a4a4; }
+        .drukuj:after {
+            right: 15px;
+            border-width: 3px;
+            border-style: solid;
+            border-top-color: #1C1C1C;
+            border-right-color: #a4a4a4;
+            border-bottom-color: #a4a4a4;
+            border-left-color: #1C1C1C; }
+        .drukuj:hover:before, .drukuj:focus:before {
+            border-color: #cbcbcb; }
+        .drukuj:hover:after, .drukuj:focus:after {
+            border-top-color: #292929;
+            border-right-color: #cbcbcb;
+            border-bottom-color: #cbcbcb;
+            border-left-color: #292929; }
     ul.topmenu li.fb a {
         background-color: #255EAE;
         background-image: none; }
@@ -486,6 +513,12 @@ a.zaproponuj-utwor {
             background: #292929; }
             .top5:hover span, .top5:focus span {
                 color: #81ce39; }
+    .drukuj {
+        color: #a4a4a4;
+        background: #1C1C1C; }
+        .drukuj:focus, .drukuj:hover {
+            color: #cbcbcb;
+            background: #292929; }
     body > div#contener > div.top-top > a:before {
         position: absolute;
         top: 10px;
@@ -1256,14 +1289,6 @@ a.zaproponuj-utwor {
         text-decoration: underline; }
     .blue .revisions .nick_link, .blue .text-link {
         color: #255EAE; }
-    .drukuj {
-        height: 26px;
-        width: 90px;
-        padding-left: 10px;
-        display: inline-block;
-        line-height: 26px;
-        margin: 20px 0 0;
-        background: #1C1C1C; }
     .komentarz .icons span {
         display: block;
         float: left;
