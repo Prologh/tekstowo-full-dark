@@ -200,7 +200,10 @@ a.zaproponuj-utwor {
     .box-big,
     .dodaj-soundtrack,
     .dodaj-tekst,
+    .glosowanie,
+    .glosowanie-top,
     .komentarz .bar,
+    .metric,
     .revisions,
     .zaproponuj-utwor,
     .green-box,
@@ -243,6 +246,13 @@ a.zaproponuj-utwor {
         height: initial;
         text-align: center;
         margin: 20px auto; }
+    .metric {
+        border: none; }
+    .glosowanie-top {
+        width: initial; }
+    .glosowanie {
+        border: none;
+        width: initial; }
     textarea, textarea.textarea-comm {
         border: 1px solid #666;
         min-height: 80px !important;
@@ -1138,19 +1148,6 @@ a.zaproponuj-utwor {
         padding: 2px 5px; }
     .teledysk-right fieldset {
         margin-top: 10px; }
-    .glosowanie-top {
-        width: 713px;
-        height: 14px;
-        background: #1C1C1C;
-        font-size: 0;
-        line-height: 0;
-        clear: both; }
-    .glosowanie {
-        border: 1px solid #e5e5e5;
-        border-top: 0;
-        padding: 5px 10px;
-        width: 692px;
-        margin-bottom: 10px; }
     .glosowanie span {
         font-size: 1.3em;
         font-weight: bold; }
@@ -1708,8 +1705,6 @@ a.zaproponuj-utwor {
         background: #1C1C1C; }
     .blue.left-column .login .new {
         background-color: #255EAE; }
-    .metric {
-        border: 1px solid #CCC; }
     .fb-panel {
         background: #ffffff;
         color: #a4a5a5; }

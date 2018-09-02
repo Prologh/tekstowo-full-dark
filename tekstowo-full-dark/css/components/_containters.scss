@@ -8,6 +8,8 @@
 .box-big,
 .dodaj-soundtrack,
 .dodaj-tekst,
+.glosowanie,
+.glosowanie-top,
 .komentarz .bar,
 .metric,
 .revisions,
@@ -71,4 +73,14 @@ div.popularni {
 // Metric container with song details info.
 .metric {
     border: none;
+}
+
+// Song voting box right under the metric container.
+.glosowanie-top {
+    width: initial;
+}
+
+.glosowanie {
+    border: none;
+    width: initial;
 }

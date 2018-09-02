@@ -898,23 +898,6 @@
         margin-top: 10px
     }
 
-    .glosowanie-top {
-        width: 713px;
-        height: 14px;
-        background: $box-bg;
-        font-size: 0;
-        line-height: 0;
-        clear: both
-    }
-
-    .glosowanie {
-        border: 1px solid #e5e5e5;
-        border-top: 0;
-        padding: 5px 10px;
-        width: 692px;
-        margin-bottom: 10px
-    }
-
     .glosowanie span {
         font-size: 1.3em;
         font-weight: bold
@@ -1808,10 +1791,6 @@
 
     .blue.left-column .login .new {
         background-color: $brand-info;
-    }
-
-    .metric {
-        border: 1px solid #CCC;
     }
 
     .fb-panel {
