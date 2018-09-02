@@ -9,6 +9,7 @@
 .dodaj-soundtrack,
 .dodaj-tekst,
 .komentarz .bar,
+.metric,
 .revisions,
 .zaproponuj-utwor,
 .green-box,
@@ -65,4 +66,9 @@ div.popularni {
     height: initial;
     text-align: center;
     margin: 20px auto;
+}
+
+// Metric container with song details info.
+.metric {
+    border: none;
 }
