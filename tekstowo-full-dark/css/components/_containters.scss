@@ -4,6 +4,7 @@
     background: $body-bg;
 }
 
+// Set background color for all kind of boxes and containers.
 .box-big,
 .dodaj-soundtrack,
 .dodaj-tekst,
@@ -36,7 +37,7 @@ div#center > div.right-column > div.teledysk-right {
     background: $box-bg;
 }
 
-// Important override of popular songs.
+// Override the background fo popular songs container.
 div#center > div.right-column > div:nth-child(6) > div.teledysk-left > div.box-przeboje.no-bg {
     background: $box-bg !important;
 }
