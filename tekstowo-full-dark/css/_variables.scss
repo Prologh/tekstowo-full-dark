@@ -66,14 +66,14 @@ $link-block-hover-bg: lighten($link-block-bg, 5%);
 // Navbar links
 $navbar-link-color: lighten($link-color, 10%);
 $navbar-link-bg: $box-bg;
-$navbar-link-hover-color: lighten($navbar-link-color, 100%);
-$navbar-link-hover-bg: $brand-primary-dark;
+$navbar-link-hover-color: lighten($navbar-link-color, 5%);
+$navbar-link-hover-bg: lighten($navbar-link-bg, 5%);
 
 // Navbar active links
-$navbar-link-active-color: lighten($navbar-link-color, 100%);
+$navbar-link-active-color: lighten($navbar-link-color, 10%);
 $navbar-link-active-bg: $brand-primary-dark;
-$navbar-link-active-hover-color: $navbar-link-active-color;
-$navbar-link-active-hover-bg: $brand-primary-dark;
+$navbar-link-active-hover-color: lighten($navbar-link-active-color, 100%);
+$navbar-link-active-hover-bg: $brand-primary;
 
 // Pagination
 $pagination-color: $brand-danger;

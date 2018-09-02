@@ -7,30 +7,44 @@ ul.topmenu li.topmenu-last,
 ul.topmenu li.topmenu-last.fb,
 ul.topmenu li a,
 li.topmenu-last a {
-    background: $navbar-link-bg !important;
+    background: $navbar-link-bg;
 }
 
 // Main navbar
 ul.topmenu li a,
 li.topmenu-last a {
-    color: $navbar-link-color !important;
+    color: $navbar-link-color;
+    background: $navbar-link-bg;
 
-    &:hover {
-        color: $navbar-link-hover-color !important;
-        background: $navbar-link-hover-bg !important;
+    &:hover, &:focus {
+        color: $navbar-link-hover-color;
+        background: $navbar-link-hover-bg;
     }
 
     &.active {
-        color: $navbar-link-active-color !important;
-        background: $navbar-link-active-bg !important;
+        color: $navbar-link-active-color;
+        background: $navbar-link-active-bg;
 
-        &:hover {
-            color: $navbar-link-active-hover-color !important;
-            background: $navbar-link-active-hover-bg !important;
+        &:hover, &:focus {
+            color: $navbar-link-active-hover-color;
+            background: $navbar-link-active-hover-bg;
         }
     }
 
-    &:not(.active) {
+    &.no-bg {
+        &:hover, &:focus {
+            background: $navbar-link-hover-bg !important;
+        }
+
+        &.active {
+            background: $navbar-link-active-bg !important;
+
+            &:hover, &:focus {
+                background: $navbar-link-active-hover-bg !important;
+            }
+        }
+    }
+    /*&:not(.active) {
 
         &:focus {
             background: darken($navbar-link-bg, 2%) !important;
@@ -40,7 +54,7 @@ li.topmenu-last a {
             color: $navbar-link-active-color !important;
             background: $navbar-link-active-bg !important;
         }
-    }
+    }*/
 }
 
 // Reset the background of site stats under navbar

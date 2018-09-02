@@ -528,29 +528,47 @@ a.zaproponuj-utwor {
     ul.topmenu li.topmenu-last.fb,
     ul.topmenu li a,
     li.topmenu-last a {
-        background: #1C1C1C !important; }
+        background: #1C1C1C; }
     ul.topmenu li a,
     li.topmenu-last a {
-        color: #bebebe !important; }
-        ul.topmenu li a:hover,
-        li.topmenu-last a:hover {
-            color: white !important;
-            background: #62ae25 !important; }
+        color: #bebebe;
+        background: #1C1C1C;
+        /*&:not(.active) {
+
+        &:focus {
+            background: darken($navbar-link-bg, 2%) !important;
+        }
+
+        &:active {
+            color: $navbar-link-active-color !important;
+            background: $navbar-link-active-bg !important;
+        }
+    }*/ }
+        ul.topmenu li a:hover, ul.topmenu li a:focus,
+        li.topmenu-last a:hover,
+        li.topmenu-last a:focus {
+            color: #cbcbcb;
+            background: #292929; }
         ul.topmenu li a.active,
         li.topmenu-last a.active {
-            color: white !important;
+            color: #d7d7d7;
+            background: #62ae25; }
+            ul.topmenu li a.active:hover, ul.topmenu li a.active:focus,
+            li.topmenu-last a.active:hover,
+            li.topmenu-last a.active:focus {
+                color: white;
+                background: #74be2f; }
+        ul.topmenu li a.no-bg:hover, ul.topmenu li a.no-bg:focus,
+        li.topmenu-last a.no-bg:hover,
+        li.topmenu-last a.no-bg:focus {
+            background: #292929 !important; }
+        ul.topmenu li a.no-bg.active,
+        li.topmenu-last a.no-bg.active {
             background: #62ae25 !important; }
-            ul.topmenu li a.active:hover,
-            li.topmenu-last a.active:hover {
-                color: white !important;
-                background: #62ae25 !important; }
-        ul.topmenu li a:not(.active):focus,
-        li.topmenu-last a:not(.active):focus {
-            background: #171717 !important; }
-        ul.topmenu li a:not(.active):active,
-        li.topmenu-last a:not(.active):active {
-            color: white !important;
-            background: #62ae25 !important; }
+            ul.topmenu li a.no-bg.active:hover, ul.topmenu li a.no-bg.active:focus,
+            li.topmenu-last a.no-bg.active:hover,
+            li.topmenu-last a.no-bg.active:focus {
+                background: #74be2f !important; }
     body > div#contener div#center div.right-corner {
         padding: 0;
         background: #131313;
