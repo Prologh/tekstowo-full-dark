@@ -9,7 +9,6 @@
 .dodaj-soundtrack,
 .dodaj-tekst,
 .glosowanie,
-.glosowanie-top,
 .komentarz .bar,
 .metric,
 .revisions,
@@ -77,7 +76,9 @@ div.popularni {
 
 // Song voting box right under the metric container.
 .glosowanie-top {
+    background: unset;
     width: initial;
+    height: 5px;
 }
 
 .glosowanie {

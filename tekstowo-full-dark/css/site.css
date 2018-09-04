@@ -201,7 +201,6 @@ a.zaproponuj-utwor {
     .dodaj-soundtrack,
     .dodaj-tekst,
     .glosowanie,
-    .glosowanie-top,
     .komentarz .bar,
     .metric,
     .revisions,
@@ -249,7 +248,9 @@ a.zaproponuj-utwor {
     .metric {
         border: none; }
     .glosowanie-top {
-        width: initial; }
+        background: unset;
+        width: initial;
+        height: 5px; }
     .glosowanie {
         border: none;
         width: initial; }
