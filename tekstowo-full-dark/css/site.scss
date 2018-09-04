@@ -794,12 +794,6 @@
         background: $box-bg;
     }
 
-    .teledysk-left {
-        width: 333px;
-        border-left: 1px solid #e5e5e5;
-        border-right: 1px solid #e5e5e5
-    }
-
     .teledysk-left .box-przeboje {
         width: 313px;
         line-height: 21px;
@@ -852,14 +846,6 @@
 
     .teledysk-right-bottom {
         background: $box-bg;
-    }
-
-    .teledysk-right {
-        width: 323px;
-        border-left: 1px solid #e5e5e5;
-        border-right: 1px solid #e5e5e5;
-        float: right;
-        padding: 10px 20px;
     }
 
     .teledysk-right .social {

@@ -240,6 +240,8 @@ a.zaproponuj-utwor {
         width: 518px;
         border: none;
         padding: 5px 5px 5px 8px; }
+    .teledysk-left, .teledysk-right {
+        border: none; }
     .comm_show_more {
         border: none;
         height: initial;
@@ -1113,10 +1115,6 @@ a.zaproponuj-utwor {
         line-height: 0; }
     .teledysk-left-bottom {
         background: #1C1C1C; }
-    .teledysk-left {
-        width: 333px;
-        border-left: 1px solid #e5e5e5;
-        border-right: 1px solid #e5e5e5; }
     .teledysk-left .box-przeboje {
         width: 313px;
         line-height: 21px;
@@ -1151,12 +1149,6 @@ a.zaproponuj-utwor {
         float: right; }
     .teledysk-right-bottom {
         background: #1C1C1C; }
-    .teledysk-right {
-        width: 323px;
-        border-left: 1px solid #e5e5e5;
-        border-right: 1px solid #e5e5e5;
-        float: right;
-        padding: 10px 20px; }
     .teledysk-right .social {
         text-align: right;
         width: 290px;
