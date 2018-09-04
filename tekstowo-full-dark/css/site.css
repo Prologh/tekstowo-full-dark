@@ -281,8 +281,9 @@ a.zaproponuj-utwor {
     a.na-minus {
         background: #1C1C1C;
         position: relative; }
-        a.na-plus:hover,
-        a.na-minus:hover {
+        a.na-plus:hover, a.na-plus:focus,
+        a.na-minus:hover,
+        a.na-minus:focus {
             background: #292929; }
     a.na-plus:before, a.na-plus:after {
         position: absolute;

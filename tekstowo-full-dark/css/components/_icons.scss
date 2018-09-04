@@ -6,7 +6,7 @@ a.na-minus {
     background: $link-block-bg;
     position: relative;
 
-    &:hover {
+    &:hover, &:focus {
         background: $link-block-hover-bg;
     }
 }
