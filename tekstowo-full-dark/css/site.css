@@ -324,7 +324,7 @@ a.zaproponuj-utwor {
         border-right: 27px solid #2b2b2b;
         top: 71px;
         left: 10px; }
-        a#art_box_left:hover {
+        a#art_box_left:hover, a#art_box_left:focus {
             border-right: 27px solid #3b3b3b; }
     a#art_box_right {
         width: 0;
@@ -335,7 +335,7 @@ a.zaproponuj-utwor {
         border-left: 27px solid #2b2b2b;
         top: 71px;
         right: 10px; }
-        a#art_box_right:hover {
+        a#art_box_right:hover, a#art_box_right:focus {
             border-left: 27px solid #3b3b3b; }
     .drukuj {
         position: relative; }

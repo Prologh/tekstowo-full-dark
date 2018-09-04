@@ -73,7 +73,7 @@ a#art_box_left {
     top: 71px;
     left: 10px;
 
-    &:hover {
+    &:hover, &:focus {
         border-right: 27px solid lighten($link-block-bg, 12%);
     }
 }
@@ -89,7 +89,7 @@ a#art_box_right {
     top: 71px;
     right: 10px;
 
-    &:hover {
+    &:hover, &:focus {
         border-left: 27px solid lighten($link-block-bg, 12%);
     }
 }
