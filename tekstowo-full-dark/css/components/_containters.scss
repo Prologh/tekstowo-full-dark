@@ -61,9 +61,13 @@ div.popularni {
     padding: 5px 5px 5px 8px
 }
 
-// Song header container, under music video.
+// Song header containers, under music video.
 .teledysk-left, .teledysk-right {
     border: none;
+}
+
+.teledysk-right {
+    width: 325px;
 }
 
 // Load more comments container.

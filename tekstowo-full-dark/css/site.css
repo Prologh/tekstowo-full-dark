@@ -242,6 +242,8 @@ a.zaproponuj-utwor {
         padding: 5px 5px 5px 8px; }
     .teledysk-left, .teledysk-right {
         border: none; }
+    .teledysk-right {
+        width: 325px; }
     .comm_show_more {
         border: none;
         height: initial;
