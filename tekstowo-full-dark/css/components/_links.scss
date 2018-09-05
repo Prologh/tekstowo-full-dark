@@ -1,18 +1,22 @@
 ﻿/* Rules that affect anchor links */
 
 // Global links color
-a, a.search-adv {
+a, a.search-adv, .metric a {
     color: $link-color;
+    text-decoration: none;
 
     &:hover, &:focus {
         color: $link-hover-color;
+        text-decoration: none;
     }
 
-    &.green {
+    &.green, &.edit {
         color: $link-primary-color;
+        text-decoration: none;
 
         &:hover, &:focus {
             color: $link-primary-hover-color;
+            text-decoration: none;
         }
     }
 }
@@ -237,4 +241,3 @@ ul.arrows {
         background: $link-block-hover-bg;
     }
 }
-

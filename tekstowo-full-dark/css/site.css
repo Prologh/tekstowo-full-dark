@@ -386,14 +386,18 @@ a.zaproponuj-utwor {
     fieldset.search label.mini {
         color: #9d9d9d;
         background: #1C1C1C; }
-    a, a.search-adv {
-        color: #a4a4a4; }
-        a:hover, a:focus, a.search-adv:hover, a.search-adv:focus {
-            color: #cbcbcb; }
-        a.green, a.search-adv.green {
-            color: #74be2f; }
-            a.green:hover, a.green:focus, a.search-adv.green:hover, a.search-adv.green:focus {
-                color: #81ce39; }
+    a, a.search-adv, .metric a {
+        color: #a4a4a4;
+        text-decoration: none; }
+        a:hover, a:focus, a.search-adv:hover, a.search-adv:focus, .metric a:hover, .metric a:focus {
+            color: #cbcbcb;
+            text-decoration: none; }
+        a.green, a.edit, a.search-adv.green, a.search-adv.edit, .metric a.green, .metric a.edit {
+            color: #74be2f;
+            text-decoration: none; }
+            a.green:hover, a.green:focus, a.edit:hover, a.edit:focus, a.search-adv.green:hover, a.search-adv.green:focus, a.search-adv.edit:hover, a.search-adv.edit:focus, .metric a.green:hover, .metric a.green:focus, .metric a.edit:hover, .metric a.edit:focus {
+                color: #81ce39;
+                text-decoration: none; }
     ul.alfabet li a {
         color: #a4a4a4;
         padding: 4px 7.5px;
