@@ -176,7 +176,7 @@ a.zaproponuj-utwor {
 }
 
 // Show song's translation icon.
-.pokaz-tlumaczenie {
+div.tlumaczenie > h2 + a.pokaz-tlumaczenie {
     position: relative;
 
     &:after {

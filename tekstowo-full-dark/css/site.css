@@ -368,9 +368,9 @@ a.zaproponuj-utwor {
             border-right-color: #cbcbcb;
             border-bottom-color: #cbcbcb;
             border-left-color: #292929; }
-    .pokaz-tlumaczenie {
+    div.tlumaczenie > h2 + a.pokaz-tlumaczenie {
         position: relative; }
-        .pokaz-tlumaczenie:after {
+        div.tlumaczenie > h2 + a.pokaz-tlumaczenie:after {
             color: #a4a4a4;
             font-family: serif;
             font-weight: 100;
@@ -379,7 +379,7 @@ a.zaproponuj-utwor {
             right: 10px;
             top: 5px;
             content: 'A某'; }
-        .pokaz-tlumaczenie:hover:after, .pokaz-tlumaczenie:focus:after {
+        div.tlumaczenie > h2 + a.pokaz-tlumaczenie:hover:after, div.tlumaczenie > h2 + a.pokaz-tlumaczenie:focus:after {
             color: #cbcbcb; }
     ul.topmenu li.fb a {
         background-color: #255EAE;
@@ -542,16 +542,18 @@ a.zaproponuj-utwor {
         .drukuj:focus, .drukuj:hover {
             color: #cbcbcb;
             background: #292929; }
-    .pokaz-tlumaczenie {
+    div.tlumaczenie > a.pokaz-tlumaczenie {
         color: #a4a4a4;
         background: #1C1C1C;
-        padding: 5px 43px 5px 10px;
-        margin-left: 10px;
+        padding: 5px 10px 5px 10px;
         text-decoration: none; }
-        .pokaz-tlumaczenie:focus, .pokaz-tlumaczenie:hover {
+        div.tlumaczenie > a.pokaz-tlumaczenie:focus, div.tlumaczenie > a.pokaz-tlumaczenie:hover {
             color: #cbcbcb;
             background: #292929;
             text-decoration: none; }
+    div.tlumaczenie > h2 + a.pokaz-tlumaczenie {
+        margin-left: 10px;
+        padding-right: 43px; }
     body > div#contener > div.top-top > a:before {
         position: absolute;
         top: 10px;

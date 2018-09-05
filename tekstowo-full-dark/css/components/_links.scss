@@ -243,16 +243,22 @@ ul.arrows {
 }
 
 // Show song's translation.
-.pokaz-tlumaczenie {
-    color: $link-block-color;
-    background: $link-block-bg;
-    padding: 5px 43px 5px 10px;
-    margin-left: 10px;
-    text-decoration: none;
-
-    &:focus, &:hover {
-        color: $link-block-hover-color;
-        background: $link-block-hover-bg;
+div.tlumaczenie {
+    & > a.pokaz-tlumaczenie {
+        color: $link-block-color;
+        background: $link-block-bg;
+        padding: 5px 10px 5px 10px;
         text-decoration: none;
+
+        &:focus, &:hover {
+            color: $link-block-hover-color;
+            background: $link-block-hover-bg;
+            text-decoration: none;
+        }
+    }
+
+    & > h2 + a.pokaz-tlumaczenie {
+        margin-left: 10px;
+        padding-right: 43px;
     }
 }
