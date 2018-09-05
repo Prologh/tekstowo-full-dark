@@ -38,3 +38,8 @@ td.pop_content h2.dialog_title {
 #pop_content > div > div {
     text-align: center;
 }
+
+// Add overlay on page content when modal is displayed
+#pop_dialog_table > tbody {
+    box-shadow: 0px 0px 0px 9999px $overlay-bg;
+}

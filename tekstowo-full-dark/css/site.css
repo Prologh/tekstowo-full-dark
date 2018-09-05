@@ -590,7 +590,7 @@ a.zaproponuj-utwor {
     td.pop_top,
     td.pop_bottom,
     td.pop_side {
-        background: #131313; }
+        background: #272727; }
     td.pop_content h2.dialog_title {
         background: #970000;
         color: #dddddd; }
@@ -598,6 +598,8 @@ a.zaproponuj-utwor {
         text-align: center; }
     #pop_content > div > div {
         text-align: center; }
+    #pop_dialog_table > tbody {
+        box-shadow: 0px 0px 0px 9999px rgba(0, 0, 0, 0.7); }
     ul.topmenu,
     ul.topmenu li.topmenu-first,
     ul.topmenu li.topmenu-last,
@@ -651,10 +653,9 @@ a.zaproponuj-utwor {
         font-size: .9em;
         font-weight: initial; }
     .mask {
-        background: #000; }
+        background: rgba(0, 0, 0, 0.7); }
     .modal-mask {
-        background: #000;
-        opacity: 0.7; }
+        background: rgba(0, 0, 0, 0.7); }
     body {
         background: #131313;
         color: #909090; }

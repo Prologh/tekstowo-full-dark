@@ -23,6 +23,9 @@ $body-bg: $gray-base !default;
 $box-bg: $gray-darker;
 $box-light-bg: $gray-dark;
 
+// Overlay background color for modals.
+$overlay-bg: rgba(0, 0, 0, .7);
+
 // Global text color on `<body>`.
 $text-base-color: #909090 !default;
 $text-light-color: lighten($text-base-color, 30%);
@@ -135,7 +138,7 @@ $image-border-color: $gray-lighter;
 // Modals - base
 $modal-base-color: $text-base-color;
 $modal-base-bg: $box-bg;
-$modal-base-border-color: $body-bg;
+$modal-base-border-color: $box-light-bg;
 $modal-base-header-color: $text-light-color;
 $modal-base-header-bg: $brand-primary-dark;
 

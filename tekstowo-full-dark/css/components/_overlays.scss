@@ -1,10 +1,9 @@
 ﻿/* Rules that affect overlays */
 
 .mask {
-    background: #000;
+    background: $overlay-bg;
 }
 
 .modal-mask {
-    background: #000;
-    opacity: 0.7;
+    background: $overlay-bg;
 }
