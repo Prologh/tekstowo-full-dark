@@ -368,6 +368,19 @@ a.zaproponuj-utwor {
             border-right-color: #cbcbcb;
             border-bottom-color: #cbcbcb;
             border-left-color: #292929; }
+    .pokaz-tlumaczenie {
+        position: relative; }
+        .pokaz-tlumaczenie:after {
+            color: #a4a4a4;
+            font-family: serif;
+            font-weight: 100;
+            letter-spacing: 2px;
+            position: absolute;
+            right: 10px;
+            top: 5px;
+            content: 'A某'; }
+        .pokaz-tlumaczenie:hover:after, .pokaz-tlumaczenie:focus:after {
+            color: #cbcbcb; }
     ul.topmenu li.fb a {
         background-color: #255EAE;
         background-image: none; }
@@ -532,7 +545,7 @@ a.zaproponuj-utwor {
     .pokaz-tlumaczenie {
         color: #a4a4a4;
         background: #1C1C1C;
-        padding: 3px 7px;
+        padding: 5px 43px 5px 10px;
         margin-left: 10px;
         text-decoration: none; }
         .pokaz-tlumaczenie:focus, .pokaz-tlumaczenie:hover {

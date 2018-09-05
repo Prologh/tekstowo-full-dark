@@ -175,3 +175,23 @@ a.zaproponuj-utwor {
     }
 }
 
+// Show song's translation icon.
+.pokaz-tlumaczenie {
+    position: relative;
+
+    &:after {
+        color: $link-block-color;
+        font-family: serif;
+        font-weight: 100;
+        letter-spacing: 2px;
+        position: absolute;
+        right: 10px;
+        top: 5px;
+        content: 'A某';
+    }
+
+    &:hover:after, &:focus:after {
+        color: $link-block-hover-color;
+    }
+}
+
