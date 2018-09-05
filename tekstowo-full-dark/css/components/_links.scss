@@ -241,3 +241,18 @@ ul.arrows {
         background: $link-block-hover-bg;
     }
 }
+
+// Show song's translation.
+.pokaz-tlumaczenie {
+    color: $link-block-color;
+    background: $link-block-bg;
+    padding: 5px 38px 5px 10px;
+    margin-left: 10px;
+    text-decoration: none;
+
+    &:focus, &:hover {
+        color: $link-block-hover-color;
+        background: $link-block-hover-bg;
+        text-decoration: none;
+    }
+}

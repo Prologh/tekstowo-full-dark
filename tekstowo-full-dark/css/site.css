@@ -529,6 +529,16 @@ a.zaproponuj-utwor {
         .drukuj:focus, .drukuj:hover {
             color: #cbcbcb;
             background: #292929; }
+    .pokaz-tlumaczenie {
+        color: #a4a4a4;
+        background: #1C1C1C;
+        padding: 3px 7px;
+        margin-left: 10px;
+        text-decoration: none; }
+        .pokaz-tlumaczenie:focus, .pokaz-tlumaczenie:hover {
+            color: #cbcbcb;
+            background: #292929;
+            text-decoration: none; }
     body > div#contener > div.top-top > a:before {
         position: absolute;
         top: 10px;
@@ -1252,14 +1262,6 @@ a.zaproponuj-utwor {
         font-size: 11.5px;
         font-family: Tahoma;
         line-height: 15px; }
-    .pokaz-tlumaczenie {
-        color: #62ae25;
-        /*margin:0 0 12px 5px;
-    display:inline-block;
-    */
-        text-decoration: underline;
-        font-weight: bold;
-        padding-left: 10px; }
     .revisions {
         padding: 7px 0;
         max-width: 355px; }
