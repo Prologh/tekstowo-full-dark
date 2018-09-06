@@ -386,10 +386,13 @@ a.zaproponuj-utwor {
         background-image: none; }
     ul.topmenu li.fb a span {
         background: #1C1C1C; }
-    ul.topmenu li.fb a span:hover {
-        background-color: #3B5FA2; }
-    ul.topmenu li.fb a:hover {
-        background-color: #3B5FA2; }
+    ul.topmenu li.fb a:hover, ul.topmenu li.fb a span:hover {
+        background-color: #2969c3; }
+    .fb-box {
+        background-color: #272727;
+        border: none;
+        border-radius: 0;
+        color: unset; }
     .green-box .big-text,
     .blue-box .big-text {
         color: #a4a4a4; }

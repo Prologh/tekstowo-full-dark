@@ -124,11 +124,11 @@ $button-primary-bg: $brand-primary-dark;
 $button-primary-hover-color: $button-primary-color;
 $button-primary-hover-bg: lighten($button-primary-bg, 5%);
 
-// Facebook button
-$button-facebook-color: $button-base-color;
-$button-facebook-bg: $brand-info;
-$button-facebook-hover-color: $button-facebook-color;
-$button-facebook-hover-bg: lighten($button-facebook-bg, 5%);
+// Info button
+$button-info-color: $button-base-color;
+$button-info-bg: $brand-info;
+$button-info-hover-color: $button-info-color;
+$button-info-hover-bg: lighten($button-info-bg, 5%);
 
 // Images
 $image-border-width: $border-base-width;

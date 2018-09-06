@@ -1,7 +1,7 @@
 ﻿/* Rules that affect facebook plugin */
 
 ul.topmenu li.fb a {
-    background-color: $brand-info;
+    background-color: $button-info-bg;
     background-image: none;
 }
 
@@ -9,10 +9,15 @@ ul.topmenu li.fb a span {
     background: $box-bg;
 }
 
-ul.topmenu li.fb a span:hover {
-    background-color: #3B5FA2;
+ul.topmenu li.fb a {
+    &:hover, & span:hover {
+        background-color: $button-info-hover-bg;
+    }
 }
 
-ul.topmenu li.fb a:hover {
-    background-color: #3B5FA2;
+.fb-box {
+    background-color: $box-light-bg;
+    border: none;
+    border-radius: 0;
+    color: unset;
 }

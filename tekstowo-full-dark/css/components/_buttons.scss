@@ -70,8 +70,8 @@ div.left-column div.left-box-content fieldset.login {
         top: 0px;
 
         &:after, &:hover:after, &:focus:after {
-            color: $button-facebook-color;
-            background: $button-facebook-bg;
+            color: $button-info-color;
+            background: $button-info-bg;
             border: 1px solid $border-dark-color;
             display: block;
             padding: 6px 14px 6px 26px;
@@ -84,12 +84,12 @@ div.left-column div.left-box-content fieldset.login {
         }
 
         &:hover:after, &:focus:after {
-            color: $button-facebook-hover-color;
-            background: $button-facebook-hover-bg;
+            color: $button-info-hover-color;
+            background: $button-info-hover-bg;
         }
 
         &:before {
-            color: $button-facebook-color;
+            color: $button-info-color;
             position: absolute;
             top: -3px;
             left: 15px;
