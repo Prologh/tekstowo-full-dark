@@ -297,15 +297,7 @@
         width: 365px
     }
 
-    .box-przeboje {
-        display: block;
-        width: 335px;
-        line-height: 1em;
-        padding: 0 10px;
-        background: $box-bg;
-        position: relative;
-        margin: 0 auto
-    }
+
 
     .box-przeboje b {
         font-size: 1.4em;
@@ -775,24 +767,6 @@
 
     .blue .teledysk strong {
         color: #255EAE
-    }
-
-    .teledysk-left-top, .teledysk-left-bottom {
-        width: 335px;
-        height: 4px;
-        background: $box-bg;
-        font-size: 0;
-        line-height: 0
-    }
-
-    .teledysk-left-bottom {
-        background: $box-bg;
-    }
-
-    .teledysk-left .box-przeboje {
-        width: 313px;
-        line-height: 21px;
-        padding-bottom: 3px
     }
 
     #soundtrack-page .teledysk-left .box-przeboje {

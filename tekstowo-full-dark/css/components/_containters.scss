@@ -6,12 +6,15 @@
 
 // Set background color for all kind of boxes and containers.
 .box-big,
+.box-przeboje,
 .dodaj-soundtrack,
 .dodaj-tekst,
 .glosowanie,
 .komentarz .bar,
 .metric,
 .revisions,
+.teledysk-left-top,
+.teledysk-left-bottom,
 .zaproponuj-utwor,
 .green-box,
 .green-box .left-side,
@@ -40,7 +43,7 @@ div#center > div.right-column > div.teledysk-right {
 }
 
 // Override the background fo popular songs container.
-div#center > div.right-column > div:nth-child(6) > div.teledysk-left > div.box-przeboje.no-bg {
+.box-przeboje.no-bg {
     background: $box-bg !important;
 }
 
@@ -66,8 +69,19 @@ div.popularni {
     border: none;
 }
 
+.teledysk-left,
+.teledysk-left .box-przeboje {
+    width: 315px;
+}
+
 .teledysk-right {
     width: 325px;
+}
+
+.box-przeboje,
+.teledysk-left-top,
+.teledysk-left-bottom {
+    width: 335px;
 }
 
 // Load more comments container.
