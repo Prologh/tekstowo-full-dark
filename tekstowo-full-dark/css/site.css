@@ -393,6 +393,14 @@ a.zaproponuj-utwor {
         border: none;
         border-radius: 0;
         color: unset; }
+    .fb-panel {
+        background: unset;
+        color: unset;
+        top: 28%;
+        bottom: unset; }
+        .fb-panel a {
+            background: #255EAE;
+            bottom: 68px; }
     .green-box .big-text,
     .blue-box .big-text {
         color: #a4a4a4; }
@@ -1753,19 +1761,10 @@ a.zaproponuj-utwor {
         background: #1C1C1C; }
     .blue.left-column .login .new {
         background-color: #255EAE; }
-    .fb-panel {
-        background: #ffffff;
-        color: #a4a5a5; }
-    .fb-panel a {
-        background: #1C1C1C; }
     #spinner {
         background-color: transparent; }
     .teledysk .mobile-wrap {
         background-color: #000; }
-    .fb-box {
-        background-color: white;
-        border: 1px solid #CDCECF;
-        color: #545454; }
     .t-artists {
         padding-top: 5px; }
     .head-actions a {

@@ -15,9 +15,23 @@ ul.topmenu li.fb a {
     }
 }
 
+// Facebook sign-in box in modal.
 .fb-box {
     background-color: $box-light-bg;
     border: none;
     border-radius: 0;
     color: unset;
+}
+
+// Sideways slide-in Facebook fanpage modal.
+.fb-panel {
+    background: unset;
+    color: unset;
+    top: 28%;
+    bottom: unset;
+
+    & a {
+        background: $button-info-bg;
+        bottom: 68px;
+    }
 }
