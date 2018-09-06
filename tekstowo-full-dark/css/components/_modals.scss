@@ -48,3 +48,10 @@ td.pop_content h2.dialog_title {
 #pop_content > div.login_box > img {
     display: none;
 }
+
+// Left login box in modals.
+.login_box .l-box {
+    background: $box-light-bg;
+    border: none;
+    border-radius: 0;
+}
