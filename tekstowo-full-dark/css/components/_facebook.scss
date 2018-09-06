@@ -33,5 +33,16 @@ ul.topmenu li.fb a {
     & a {
         background: $button-info-bg;
         bottom: 68px;
+
+        &:before {
+            color: $button-info-color;
+            position: absolute;
+            top: -3px;
+            left: 11px;
+            font-weight: bold;
+            font-size: 36px;
+            z-index: 1010;
+            content: "f";
+        }
     }
 }

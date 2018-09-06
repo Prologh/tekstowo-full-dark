@@ -401,6 +401,15 @@ a.zaproponuj-utwor {
         .fb-panel a {
             background: #255EAE;
             bottom: 68px; }
+            .fb-panel a:before {
+                color: #e9e9e9;
+                position: absolute;
+                top: -3px;
+                left: 11px;
+                font-weight: bold;
+                font-size: 36px;
+                z-index: 1010;
+                content: "f"; }
     .green-box .big-text,
     .blue-box .big-text {
         color: #a4a4a4; }
