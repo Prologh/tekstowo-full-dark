@@ -169,7 +169,6 @@
     .top-tracks img {
         background: $box-bg;
     }
-
     /** BOX **/
     .box-top {
         height: 38px;
@@ -297,8 +296,6 @@
         width: 365px
     }
 
-
-
     .box-przeboje b {
         font-size: 1.4em;
         font-weight: bold;
@@ -336,9 +333,6 @@
 
     .box-utwory .box-przeboje a.title {
         width: 155px
-    }
-
-    .box-tracks {
     }
 
     .box-tracks .box-przeboje {
@@ -1701,11 +1695,6 @@
 
     #msg-users .favs img {
         border: 1px solid #cdcdcd;
-    }
-
-    #msg-users .actions .send, .user-info .send {
-        background: $box-bg;
-        color: $brand-primary;
     }
 
     #msg-users .actions .delete {

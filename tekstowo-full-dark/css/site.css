@@ -405,6 +405,52 @@ a.zaproponuj-utwor {
             content: 'A某'; }
         div.tlumaczenie > h2 + a.pokaz-tlumaczenie:hover:after, div.tlumaczenie > h2 + a.pokaz-tlumaczenie:focus:after {
             color: #cbcbcb; }
+    #msg-users .actions .send,
+    .user-info .send {
+        color: #74be2f;
+        background: #1C1C1C;
+        padding: 8px 28px 8px 54px;
+        margin: unset;
+        text-decoration: none;
+        position: relative; }
+        #msg-users .actions .send:before, #msg-users .actions .send:after,
+        .user-info .send:before,
+        .user-info .send:after {
+            position: absolute;
+            background: transparent;
+            content: ''; }
+        #msg-users .actions .send:before,
+        .user-info .send:before {
+            z-index: 10;
+            top: 3px;
+            left: 25.5px;
+            width: 14px;
+            height: 14px;
+            border-width: 0 1px 1px 0;
+            border-radius: 0 0 2px 0;
+            border-style: solid;
+            border-color: #1C1C1C;
+            transform: rotate(45deg); }
+        #msg-users .actions .send:after,
+        .user-info .send:after {
+            border: 6px solid #74be2f;
+            width: 6px;
+            left: 24px;
+            top: 11px; }
+        #msg-users .actions .send:hover, #msg-users .actions .send:focus,
+        .user-info .send:hover,
+        .user-info .send:focus {
+            color: #81ce39;
+            background: #292929;
+            text-decoration: none; }
+            #msg-users .actions .send:hover:before, #msg-users .actions .send:focus:before,
+            .user-info .send:hover:before,
+            .user-info .send:focus:before {
+                border-color: #292929; }
+            #msg-users .actions .send:hover:after, #msg-users .actions .send:focus:after,
+            .user-info .send:hover:after,
+            .user-info .send:focus:after {
+                border-color: #81ce39; }
     ul.topmenu li.fb a {
         background-color: #255EAE;
         background-image: none; }
@@ -1760,9 +1806,6 @@ a.zaproponuj-utwor {
         border: 1px solid #ccc; }
     #msg-users .favs img {
         border: 1px solid #cdcdcd; }
-    #msg-users .actions .send, .user-info .send {
-        background: #1C1C1C;
-        color: #74be2f; }
     #msg-users .actions .delete {
         background: #1C1C1C;
         color: #74be2f; }
