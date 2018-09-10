@@ -1,7 +1,10 @@
 ﻿/* Rules that affect anchor links */
 
 // Global links color
-a, a.search-adv, .metric a {
+a,
+a.search-adv,
+.metric a,
+.belka .link-wykonawca {
     color: $link-color;
     text-decoration: none;
 
@@ -230,6 +233,7 @@ ul.arrows {
         }
     }
 }
+
 // Print song lyrics link.
 .drukuj {
     color: $link-block-color;
@@ -240,6 +244,7 @@ ul.arrows {
         background: $link-block-hover-bg;
     }
 }
+
 // Show song's translation.
 div.tlumaczenie {
     & > a.pokaz-tlumaczenie {
@@ -259,4 +264,9 @@ div.tlumaczenie {
         margin-left: 10px;
         padding-right: 43px;
     }
+}
+
+// Link to song's author page on header bar.
+.belka .link-wykonawca {
+    background: unset;
 }

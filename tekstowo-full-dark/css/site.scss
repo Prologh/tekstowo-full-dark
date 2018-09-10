@@ -515,7 +515,7 @@
         width: 714px;
         background: $box-bg;
         margin-bottom: 13px;
-        color: #fff;
+        color: $header-2-color;
         display: block;
         line-height: 1em;
         position: relative
@@ -580,6 +580,7 @@
     }
 
     .belka .odslon {
+        color: $text-base-color;
         line-height: 58px;
         display: inline-block;
         margin: 0 10px;
@@ -594,16 +595,7 @@
         float: right
     }
 
-    .belka .link-wykonawca {
-        line-height: 20px;
-        width: 162px;
-        display: inline-block;
-        float: right;
-        padding-left: 5px;
-        color: #fff;
-        margin: 19px 10px 0 0;
-        background: $box-bg;
-    }
+
 
     .belka.short .link-wykonawca {
         margin-top: 10px
@@ -1076,7 +1068,7 @@
     }
 
     .reklama-komentarz .bar strong {
-        color: #f60
+        color: $brand-danger;
     }
 
     form .error {
@@ -1138,15 +1130,15 @@
     }
 
     .content-belka, .content-belka-long {
-        color: #fff;
+        color: $header-2-color;
     }
 
     .belka-link a {
-        color: #fff;
+        color: $link-color;
     }
 
     .content.belka .link-wykonawca, .content-belka .link-wykonawca {
-        color: #fff;
+        color: $link-color;
     }
 
     .padding strong.nav, #gsearch .gsc-cursor-current-page {

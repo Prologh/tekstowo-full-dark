@@ -213,6 +213,10 @@ a.zaproponuj-utwor {
         background: #131313; }
     .box-big,
     .box-przeboje,
+    .content-belka,
+    .content-belka-long,
+    .content-belka-left,
+    .content-belka-right,
     .dodaj-soundtrack,
     .dodaj-tekst,
     .glosowanie,
@@ -482,23 +486,50 @@ a.zaproponuj-utwor {
                 content: "f"; }
     .green-box .big-text,
     .blue-box .big-text {
-        color: #a4a4a4; }
+        color: #909090; }
     fieldset > label.big-text[for=s-autor] {
         margin: 0 10px 0 0; }
     label,
     fieldset.search label.mini {
         color: #9d9d9d;
         background: #1C1C1C; }
-    a, a.search-adv, .metric a {
+    a,
+    a.search-adv,
+    .metric a,
+    .belka .link-wykonawca {
         color: #a4a4a4;
         text-decoration: none; }
-        a:hover, a:focus, a.search-adv:hover, a.search-adv:focus, .metric a:hover, .metric a:focus {
+        a:hover, a:focus,
+        a.search-adv:hover,
+        a.search-adv:focus,
+        .metric a:hover,
+        .metric a:focus,
+        .belka .link-wykonawca:hover,
+        .belka .link-wykonawca:focus {
             color: #cbcbcb;
             text-decoration: none; }
-        a.green, a.edit, a.search-adv.green, a.search-adv.edit, .metric a.green, .metric a.edit {
+        a.green, a.edit,
+        a.search-adv.green,
+        a.search-adv.edit,
+        .metric a.green,
+        .metric a.edit,
+        .belka .link-wykonawca.green,
+        .belka .link-wykonawca.edit {
             color: #74be2f;
             text-decoration: none; }
-            a.green:hover, a.green:focus, a.edit:hover, a.edit:focus, a.search-adv.green:hover, a.search-adv.green:focus, a.search-adv.edit:hover, a.search-adv.edit:focus, .metric a.green:hover, .metric a.green:focus, .metric a.edit:hover, .metric a.edit:focus {
+            a.green:hover, a.green:focus, a.edit:hover, a.edit:focus,
+            a.search-adv.green:hover,
+            a.search-adv.green:focus,
+            a.search-adv.edit:hover,
+            a.search-adv.edit:focus,
+            .metric a.green:hover,
+            .metric a.green:focus,
+            .metric a.edit:hover,
+            .metric a.edit:focus,
+            .belka .link-wykonawca.green:hover,
+            .belka .link-wykonawca.green:focus,
+            .belka .link-wykonawca.edit:hover,
+            .belka .link-wykonawca.edit:focus {
                 color: #81ce39;
                 text-decoration: none; }
     ul.alfabet li a {
@@ -644,6 +675,8 @@ a.zaproponuj-utwor {
     div.tlumaczenie > h2 + a.pokaz-tlumaczenie {
         margin-left: 10px;
         padding-right: 43px; }
+    .belka .link-wykonawca {
+        background: unset; }
     body > div#contener > div.top-top > a:before {
         position: absolute;
         top: 10px;
@@ -847,7 +880,7 @@ a.zaproponuj-utwor {
         right: 0;
         background: #1C1C1C; }
     .box-top h2 {
-        color: #a4a4a4; }
+        color: #e9e9e9; }
     .box-home .box-top h2 {
         font-size: 1.4em;
         padding-top: 10px;
@@ -1058,7 +1091,7 @@ a.zaproponuj-utwor {
         width: 714px;
         background: #1C1C1C;
         margin-bottom: 13px;
-        color: #fff;
+        color: #e9e9e9;
         display: block;
         line-height: 1em;
         position: relative; }
@@ -1097,6 +1130,7 @@ a.zaproponuj-utwor {
     .content.belka strong, .content.belka .strong {
         width: 320px; }
     .belka .odslon {
+        color: #909090;
         line-height: 58px;
         display: inline-block;
         margin: 0 10px;
@@ -1105,15 +1139,6 @@ a.zaproponuj-utwor {
         line-height: 38px; }
     .belka .odslon.right {
         float: right; }
-    .belka .link-wykonawca {
-        line-height: 20px;
-        width: 162px;
-        display: inline-block;
-        float: right;
-        padding-left: 5px;
-        color: #fff;
-        margin: 19px 10px 0 0;
-        background: #1C1C1C; }
     .belka.short .link-wykonawca {
         margin-top: 10px; }
     .belka-left, .belka-right {
@@ -1423,7 +1448,7 @@ a.zaproponuj-utwor {
         padding: 0;
         margin-left: 10px; }
     .reklama-komentarz .bar strong {
-        color: #f60; }
+        color: #970000; }
     form .error {
         color: #970000;
         font-size: 12px;
@@ -1463,11 +1488,11 @@ a.zaproponuj-utwor {
     .content .rejestracja .success {
         color: #74be2f; }
     .content-belka, .content-belka-long {
-        color: #fff; }
+        color: #e9e9e9; }
     .belka-link a {
-        color: #fff; }
+        color: #a4a4a4; }
     .content.belka .link-wykonawca, .content-belka .link-wykonawca {
-        color: #fff; }
+        color: #a4a4a4; }
     .padding strong.nav, #gsearch .gsc-cursor-current-page {
         color: #970000; }
     .padding a:hover {

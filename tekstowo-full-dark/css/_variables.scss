@@ -33,11 +33,11 @@ $text-dark-color: darken($text-base-color, 10%);
 
 // Headers color
 $header-1-color: $brand-primary-dark;
-$header-2-color: lighten($text-base-color, 8%);
-$header-3-color: lighten($text-base-color, 8%);
-$header-4-color: lighten($text-base-color, 8%);
-$header-5-color: lighten($text-base-color, 8%);
-$header-6-color: lighten($text-base-color, 8%);
+$header-2-color: lighten($text-base-color, 35%);
+$header-3-color: lighten($text-base-color, 30%);
+$header-4-color: lighten($text-base-color, 25%);
+$header-5-color: lighten($text-base-color, 15%);
+$header-6-color: lighten($text-base-color, 10%);
 
 // Links color
 $link-color: lighten($text-base-color, 8%);
