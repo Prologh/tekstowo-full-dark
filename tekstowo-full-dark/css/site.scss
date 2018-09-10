@@ -1254,14 +1254,6 @@
         text-decoration: none
     }
 
-    .user-info {
-        border: 1px solid #e5e5e5;
-        border-top: 0;
-        padding: 10px 20px;
-        margin-bottom: 20px;
-        line-height: 1.5em
-    }
-
     .user-info .opis {
         width: 350px;
         float: right
@@ -1287,12 +1279,13 @@
         word-wrap: break-word;
     }
 
-    .user-info .link-gg {
-        margin: 0 5px 0 0
-    }
-
     .user-profile h2 {
         margin: 10px 0
+    }
+
+    // Clear text color for user first name.
+    .user-info > span {
+        color: unset;
     }
 
     .user-profile .add-info .adds {

@@ -6,3 +6,18 @@
         color: $text-base-color;
     }
 }
+
+// Headers bars.
+.content-belka, .content-belka-long {
+    color: $header-2-color;
+    background: $header-bg;
+}
+
+// Hide useless side edges of header bar.
+.content-belka-left, .content-belka-right {
+    display: none;
+}
+
+div.user-info > h2 {
+    color: $header-5-color;
+}

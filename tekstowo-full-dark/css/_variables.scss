@@ -39,6 +39,9 @@ $header-4-color: lighten($text-base-color, 25%);
 $header-5-color: lighten($text-base-color, 15%);
 $header-6-color: lighten($text-base-color, 10%);
 
+// Headers background color
+$header-bg: $box-light-bg;
+
 // Links color
 $link-color: lighten($text-base-color, 8%);
 $link-hover-color: lighten($link-color, 15%);

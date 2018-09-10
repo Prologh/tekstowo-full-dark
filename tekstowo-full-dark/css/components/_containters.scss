@@ -19,6 +19,7 @@
 .revisions,
 .teledysk-left-top,
 .teledysk-left-bottom,
+.user-info,
 .zaproponuj-utwor,
 .green-box,
 .green-box .left-side,
@@ -112,3 +113,10 @@ div.popularni {
     border: none;
     width: initial;
 }
+
+// User profile container.
+.user-info {
+    border: none;
+}
+
+

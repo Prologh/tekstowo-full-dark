@@ -225,6 +225,7 @@ a.zaproponuj-utwor {
     .revisions,
     .teledysk-left-top,
     .teledysk-left-bottom,
+    .user-info,
     .zaproponuj-utwor,
     .green-box,
     .green-box .left-side,
@@ -286,6 +287,8 @@ a.zaproponuj-utwor {
     .glosowanie {
         border: none;
         width: initial; }
+    .user-info {
+        border: none; }
     textarea, textarea.textarea-comm {
         border: 1px solid #666;
         min-height: 80px !important;
@@ -487,6 +490,13 @@ a.zaproponuj-utwor {
     .green-box .big-text,
     .blue-box .big-text {
         color: #909090; }
+    .content-belka, .content-belka-long {
+        color: #e9e9e9;
+        background: #272727; }
+    .content-belka-left, .content-belka-right {
+        display: none; }
+    div.user-info > h2 {
+        color: #b6b6b6; }
     fieldset > label.big-text[for=s-autor] {
         margin: 0 10px 0 0; }
     label,
@@ -1568,12 +1578,6 @@ a.zaproponuj-utwor {
     .add-navigation a.active {
         color: #970000;
         text-decoration: none; }
-    .user-info {
-        border: 1px solid #e5e5e5;
-        border-top: 0;
-        padding: 10px 20px;
-        margin-bottom: 20px;
-        line-height: 1.5em; }
     .user-info .opis {
         width: 350px;
         float: right; }
@@ -1591,10 +1595,10 @@ a.zaproponuj-utwor {
         max-height: 130px;
         overflow-y: auto;
         word-wrap: break-word; }
-    .user-info .link-gg {
-        margin: 0 5px 0 0; }
     .user-profile h2 {
         margin: 10px 0; }
+    .user-info > span {
+        color: unset; }
     .user-profile .add-info .adds {
         position: absolute;
         width: 120px;
