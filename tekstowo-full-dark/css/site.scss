@@ -16,6 +16,7 @@
     @import 'components/_modals';
     @import 'components/_navbar';
     @import 'components/_overlays';
+    @import 'components/_scrollbar';
 
     body {
         background: $body-bg;
@@ -1272,17 +1273,15 @@
     }
 
     .user-info .opis p.ramka {
-        padding: 5px;
-        border: 1px solid #E6E6E6;
-        max-height: 130px;
-        overflow-y: auto;
-        word-wrap: break-word;
+        padding: 8px 6px;
+        border: none;
+        background: darken($input-base-bg, 5%);
+        margin-top: 6px;
     }
 
     .user-profile h2 {
         margin: 10px 0
     }
-
     // Clear text color for user first name.
     .user-info > span {
         color: unset;

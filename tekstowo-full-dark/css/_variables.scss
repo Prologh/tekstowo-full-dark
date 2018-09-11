@@ -180,3 +180,8 @@ $modal-danger-bg: $modal-base-bg;
 $modal-danger-border-color: $modal-base-border-color;
 $modal-danger-header-color: $modal-base-header-color;
 $modal-danger-header-bg: $brand-danger;
+
+// Scrollbar
+$scrollbar-body-bg: $body-bg;
+$scrollbar-body-thumb-bg: $box-light-bg;
+$scrollbar-body-thumb-hover: lighten($scrollbar-body-thumb-bg, 8%);

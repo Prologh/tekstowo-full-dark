@@ -1,0 +1,13 @@
+﻿body::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+    background-color: $scrollbar-body-bg;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: $scrollbar-body-thumb-bg;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+    background-color: $scrollbar-body-thumb-hover;
+}
