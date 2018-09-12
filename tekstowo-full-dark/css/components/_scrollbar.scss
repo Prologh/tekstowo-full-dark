@@ -9,5 +9,9 @@ body::-webkit-scrollbar-thumb {
 }
 
 body::-webkit-scrollbar-thumb:hover {
-    background-color: $scrollbar-body-thumb-hover;
+    background-color: $scrollbar-body-thumb-hover-bg;
+}
+
+body::-webkit-scrollbar-corner {
+    background-color: $scrollbar-body-corner-bg;
 }

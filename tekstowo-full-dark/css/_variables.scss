@@ -184,4 +184,5 @@ $modal-danger-header-bg: $brand-danger;
 // Scrollbar
 $scrollbar-body-bg: $body-bg;
 $scrollbar-body-thumb-bg: $box-light-bg;
-$scrollbar-body-thumb-hover: lighten($scrollbar-body-thumb-bg, 8%);
+$scrollbar-body-thumb-hover-bg: lighten($scrollbar-body-thumb-bg, 8%);
+$scrollbar-body-corner-bg: darken($scrollbar-body-thumb-bg, 4%);

@@ -805,6 +805,8 @@ a.zaproponuj-utwor {
         background-color: #272727; }
     body::-webkit-scrollbar-thumb:hover {
         background-color: #3b3b3b; }
+    body::-webkit-scrollbar-corner {
+        background-color: #1d1d1d; }
     body {
         background: #131313;
         color: #909090; }
