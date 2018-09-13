@@ -186,3 +186,9 @@ $scrollbar-body-bg: $body-bg;
 $scrollbar-body-thumb-bg: $box-light-bg;
 $scrollbar-body-thumb-hover-bg: lighten($scrollbar-body-thumb-bg, 8%);
 $scrollbar-body-corner-bg: darken($scrollbar-body-thumb-bg, 4%);
+
+// Scrollbar
+$scrollbar-control-bg: $input-base-bg;
+$scrollbar-control-thumb-bg: lighten($scrollbar-control-bg, 10%);
+$scrollbar-control-thumb-hover-bg: lighten($scrollbar-control-thumb-bg, 8%);
+$scrollbar-control-corner-bg: darken($scrollbar-control-thumb-bg, 4%);
