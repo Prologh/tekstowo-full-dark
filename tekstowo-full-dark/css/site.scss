@@ -1653,7 +1653,7 @@
     }
 
     .msg-title {
-        color: #000;
+        color: unset;
     }
 
     .msg-head {
@@ -1667,6 +1667,19 @@
 
     .msg-head img {
         border: 1px solid #cdcdcd;
+    }
+
+    .box-przeboje {
+
+        &.header {
+            color: $table-header-color;
+            background: $table-header-bg;
+        }
+
+        &:not(.header){
+            color: $table-color;
+        }
+
     }
 
     .msg .box-przeboje.header span {

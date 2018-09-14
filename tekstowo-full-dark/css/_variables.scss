@@ -181,6 +181,33 @@ $modal-danger-border-color: $modal-base-border-color;
 $modal-danger-header-color: $modal-base-header-color;
 $modal-danger-header-bg: $brand-danger;
 
+// Table
+$table-color: $text-base-color;
+$table-bg: $box-bg;
+$table-border-width: 0;
+$table-border-style: solid;
+$table-border-color: $body-bg;
+
+// Table header
+$table-header-color: $header-4-color;
+$table-header-bg: $box-light-bg;
+
+// Table row
+$table-row-color: $table-color;
+$table-row-bg: $table-bg;
+$table-row-hover-color: lighten($table-row-color, 5%);
+$table-row-hover-bg: lighten($table-row-bg, 5%);
+$table-row-border-width: $border-base-width;
+$table-row-border-style: dashed;
+$table-row-border-color: $body-bg;
+
+// Table cell
+$table-cell-color: $table-color;
+$table-cell-bg: $table-bg;
+$table-cell-border-width: $border-base-width / 2;
+$table-cell-border-style: solid;
+$table-cell-border-color: $body-bg;
+
 // Scrollbar
 $scrollbar-body-bg: $body-bg;
 $scrollbar-body-thumb-bg: $box-light-bg;

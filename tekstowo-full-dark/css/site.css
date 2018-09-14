@@ -1840,7 +1840,7 @@ a.zaproponuj-utwor {
         background: #1C1C1C;
         color: #999; }
     .msg-title {
-        color: #000; }
+        color: unset; }
     .msg-head {
         background-color: #f7f7f7;
         background: #1C1C1C; }
@@ -1848,6 +1848,11 @@ a.zaproponuj-utwor {
         color: #62ae25; }
     .msg-head img {
         border: 1px solid #cdcdcd; }
+    .box-przeboje.header {
+        color: #d0d0d0;
+        background: #272727; }
+    .box-przeboje:not(.header) {
+        color: #909090; }
     .msg .box-przeboje.header span {
         color: unset; }
     .box-soundtrack .cover {
