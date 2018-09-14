@@ -1849,7 +1849,7 @@ a.zaproponuj-utwor {
     .msg-head img {
         border: 1px solid #cdcdcd; }
     .msg .box-przeboje.header span {
-        color: #000; }
+        color: unset; }
     .box-soundtrack .cover {
         border: 1px solid #ccc; }
     #msg-users .favs img {
