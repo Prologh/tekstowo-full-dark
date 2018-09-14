@@ -1080,42 +1080,50 @@
 
     .content {
         float: left;
-        width: 531px
-    }
+        width: 531px;
 
-    .content.add-soundtrack {
-        width: 100%;
-        position: relative
+        &.box-przeboje {
+            width: 521px;
+        }
+
+        &.add-soundtrack {
+            width: 100%;
+            position: relative;
+        }
+
+        & .static {
+            padding: 10px 5px;
+
+            & p {
+                line-height: 1.3em;
+                font-size: 1.1em;
+                text-align: justify;
+                margin: 5px 0;
+            }
+
+            & ol {
+                line-height: 1.3em;
+                font-size: 1.1em;
+                text-align: justify;
+                margin: 5px 0 5px 20px;
+            }
+        }
+
+        & .error {
+            color: $brand-danger;
+            display: block;
+            clear: both;
+            margin-left: 186px;
+            margin-bottom: 5px;
+        }
+
+        & .rejestracja .success {
+            color: $brand-primary;
+        }
     }
 
     .inlineCommentForm {
         position: relative
-    }
-
-    .content .static {
-        padding: 10px 5px
-    }
-
-    .content .static p {
-        line-height: 1.3em;
-        font-size: 1.1em;
-        text-align: justify;
-        margin: 5px 0
-    }
-
-    .content .static ol {
-        line-height: 1.3em;
-        font-size: 1.1em;
-        text-align: justify;
-        margin: 5px 0 5px 20px
-    }
-
-    .content .error {
-        color: $brand-danger;
-        display: block;
-        clear: both;
-        margin-left: 186px;
-        margin-bottom: 5px
     }
 
     .login_box .error {
@@ -1124,10 +1132,6 @@
         clear: both;
         margin-left: 90px;
         margin-bottom: 5px
-    }
-
-    .content .rejestracja .success {
-        color: $brand-primary;
     }
 
     .content-belka, .content-belka-long {
@@ -1676,10 +1680,9 @@
             background: $table-header-bg;
         }
 
-        &:not(.header){
+        &:not(.header) {
             color: $table-color;
         }
-
     }
 
     .msg .box-przeboje.header span {

@@ -1486,37 +1486,39 @@ a.zaproponuj-utwor {
     .content {
         float: left;
         width: 531px; }
-    .content.add-soundtrack {
-        width: 100%;
-        position: relative; }
+        .content.box-przeboje {
+            width: 521px; }
+        .content.add-soundtrack {
+            width: 100%;
+            position: relative; }
+        .content .static {
+            padding: 10px 5px; }
+            .content .static p {
+                line-height: 1.3em;
+                font-size: 1.1em;
+                text-align: justify;
+                margin: 5px 0; }
+            .content .static ol {
+                line-height: 1.3em;
+                font-size: 1.1em;
+                text-align: justify;
+                margin: 5px 0 5px 20px; }
+        .content .error {
+            color: #970000;
+            display: block;
+            clear: both;
+            margin-left: 186px;
+            margin-bottom: 5px; }
+        .content .rejestracja .success {
+            color: #74be2f; }
     .inlineCommentForm {
         position: relative; }
-    .content .static {
-        padding: 10px 5px; }
-    .content .static p {
-        line-height: 1.3em;
-        font-size: 1.1em;
-        text-align: justify;
-        margin: 5px 0; }
-    .content .static ol {
-        line-height: 1.3em;
-        font-size: 1.1em;
-        text-align: justify;
-        margin: 5px 0 5px 20px; }
-    .content .error {
-        color: #970000;
-        display: block;
-        clear: both;
-        margin-left: 186px;
-        margin-bottom: 5px; }
     .login_box .error {
         color: #970000;
         display: block;
         clear: both;
         margin-left: 90px;
         margin-bottom: 5px; }
-    .content .rejestracja .success {
-        color: #74be2f; }
     .content-belka, .content-belka-long {
         color: #e9e9e9; }
     .belka-link a {
