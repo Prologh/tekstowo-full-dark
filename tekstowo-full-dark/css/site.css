@@ -290,6 +290,8 @@ a.zaproponuj-utwor {
         width: initial; }
     .user-info {
         border: none; }
+    .content .box-przeboje {
+        width: 521px; }
     textarea, textarea.textarea-comm {
         border: 1px solid #666;
         min-height: 80px !important;
