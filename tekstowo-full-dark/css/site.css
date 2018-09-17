@@ -54,6 +54,7 @@ a.zaproponuj-utwor {
     /* Rules that affect site logo */
     /* Rules that affect site navbar */
     /* Rules that affect overlays */
+    /* Rules that affect site tabs for switching between content */
     /** BOTTOM **/
     /** CENTER **/
     /** LEFT **/
@@ -817,6 +818,60 @@ a.zaproponuj-utwor {
         background-color: #626262; }
     input::-webkit-scrollbar-corner, textarea::-webkit-scrollbar-corner, .user-info .opis p.ramka::-webkit-scrollbar-corner {
         background-color: #434343; }
+    .tabs a,
+    .tabs a.recived,
+    .tabs a.sended,
+    .tabs a.send {
+        color: #bebebe;
+        background: #1C1C1C; }
+        .tabs a.active,
+        .tabs a.recived.active,
+        .tabs a.sended.active,
+        .tabs a.send.active {
+            color: #62ae25;
+            background: #1C1C1C; }
+            .tabs a.active:hover, .tabs a.active:focus,
+            .tabs a.recived.active:hover,
+            .tabs a.recived.active:focus,
+            .tabs a.sended.active:hover,
+            .tabs a.sended.active:focus,
+            .tabs a.send.active:hover,
+            .tabs a.send.active:focus {
+                color: #74be2f;
+                background: #292929; }
+        .tabs a:hover, .tabs a:focus,
+        .tabs a.recived:hover,
+        .tabs a.recived:focus,
+        .tabs a.sended:hover,
+        .tabs a.sended:focus,
+        .tabs a.send:hover,
+        .tabs a.send:focus {
+            color: #cbcbcb;
+            background: #292929; }
+    .user-box .tabs a,
+    .user-box .tabs a.fav,
+    .user-box .tabs a.blocked {
+        color: #bebebe;
+        background: #1C1C1C; }
+        .user-box .tabs a.active,
+        .user-box .tabs a.fav.active,
+        .user-box .tabs a.blocked.active {
+            color: #62ae25;
+            background: #1C1C1C; }
+            .user-box .tabs a.active:hover, .user-box .tabs a.active:focus,
+            .user-box .tabs a.fav.active:hover,
+            .user-box .tabs a.fav.active:focus,
+            .user-box .tabs a.blocked.active:hover,
+            .user-box .tabs a.blocked.active:focus {
+                color: #74be2f;
+                background: #292929; }
+        .user-box .tabs a:hover, .user-box .tabs a:focus,
+        .user-box .tabs a.fav:hover,
+        .user-box .tabs a.fav:focus,
+        .user-box .tabs a.blocked:hover,
+        .user-box .tabs a.blocked:focus {
+            color: #cbcbcb;
+            background: #292929; }
     body {
         background: #131313;
         color: #909090; }
@@ -1833,14 +1888,6 @@ a.zaproponuj-utwor {
         background: #1C1C1C; }
     a.title_link {
         color: #62ae25; }
-    .tabs a {
-        background: #1C1C1C;
-        color: #999; }
-    .tabs a.active {
-        color: #74be2f; }
-    .user-box .tabs a {
-        background: #1C1C1C;
-        color: #999; }
     .msg-title {
         color: unset; }
     .msg-head {

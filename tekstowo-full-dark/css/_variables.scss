@@ -208,6 +208,20 @@ $table-cell-border-width: $border-base-width / 2;
 $table-cell-border-style: solid;
 $table-cell-border-color: $body-bg;
 
+// Tabs
+$tab-color: lighten($link-color, 10%);
+$tab-bg: $box-bg;
+$tab-border-color: $border-dark-color;
+$tab-hover-color: lighten($tab-color, 5%);
+$tab-hover-bg: lighten($tab-bg, 5%);
+$tab-hover-border-color: $border-base-color;
+
+// Tabs active
+$tab-active-color: $brand-primary-dark;
+$tab-active-bg: $tab-bg;
+$tab-active-hover-color: $brand-primary;
+$tab-active-hover-bg: $tab-hover-bg;
+
 // Scrollbar
 $scrollbar-body-bg: $body-bg;
 $scrollbar-body-thumb-bg: $box-light-bg;

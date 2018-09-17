@@ -1,0 +1,52 @@
+﻿/* Rules that affect site tabs for switching between content */
+
+.tabs {
+
+    & a,
+    & a.recived,
+    & a.sended,
+    & a.send {
+        color: $tab-color;
+        background: $tab-bg;
+
+        &.active {
+            color: $tab-active-color;
+            background: $tab-active-bg;
+
+            &:hover, &:focus {
+                color: $tab-active-hover-color;
+                background: $tab-active-hover-bg;
+            }
+        }
+
+        &:hover, &:focus {
+            color: $tab-hover-color;
+            background: $tab-hover-bg;
+        }
+    }
+}
+
+.user-box .tabs {
+
+    & a,
+    & a.fav,
+    & a.blocked {
+        color: $tab-color;
+        background: $tab-bg;
+
+        &.active {
+            color: $tab-active-color;
+            background: $tab-active-bg;
+
+            &:hover, &:focus {
+                color: $tab-active-hover-color;
+                background: $tab-active-hover-bg;
+            }
+        }
+
+        &:hover, &:focus {
+            color: $tab-hover-color;
+            background: $tab-hover-bg;
+        }
+    }
+}

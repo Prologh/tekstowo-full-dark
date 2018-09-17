@@ -17,6 +17,7 @@
     @import 'components/_navbar';
     @import 'components/_overlays';
     @import 'components/_scrollbar';
+    @import 'components/_tabs';
 
     body {
         background: $body-bg;
@@ -1640,20 +1641,6 @@
 
     a.title_link {
         color: $brand-primary-dark;
-    }
-
-    .tabs a {
-        background: $box-bg;
-        color: #999;
-    }
-
-    .tabs a.active {
-        color: $brand-primary;
-    }
-
-    .user-box .tabs a {
-        background: $box-bg;
-        color: #999;
     }
 
     .msg-title {
