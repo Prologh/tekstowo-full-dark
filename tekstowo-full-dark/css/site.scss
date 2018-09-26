@@ -846,50 +846,7 @@
         font-weight: bold
     }
 
-    .glosowanie span.rank {
-        margin-left: 5px
-    }
 
-    .glosowanie .glo-links, .wykonawca-linki .glo-links {
-        float: right;
-        padding-left: 22px;
-        margin: 3px 0 0 10px;
-        line-height: 16px
-    }
-
-    .glosowanie .glo-ulubione {
-        background: $box-bg;
-    }
-
-    .glosowanie .glo-komentuj {
-        background: $box-bg;
-    }
-
-    .glosowanie .glo-polec {
-        background: $box-bg;
-    }
-
-    .glosowanie .glo-zglos {
-        padding-left: 12px;
-        background: $box-bg;
-    }
-    /** blue icons **/
-    .blue .glosowanie .glo-ulubione {
-        background: $box-bg;
-    }
-
-    .blue .glosowanie .glo-komentuj {
-        background: $box-bg;
-    }
-
-    .blue .glosowanie .glo-polec {
-        background: $box-bg;
-    }
-
-    .blue .glosowanie .glo-zglos {
-        padding-left: 12px;
-        background: $box-bg;
-    }
     /** end of blue icons **/
     .moderator-info {
         position: relative;

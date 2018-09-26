@@ -59,7 +59,6 @@ a.zaproponuj-utwor {
     /** CENTER **/
     /** LEFT **/
     /** BOX **/
-    /** blue icons **/
     /** end of blue icons **/
     .blue-box input.search-send,
     input.search-send {
@@ -461,6 +460,80 @@ a.zaproponuj-utwor {
             .user-info .send:hover:after,
             .user-info .send:focus:after {
                 border-color: #81ce39; }
+    .glosowanie .glo-links,
+    .blue .glosowanie .glo-links {
+        background: #1C1C1C;
+        padding-left: 18px;
+        position: relative;
+        /*// Add comment to song.
+    &.glo-komentuj {
+
+        &:before {
+            display: block;
+            color: $link-color;
+            font-size: 1.5em;
+            font-weight: bold;
+            position: absolute;
+            left: 2px;
+            content: '\21';
+        }
+
+        &:hover, &:focus {
+
+            &:before {
+                color: $link-hover-color;
+            }
+        }
+    }
+    // Share song lyrics.
+    &.glo-polec {
+
+        &:before {
+            display: block;
+            color: $link-color;
+            font-size: 1.5em;
+            font-weight: bold;
+            position: absolute;
+            left: 2px;
+            content: '\2709';
+        }
+
+        &:hover, &:focus {
+
+            &:before {
+                color: $link-hover-color;
+            }
+        }
+    }*/ }
+        .glosowanie .glo-links.glo-ulubione:before,
+        .blue .glosowanie .glo-links.glo-ulubione:before {
+            display: block;
+            color: #a4a4a4;
+            font-size: 1.5em;
+            font-weight: bold;
+            position: absolute;
+            left: -1px;
+            content: '\2605'; }
+        .glosowanie .glo-links.glo-ulubione:hover:before, .glosowanie .glo-links.glo-ulubione:focus:before,
+        .blue .glosowanie .glo-links.glo-ulubione:hover:before,
+        .blue .glosowanie .glo-links.glo-ulubione:focus:before {
+            color: #cbcbcb; }
+        .glosowanie .glo-links.glo-zglos,
+        .blue .glosowanie .glo-links.glo-zglos {
+            padding-left: 14px; }
+            .glosowanie .glo-links.glo-zglos:before,
+            .blue .glosowanie .glo-links.glo-zglos:before {
+                display: block;
+                color: #a4a4a4;
+                font-size: 1.5em;
+                font-weight: bold;
+                position: absolute;
+                left: 2px;
+                content: '\21'; }
+            .glosowanie .glo-links.glo-zglos:hover:before, .glosowanie .glo-links.glo-zglos:focus:before,
+            .blue .glosowanie .glo-links.glo-zglos:hover:before,
+            .blue .glosowanie .glo-links.glo-zglos:focus:before {
+                color: #cbcbcb; }
     ul.topmenu li.fb a {
         background-color: #255EAE;
         background-image: none; }
@@ -690,6 +763,8 @@ a.zaproponuj-utwor {
         padding-right: 43px; }
     .belka .link-wykonawca {
         background: unset; }
+    .glosowanie .glo-links {
+        margin-top: 4.5px; }
     body > div#contener > div.top-top > a:before {
         position: absolute;
         top: 10px;
@@ -1395,31 +1470,6 @@ a.zaproponuj-utwor {
     .glosowanie span {
         font-size: 1.3em;
         font-weight: bold; }
-    .glosowanie span.rank {
-        margin-left: 5px; }
-    .glosowanie .glo-links, .wykonawca-linki .glo-links {
-        float: right;
-        padding-left: 22px;
-        margin: 3px 0 0 10px;
-        line-height: 16px; }
-    .glosowanie .glo-ulubione {
-        background: #1C1C1C; }
-    .glosowanie .glo-komentuj {
-        background: #1C1C1C; }
-    .glosowanie .glo-polec {
-        background: #1C1C1C; }
-    .glosowanie .glo-zglos {
-        padding-left: 12px;
-        background: #1C1C1C; }
-    .blue .glosowanie .glo-ulubione {
-        background: #1C1C1C; }
-    .blue .glosowanie .glo-komentuj {
-        background: #1C1C1C; }
-    .blue .glosowanie .glo-polec {
-        background: #1C1C1C; }
-    .blue .glosowanie .glo-zglos {
-        padding-left: 12px;
-        background: #1C1C1C; }
     .moderator-info {
         position: relative;
         width: 714px;

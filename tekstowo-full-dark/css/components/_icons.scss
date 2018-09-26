@@ -196,7 +196,6 @@ div.tlumaczenie > h2 + a.pokaz-tlumaczenie {
 }
 
 // Send message icon.
-
 #msg-users .actions,
 .user-info {
 
@@ -245,6 +244,95 @@ div.tlumaczenie > h2 + a.pokaz-tlumaczenie {
 
             &:after {
                 border-color: $link-primary-hover-color;
+            }
+        }
+    }
+}
+
+// Icons for links on voting bar
+.glosowanie .glo-links,
+.blue .glosowanie .glo-links {
+    background: $box-bg;
+    padding-left: 18px;
+    position: relative;
+    // Add song to favourites.
+    &.glo-ulubione {
+
+        &:before {
+            display: block;
+            color: $link-color;
+            font-size: 1.5em;
+            font-weight: bold;
+            position: absolute;
+            left: -1px;
+            content: '\2605';
+        }
+
+        &:hover, &:focus {
+
+            &:before {
+                color: $link-hover-color;
+            }
+        }
+    }
+    /*// Add comment to song.
+    &.glo-komentuj {
+
+        &:before {
+            display: block;
+            color: $link-color;
+            font-size: 1.5em;
+            font-weight: bold;
+            position: absolute;
+            left: 2px;
+            content: '\21';
+        }
+
+        &:hover, &:focus {
+
+            &:before {
+                color: $link-hover-color;
+            }
+        }
+    }
+    // Share song lyrics.
+    &.glo-polec {
+
+        &:before {
+            display: block;
+            color: $link-color;
+            font-size: 1.5em;
+            font-weight: bold;
+            position: absolute;
+            left: 2px;
+            content: '\2709';
+        }
+
+        &:hover, &:focus {
+
+            &:before {
+                color: $link-hover-color;
+            }
+        }
+    }*/
+    // Report error in song text.
+    &.glo-zglos {
+        padding-left: 14px;
+
+        &:before {
+            display: block;
+            color: $link-color;
+            font-size: 1.5em;
+            font-weight: bold;
+            position: absolute;
+            left: 2px;
+            content: '\21';
+        }
+
+        &:hover, &:focus {
+
+            &:before {
+                color: $link-hover-color;
             }
         }
     }
