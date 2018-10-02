@@ -1513,6 +1513,8 @@ a.zaproponuj-utwor {
         font-size: 11.5px;
         font-family: Tahoma;
         line-height: 15px; }
+        .tlumaczenie b {
+            margin-top: 10px; }
     .revisions {
         padding: 7px 0;
         max-width: 355px; }
