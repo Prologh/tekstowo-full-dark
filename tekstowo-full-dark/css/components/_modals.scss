@@ -54,6 +54,16 @@ td.pop_content h2.dialog_title {
     background: $box-light-bg;
     border: none;
     border-radius: 0;
+    width: 170px;
+    height: 150px;
+    overflow: hidden;
+}
+
+// Right facebook login box in modals.
+.login_box .fb-box {
+    width: 140px;
+    height: 150px;
+    overflow: hidden;
 }
 
 // Right 'close' anchor link.

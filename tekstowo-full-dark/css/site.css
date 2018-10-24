@@ -809,7 +809,14 @@ a.zaproponuj-utwor {
     .login_box .l-box {
         background: #272727;
         border: none;
-        border-radius: 0; }
+        border-radius: 0;
+        width: 170px;
+        height: 150px;
+        overflow: hidden; }
+    .login_box .fb-box {
+        width: 140px;
+        height: 150px;
+        overflow: hidden; }
     #pop_content #yt-close {
         color: #74be2f;
         background: #1C1C1C;
