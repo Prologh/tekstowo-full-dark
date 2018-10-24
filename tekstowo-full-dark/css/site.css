@@ -980,7 +980,10 @@ a.zaproponuj-utwor {
         color: #255EAE; }
     .left-box-nomargin h4 {
         color: #62ae25; }
-    fieldset.login input.login-text, fieldset.login input.long-long {
+    .blue-box fieldset.search {
+        margin-top: 10px; }
+    fieldset.login input.login-text,
+    fieldset.login input.long-long {
         background: #1C1C1C; }
     fieldset.login input.long-long {
         background: #1C1C1C; }
@@ -990,13 +993,15 @@ a.zaproponuj-utwor {
         background: #1C1C1C; }
     fieldset.login input.login-text-long {
         background: #1C1C1C; }
-    .textarea, .textarea-big {
+    .textarea,
+    .textarea-big {
         border: 1px solid #e6e6e6; }
     .textarea-comm {
         border: 1px solid #e6e6e6; }
     select {
         border: 1px solid #e6e6e6; }
-    .formRow.song-item .caption .instrumental, .formRow.box label.opt .instrumental {
+    .formRow.song-item .caption .instrumental,
+    .formRow.box label.opt .instrumental {
         background: #1C1C1C; }
     .formRow.song-item .actions .del {
         background: #1C1C1C; }

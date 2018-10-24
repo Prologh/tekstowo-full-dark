@@ -85,9 +85,12 @@
         color: $brand-primary-dark;
     }
 
+    .blue-box fieldset.search {
+        margin-top: 10px;
+    }
 
-
-    fieldset.login input.login-text, fieldset.login input.long-long {
+    fieldset.login input.login-text,
+    fieldset.login input.long-long {
         background: $box-bg;
     }
 
@@ -107,7 +110,8 @@
         background: $box-bg;
     }
 
-    .textarea, .textarea-big {
+    .textarea,
+    .textarea-big {
         border: 1px solid #e6e6e6;
     }
 
@@ -119,7 +123,8 @@
         border: 1px solid #e6e6e6;
     }
 
-    .formRow.song-item .caption .instrumental, .formRow.box label.opt .instrumental {
+    .formRow.song-item .caption .instrumental,
+    .formRow.box label.opt .instrumental {
         background: $box-bg;
     }
 
