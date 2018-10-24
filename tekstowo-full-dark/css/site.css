@@ -813,7 +813,8 @@ a.zaproponuj-utwor {
     #pop_content #yt-close {
         color: #74be2f;
         background: #1C1C1C;
-        padding: 0; }
+        margin: 0;
+        padding: 0 6px 0 0; }
     /* Rules that affect site navbar */
     ul.topmenu,
     ul.topmenu li.topmenu-first,
