@@ -114,9 +114,9 @@
         margin: 0;
     }
 
-    .textarea,
-    .textarea-big {
-        border: 1px solid #e6e6e6;
+    // Hide senseless break-line element.
+    #addTextForm > fieldset.login.edycja > div.static:first-child > p > br {
+        display: none;
     }
 
     .textarea-comm {

@@ -999,9 +999,8 @@ a.zaproponuj-utwor {
         background: #1C1C1C; }
     fieldset.rejestracja {
         margin: 0; }
-    .textarea,
-    .textarea-big {
-        border: 1px solid #e6e6e6; }
+    #addTextForm > fieldset.login.edycja > div.static:first-child > p > br {
+        display: none; }
     .textarea-comm {
         border: 1px solid #e6e6e6; }
     select {
