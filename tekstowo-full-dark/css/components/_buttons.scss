@@ -183,7 +183,8 @@ td.pop_content .dialog_buttons input {
 }
 
 // Green button general rules
-.green-button {
+.green-button,
+.send-button {
     color: $button-primary-color;
     background: $button-primary-bg;
     @include border($button-primary-border-width, $button-primary-border-style, $button-primary-border-color);
