@@ -55,3 +55,10 @@ td.pop_content h2.dialog_title {
     border: none;
     border-radius: 0;
 }
+
+// Right 'close' anchor link.
+#pop_content #yt-close {
+    color: $brand-primary;
+    background: $box-bg;
+    padding: 0;
+}

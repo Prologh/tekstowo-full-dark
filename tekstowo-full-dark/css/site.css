@@ -810,6 +810,10 @@ a.zaproponuj-utwor {
         background: #272727;
         border: none;
         border-radius: 0; }
+    #pop_content #yt-close {
+        color: #74be2f;
+        background: #1C1C1C;
+        padding: 0; }
     /* Rules that affect site navbar */
     ul.topmenu,
     ul.topmenu li.topmenu-first,
@@ -1936,9 +1940,6 @@ a.zaproponuj-utwor {
         color: #970000; }
     .grey-bkg {
         background-color: #1d1d1d !important; }
-    #pop_content #yt-close {
-        color: #74be2f;
-        background: #1C1C1C; }
     .ytVidHref span {
         color: #909090; }
     #up_photo_link, #add_disc_link {
