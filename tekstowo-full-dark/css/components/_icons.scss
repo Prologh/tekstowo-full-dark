@@ -69,11 +69,11 @@ a.na-minus {
     }
 }
 
-// Translation icon on ranking list
+// Translation icon on song list
 .icon_pl {
 
     &:after {
-        color: $text-light-color;
+        color: darken($text-light-color, 8%);
         line-height: 0;
         text-transform: uppercase;
         top: 9px;
