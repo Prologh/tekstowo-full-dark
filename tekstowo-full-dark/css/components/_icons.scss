@@ -83,6 +83,34 @@ a.na-minus {
     }
 }
 
+// Music video icon on song list
+.icon_kamera {
+
+    &:before,
+    &:after {
+        position: absolute;
+        content: '';
+    }
+
+    &:before {
+        background: $text-base-color;
+        width: 12px;
+        height: 10px;
+        border-radius: 2px;
+        top: 4px;
+        left: 1.5px;
+    }
+
+    &:after {
+        border-style: solid;
+        border-width: 4px 5px 4px 0;
+        border-color: transparent;
+        border-right-color: $text-base-color;
+        top: 5px;
+        left: 12px;
+    }
+}
+
 // Top 5 icon
 body div#contener div#center > div.left-column > div:nth-child(6) > h3.marginb10.margint5 {
     & > img {
