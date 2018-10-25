@@ -69,6 +69,20 @@ a.na-minus {
     }
 }
 
+// Translation icon on ranking list
+.icon_pl {
+
+    &:after {
+        color: $text-light-color;
+        line-height: 0;
+        text-transform: uppercase;
+        top: 9px;
+        left: 3px;
+        position: absolute;
+        content: 'pl';
+    }
+}
+
 // Top 5 icon
 body div#contener div#center > div.left-column > div:nth-child(6) > h3.marginb10.margint5 {
     & > img {
