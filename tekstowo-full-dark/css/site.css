@@ -4,6 +4,62 @@
 /* Borders */
 @-moz-document regexp("https?://www\\.tekstowo\\.pl/.*") {
     /* Rules that affect buttons */
+    /* Rules that affect all kind of containers */
+    /* Rules that affect textareas */
+    /* Rules that affect icons */
+    /*// Set relative on icon's parent.
+#center > div.big-buttons > div:nth-child(2) {
+    position: relative;
+}
+
+// Search icon for search for song anchor link.
+a.zaproponuj-utwor {
+    &:before, &:after {
+        margin: -8px 0 0;
+        position: absolute;
+        top: 50%;
+        content: "";
+    }
+
+    &:before {
+        left: 14px;
+        width: 6px;
+        height: 6px;
+        border: 3px solid $link-color;
+        border-radius: 12px;
+    }
+
+    &:after {
+        left: 24px;
+        width: 3px;
+        height: 7px;
+        border-radius: 0px 0px 40px 40px;
+        margin-top: 0;
+        background: $link-color;
+        transform: rotate(-45deg);
+    }
+
+    &:hover:before, &:focus:before {
+        border-color: $link-primary-hover-color;
+    }
+
+    &:hover:after, &:focus:after {
+        background-color: $link-primary-hover-color;
+    }
+}*/
+    /* Rules that affect facebook plugin */
+    /* Rules that affect headers */
+    /* Rules that affect labels */
+    /* Rules that affect anchor links */
+    /* Rules that affect site logo */
+    /* Rules that affect site navbar */
+    /* Rules that affect overlays */
+    /* Rules that affect site tabs for switching between content */
+    /** BOTTOM **/
+    /** CENTER **/
+    /** LEFT **/
+    /** BOX **/
+    /** end of blue icons **/
     .blue-box input.search-send,
     input.search-send {
         background: transparent;
@@ -156,7 +212,6 @@
         height: unset;
         padding: 8px 38px;
         margin: 12px 20px; }
-    /* Rules that affect all kind of containers */
     #center {
         background: #131313; }
     .box-big,
@@ -238,7 +293,6 @@
         border: none; }
     .content .box-przeboje {
         width: 521px; }
-    /* Rules that affect textareas */
     textarea, textarea.textarea-comm {
         border: 1px solid #666;
         min-height: 80px !important;
@@ -262,7 +316,6 @@
     input[type="button"]:enabled,
     button:enabled {
         cursor: pointer; }
-    /* Rules that affect icons */
     a.na-plus,
     a.na-minus {
         background: #1C1C1C;
@@ -292,6 +345,22 @@
         background: #970000;
         transform: rotate(90deg);
         content: ""; }
+    .ranking-lista a.na-plus,
+    .ranking-lista a.na-minus {
+        top: 5px;
+        height: 20px;
+        width: 20px;
+        background: #1C1C1C; }
+        .ranking-lista a.na-plus:hover, .ranking-lista a.na-plus:focus,
+        .ranking-lista a.na-minus:hover,
+        .ranking-lista a.na-minus:focus {
+            background: #292929; }
+        .ranking-lista a.na-plus:before, .ranking-lista a.na-plus:after,
+        .ranking-lista a.na-minus:before,
+        .ranking-lista a.na-minus:after {
+            top: 2px;
+            left: 9px;
+            height: 16px; }
     body div#contener div#center > div.left-column > div:nth-child(6) > h3.marginb10.margint5 > img {
         width: 0px;
         height: 0px;
@@ -323,46 +392,6 @@
         right: 10px; }
         a#art_box_right:hover, a#art_box_right:focus {
             border-left: 27px solid #3b3b3b; }
-    /*// Set relative on icon's parent.
-#center > div.big-buttons > div:nth-child(2) {
-    position: relative;
-}
-
-// Search icon for search for song anchor link.
-a.zaproponuj-utwor {
-    &:before, &:after {
-        margin: -8px 0 0;
-        position: absolute;
-        top: 50%;
-        content: "";
-    }
-
-    &:before {
-        left: 14px;
-        width: 6px;
-        height: 6px;
-        border: 3px solid $link-color;
-        border-radius: 12px;
-    }
-
-    &:after {
-        left: 24px;
-        width: 3px;
-        height: 7px;
-        border-radius: 0px 0px 40px 40px;
-        margin-top: 0;
-        background: $link-color;
-        transform: rotate(-45deg);
-    }
-
-    &:hover:before, &:focus:before {
-        border-color: $link-primary-hover-color;
-    }
-
-    &:hover:after, &:focus:after {
-        background-color: $link-primary-hover-color;
-    }
-}*/
     .drukuj {
         position: relative; }
         .drukuj:before, .drukuj:after {
@@ -523,7 +552,6 @@ a.zaproponuj-utwor {
             .blue .glosowanie .glo-links.glo-zglos:hover:before,
             .blue .glosowanie .glo-links.glo-zglos:focus:before {
                 color: #cbcbcb; }
-    /* Rules that affect facebook plugin */
     ul.topmenu li.fb a {
         background-color: #255EAE;
         background-image: none; }
@@ -553,7 +581,6 @@ a.zaproponuj-utwor {
                 font-size: 36px;
                 z-index: 1010;
                 content: "f"; }
-    /* Rules that affect headers */
     .green-box .big-text,
     .blue-box .big-text {
         color: #909090; }
@@ -564,14 +591,12 @@ a.zaproponuj-utwor {
         display: none; }
     div.user-info > h2 {
         color: #b6b6b6; }
-    /* Rules that affect labels */
     fieldset > label.big-text[for=s-autor] {
         margin: 0 10px 0 0; }
     label,
     fieldset.search label.mini {
         color: #9d9d9d;
         background: #1C1C1C; }
-    /* Rules that affect anchor links */
     a,
     a.search-adv,
     .metric a,
@@ -758,7 +783,6 @@ a.zaproponuj-utwor {
         background: unset; }
     .glosowanie .glo-links {
         margin-top: 4.5px; }
-    /* Rules that affect site logo */
     body > div#contener > div.top-top > a:before {
         position: absolute;
         top: 10px;
@@ -825,7 +849,6 @@ a.zaproponuj-utwor {
         background: #1C1C1C;
         margin: 0;
         padding: 0 6px 0 0; }
-    /* Rules that affect site navbar */
     ul.topmenu,
     ul.topmenu li.topmenu-first,
     ul.topmenu li.topmenu-last,
@@ -878,7 +901,6 @@ a.zaproponuj-utwor {
         background: #131313;
         font-size: .9em;
         font-weight: initial; }
-    /* Rules that affect overlays */
     .mask {
         background: rgba(0, 0, 0, 0.7); }
     .modal-mask {
@@ -903,7 +925,6 @@ a.zaproponuj-utwor {
         background-color: #626262; }
     input::-webkit-scrollbar-corner, textarea::-webkit-scrollbar-corner, .user-info .opis p.ramka::-webkit-scrollbar-corner {
         background-color: #434343; }
-    /* Rules that affect site tabs for switching between content */
     .tabs a,
     .tabs a.recived,
     .tabs a.sended,
@@ -973,7 +994,6 @@ a.zaproponuj-utwor {
         color: #74be2f; }
     .white {
         color: #fff; }
-    /** BOTTOM **/
     #bottom {
         background: #131313; }
     #bottom + div {
@@ -983,12 +1003,10 @@ a.zaproponuj-utwor {
     #stopka p {
         border-top: 1px solid #666;
         border-bottom: 1px solid #666; }
-    /** CENTER **/
     a.search-adv {
         color: #909090; }
     ul.nav.alfabet li.active {
         color: #970000; }
-    /** LEFT **/
     h3 {
         color: #62ae25; }
     .blue h3 {
@@ -1043,7 +1061,6 @@ a.zaproponuj-utwor {
         color: #b6b6b6; }
     .top-tracks img {
         background: #1C1C1C; }
-    /** BOX **/
     .box-top {
         height: 38px;
         background: #1C1C1C;
@@ -1157,22 +1174,6 @@ a.zaproponuj-utwor {
         display: inline-block;
         background: #1C1C1C;
         vertical-align: -8px; }
-    .ranking-lista .na-plus, .ranking-lista .na-minus {
-        width: 16px;
-        height: 31px;
-        display: inline-block;
-        background: #1C1C1C;
-        right: 120px;
-        position: absolute; }
-    .na-minus {
-        background: #1C1C1C; }
-    .ranking-lista .na-minus {
-        background: #1C1C1C;
-        right: 100px; }
-    .ranking-lista .rank {
-        position: absolute;
-        right: 59px;
-        line-height: 28px; }
     .left-box-content .box-przeboje {
         width: 225px; }
     .left-box-content .box-przeboje b {
@@ -1486,7 +1487,6 @@ a.zaproponuj-utwor {
     .glosowanie span {
         font-size: 1.3em;
         font-weight: bold; }
-    /** end of blue icons **/
     .moderator-info {
         position: relative;
         width: 714px;
@@ -2112,3 +2112,4 @@ a.zaproponuj-utwor {
         background: linear-gradient(to bottom, #ff9900 0%, #ff6600 100%); }
     .info-box {
         border: 1px solid #CCCCCC; } }
+

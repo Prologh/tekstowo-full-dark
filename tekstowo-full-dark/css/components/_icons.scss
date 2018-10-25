@@ -46,6 +46,29 @@ a.na-minus {
     }
 }
 
+// Voting icons on ranking list
+.ranking-lista {
+
+    a.na-plus,
+    a.na-minus {
+        top: 5px;
+        height: 20px;
+        width: 20px;
+        background: $box-bg;
+
+        &:hover, &:focus {
+            background: $link-block-hover-bg;
+        }
+
+        &:before,
+        &:after {
+            top: 2px;
+            left: 9px;
+            height: 16px;
+        }
+    }
+}
+
 // Top 5 icon
 body div#contener div#center > div.left-column > div:nth-child(6) > h3.marginb10.margint5 {
     & > img {

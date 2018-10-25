@@ -359,30 +359,6 @@
         vertical-align: -8px
     }
 
-    .ranking-lista .na-plus, .ranking-lista .na-minus {
-        width: 16px;
-        height: 31px;
-        display: inline-block;
-        background: $box-bg;
-        right: 120px;
-        position: absolute
-    }
-
-    .na-minus {
-        background: $box-bg;
-    }
-
-    .ranking-lista .na-minus {
-        background: $box-bg;
-        right: 100px
-    }
-
-    .ranking-lista .rank {
-        position: absolute;
-        right: 59px;
-        line-height: 28px
-    }
-
     .left-box-content .box-przeboje {
         width: 225px
     }
