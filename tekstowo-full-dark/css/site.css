@@ -1045,9 +1045,14 @@ a.zaproponuj-utwor {
     fieldset.login input.login-text, fieldset.login input.login-text-long, fieldset.login input.long-long {
         background: #1C1C1C; }
     fieldset.rejestracja {
-        padding-bottom: 14px; }
+        padding-bottom: 1.5em; }
     fieldset .komunikat {
-        margin: 1em 0; }
+        background: #272727;
+        margin-bottom: 1.5em;
+        padding: 1em 0;
+        text-align: center; }
+        fieldset .komunikat > .odstep {
+            display: none; }
     #addTextForm > fieldset.login.edycja > div.static:first-child > p > br {
         display: none; }
     .textarea-comm {

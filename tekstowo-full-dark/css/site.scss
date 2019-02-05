@@ -110,11 +110,19 @@
         }
         // Add more padding, so bottom links doesn't touch the bottom end of container form.
         &.rejestracja {
-            padding-bottom: 14px;
+            padding-bottom: 1.5em;
         }
         // Top form message, what that form is for.
         & .komunikat {
-            margin: 1em 0;
+            background: $header-bg;
+            margin-bottom: 1.5em;
+            padding: 1em 0;
+            text-align: center;
+
+            // Hide blank div, pushing form message.
+            & > .odstep {
+                display: none;
+            }
         }
     }
     // Hide senseless break-line element.
