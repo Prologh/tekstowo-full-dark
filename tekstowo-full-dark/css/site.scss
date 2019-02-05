@@ -118,7 +118,6 @@
             margin-bottom: 1.5em;
             padding: 1em 0;
             text-align: center;
-
             // Hide blank div, pushing form message.
             & > .odstep {
                 display: none;
@@ -1265,7 +1264,7 @@
         font-size: 1.5em;
         font-weight: bold;
         padding-left: 10px;
-        border: 1px solid #e5e5e5;
+        border: 1px solid $border-dark-color;
         border-right: 0;
         background: $box-bg;
     }
@@ -1275,7 +1274,7 @@
     }
 
     .zakladka-last {
-        border-right: 1px solid #e5e5e5
+        border-right: 1px solid $border-dark-color;
     }
 
     .zakladka-active {

@@ -1790,13 +1790,13 @@ a.zaproponuj-utwor {
         font-size: 1.5em;
         font-weight: bold;
         padding-left: 10px;
-        border: 1px solid #e5e5e5;
+        border: 1px solid #333333;
         border-right: 0;
         background: #1C1C1C; }
     .zakladka.zakladka-long {
         width: 305px; }
     .zakladka-last {
-        border-right: 1px solid #e5e5e5; }
+        border-right: 1px solid #333333; }
     .zakladka-active {
         border-bottom: 0;
         line-height: 38px;
