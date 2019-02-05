@@ -89,31 +89,34 @@
         margin-top: 10px;
     }
 
-    fieldset.login input.login-text,
-    fieldset.login input.long-long {
-        background: $box-bg;
-    }
-
-    fieldset.login input.long-long {
-        background: $box-bg;
-    }
-
     .long-long {
         border: 1px solid #E5E5E5;
     }
 
-    fieldset.login .login-send {
-        background: $box-bg;
+    fieldset {
+        &.login {
+            // Change background for submit button.
+            & .login-send {
+                background: $box-bg;
+            }
+            // Change background for all kind of form inputs.
+            & input {
+                &.login-text,
+                &.login-text-long,
+                &.long-long {
+                    background: $box-bg;
+                }
+            }
+        }
+        // Add more padding, so bottom links doesn't touch the bottom end of container form.
+        &.rejestracja {
+            padding-bottom: 14px;
+        }
+        // Top form message, what that form is for.
+        & .komunikat {
+            margin: 1em 0;
+        }
     }
-
-    fieldset.login input.login-text-long {
-        background: $box-bg;
-    }
-
-    fieldset.rejestracja {
-        margin: 0;
-    }
-
     // Hide senseless break-line element.
     #addTextForm > fieldset.login.edycja > div.static:first-child > p > br {
         display: none;

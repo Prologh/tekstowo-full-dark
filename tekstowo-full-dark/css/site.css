@@ -1038,19 +1038,16 @@ a.zaproponuj-utwor {
         color: #62ae25; }
     .blue-box fieldset.search {
         margin-top: 10px; }
-    fieldset.login input.login-text,
-    fieldset.login input.long-long {
-        background: #1C1C1C; }
-    fieldset.login input.long-long {
-        background: #1C1C1C; }
     .long-long {
         border: 1px solid #E5E5E5; }
     fieldset.login .login-send {
         background: #1C1C1C; }
-    fieldset.login input.login-text-long {
+    fieldset.login input.login-text, fieldset.login input.login-text-long, fieldset.login input.long-long {
         background: #1C1C1C; }
     fieldset.rejestracja {
-        margin: 0; }
+        padding-bottom: 14px; }
+    fieldset .komunikat {
+        margin: 1em 0; }
     #addTextForm > fieldset.login.edycja > div.static:first-child > p > br {
         display: none; }
     .textarea-comm {
