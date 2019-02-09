@@ -210,16 +210,23 @@
         border: none;
         padding: 5px 5px 5px 8px; }
     .teledysk-left, .teledysk-right {
+        padding: 0;
+        height: 72px;
         border: none; }
     .teledysk-left,
     .teledysk-left .box-przeboje {
-        width: 315px; }
-    .teledysk-right {
-        width: 325px; }
-    .box-przeboje,
+        width: auto; }
+    .box-przeboje {
+        width: auto; }
+    #center > div.right-column > div:nth-child(6) {
+        width: 344px !important; }
     .teledysk-left-top,
     .teledysk-left-bottom {
-        width: 335px; }
+        width: auto; }
+    .teledysk-right {
+        width: 335px;
+        height: 40px;
+        padding: 16px 15px; }
     .comm_show_more {
         border: none;
         height: initial;

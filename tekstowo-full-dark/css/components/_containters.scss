@@ -70,22 +70,34 @@ div.popularni {
 
 // Song header containers, under music video.
 .teledysk-left, .teledysk-right {
+    padding: 0;
+    height: 72px;
     border: none;
 }
 
 .teledysk-left,
 .teledysk-left .box-przeboje {
-    width: 315px;
+    width: auto;
+}
+
+.box-przeboje {
+    width: auto;
+}
+
+// Override inline style.
+#center > div.right-column > div:nth-child(6) {
+    width: 344px !important;
+}
+
+.teledysk-left-top,
+.teledysk-left-bottom {
+    width: auto;
 }
 
 .teledysk-right {
-    width: 325px;
-}
-
-.box-przeboje,
-.teledysk-left-top,
-.teledysk-left-bottom {
     width: 335px;
+    height: 40px;
+    padding: 16px 15px;
 }
 
 // Load more comments container.
