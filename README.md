@@ -9,7 +9,7 @@ CSS theme for [tekstowo.pl](http://www.tekstowo.pl/). Get flat, dark grey feelin
 **Note:** This theme is still under development.
 
 ## Structure
-Bootstrap alike, based on few colors (see [_variables.scss](https://github.com/Prologh/tekstowo-full-dark/blob/master/tekstowo-full-dark/css/_variables.scss)), which makes it easy to modify.
+Bootstrap alike, based on few colors (see [_variables.scss](https://github.com/Prologh/tekstowo-full-dark/blob/master/src/css/_variables.scss)), which makes it easy to modify.
 
 ## Download
 Download now the latest release from [userstyles.org](https://userstyles.org/styles/157867/tekstowo-full-dark).
@@ -17,4 +17,4 @@ Download now the latest release from [userstyles.org](https://userstyles.org/sty
 ## License
 Licensed under [MIT](https://github.com/Prologh/tekstowo-full-dark/blob/master/LICENSE).
 
-![Home page preview](https://raw.githubusercontent.com/Prologh/tekstowo-full-dark/master/tekstowo-full-dark/img/home-page.png "Home page")
+![Home page preview](https://raw.githubusercontent.com/Prologh/tekstowo-full-dark/master/img/home-page.png "Home page")
