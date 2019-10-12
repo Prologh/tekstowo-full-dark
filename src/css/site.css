@@ -519,8 +519,8 @@ a.zaproponuj-utwor {
                 color: $link-hover-color;
             }
         }
-    }
-    // Share song lyrics.
+    }*/
+    /*// Share song lyrics.
     &.glo-polec {
 
         &:before {
@@ -1007,6 +1007,8 @@ a.zaproponuj-utwor {
   body {
     background: #131313;
     color: #909090; }
+    body.no-bg {
+      background: #131313 !important; }
   p.redinfo {
     color: #970000; }
   h2 {

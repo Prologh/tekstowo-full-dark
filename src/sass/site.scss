@@ -22,6 +22,10 @@
     body {
         background: $body-bg;
         color: $text-base-color;
+
+        &.no-bg {
+            background: $body-bg !important;
+        }
     }
 
     p.redinfo {
@@ -259,10 +263,9 @@
         display: table-cell !important
     }
 
-    .adv-home div, 
-    .adv-home ins, 
+    .adv-home div,
+    .adv-home ins,
     .adv-home object {
-
     }
 
     .adv-pion {
