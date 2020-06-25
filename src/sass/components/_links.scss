@@ -61,6 +61,23 @@ ul.nav.alfabet li a {
     }
 }
 
+// Add song/sountrack big buttons
+.big-buttons {
+    & a {
+        border-width: 0;
+        border: none;
+        color: $link-color;
+        background: $link-block-bg;
+
+        &:hover,
+        &:focus,
+        &:not(:disabled):not(.disabled):active {
+            color: $link-hover-color;
+            background: $link-block-hover-bg;
+        }
+    }
+}
+
 // Change the fixed size of containers for add song/soundtrack links
 body div#contener div#center div.big-buttons {
     & div,
@@ -186,6 +203,14 @@ div.left-box-content {
     }
 }
 
+// Remove background color and border color for signed in user links
+.left-box,
+.soundtracks .left-box, {
+    &.bg-green {
+        background: initial;
+        border-color: initial;
+    }
+}
 // Links under sign in buttons on left navbar.
 ul.arrows {
     float: none !important;

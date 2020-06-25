@@ -157,10 +157,14 @@
     padding: 8px 38px;
     margin: 12px 20px; }
   /* Rules that affect all kind of containers */
-  #center {
+  #center,
+  .top-row,
+  .right-column {
     background: #131313; }
   .box-big,
   .box-przeboje,
+  .login-wrap,
+  .search-box,
   .content-belka,
   .content-belka-long,
   .content-belka-left,
@@ -184,6 +188,7 @@
   #center .left-corner,
   #center .right-corner,
   .big-buttons div,
+  .left-box,
   .left-box-top,
   .left-box-bottom,
   .left-box-top-green,
@@ -194,14 +199,28 @@
   .blue .left-box-bottom-green,
   .blue .left-box-content-green,
   fieldset.login,
+  .right-column .belka,
   div#center > div.right-column > div:nth-child(6),
   div#center > div.right-column > div.teledysk-right-top,
   div#center > div.right-column > div.teledysk-right {
     background: #1C1C1C; }
+  .topbar {
+    background: initial; }
+  .footbar {
+    background: initial; }
+  .metric tr:nth-of-type(odd),
+  .box-przeboje:nth-of-type(even) {
+    background: initial; }
   .box-przeboje.no-bg {
     background: #1C1C1C !important; }
+  .belka {
+    width: 100%; }
+  .search-box {
+    border-radius: 0; }
   div#bottom {
     padding: 20px 0 10px; }
+  .card {
+    display: initial; }
   div.popularni {
     margin-top: 10px;
     height: 216px; }
@@ -684,6 +703,14 @@ a.zaproponuj-utwor {
     .zaproponuj-utwor:focus {
       color: #cbcbcb;
       background: #272727; }
+  .big-buttons a {
+    border-width: 0;
+    border: none;
+    color: #a4a4a4;
+    background: #1C1C1C; }
+    .big-buttons a:hover, .big-buttons a:focus, .big-buttons a:not(:disabled):not(.disabled):active {
+      color: #cbcbcb;
+      background: #292929; }
   body div#contener div#center div.big-buttons div,
   body div#contener div#center div.big-buttons div.marginb5 {
     width: initial;
@@ -750,6 +777,10 @@ a.zaproponuj-utwor {
   div.left-box-content > ul.arrows {
     margin-left: -9px;
     margin-right: -9px; }
+  .left-box.bg-green,
+  .soundtracks .left-box.bg-green {
+    background: initial;
+    border-color: initial; }
   ul.arrows {
     float: none !important; }
     ul.arrows > li {
@@ -873,6 +904,7 @@ a.zaproponuj-utwor {
     padding: 0 6px 0 0; }
   /* Rules that affect site navbar */
   ul.topmenu,
+  .topmenu > ul li,
   ul.topmenu li.topmenu-first,
   ul.topmenu li.topmenu-last,
   ul.topmenu li.topmenu-last.fb,
@@ -1004,6 +1036,10 @@ a.zaproponuj-utwor {
     .user-box .tabs a.blocked:focus {
       color: #cbcbcb;
       background: #292929; }
+  .song-text,
+  .tlumaczenie {
+    font-size: 14px;
+    line-height: 1.4; }
   body {
     background: #131313;
     color: #909090; }
@@ -1296,7 +1332,6 @@ a.zaproponuj-utwor {
     background: #fff; }
   .belka {
     height: 58px;
-    width: 714px;
     background: #1C1C1C;
     margin-bottom: 13px;
     color: #e9e9e9;
@@ -1380,7 +1415,6 @@ a.zaproponuj-utwor {
     background: #1C1C1C; }
   .zdjecie {
     width: 365px;
-    height: 280px;
     background: #1C1C1C;
     float: right;
     position: relative; }
@@ -1546,18 +1580,12 @@ a.zaproponuj-utwor {
     margin: 15px 0 15px 10px;
     line-height: 1.2em; }
   .song-text {
-    width: 350px;
-    font-size: 11.5px;
-    font-family: Tahoma;
-    line-height: 15px; }
+    font-family: Tahoma; }
   .song-text li {
     margin: 1em 0 1em 2em; }
   .tlumaczenie {
-    width: 336px;
     float: right;
-    font-size: 11.5px;
-    font-family: Tahoma;
-    line-height: 15px; }
+    font-family: Tahoma; }
     .tlumaczenie b {
       margin-top: 10px; }
   .revisions {

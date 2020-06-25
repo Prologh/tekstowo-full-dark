@@ -1,12 +1,16 @@
 ﻿/* Rules that affect all kind of containers */
 
-#center {
+#center,
+.top-row,
+.right-column {
     background: $body-bg;
 }
 
 // Set background color for all kind of boxes and containers.
 .box-big,
 .box-przeboje,
+.login-wrap,
+.search-box,
 .content-belka,
 .content-belka-long,
 .content-belka-left,
@@ -30,6 +34,7 @@
 #center .left-corner,
 #center .right-corner,
 .big-buttons div,
+.left-box,
 .left-box-top,
 .left-box-bottom,
 .left-box-top-green,
@@ -40,10 +45,27 @@
 .blue .left-box-bottom-green,
 .blue .left-box-content-green,
 fieldset.login,
+.right-column .belka,
 div#center > div.right-column > div:nth-child(6),
 div#center > div.right-column > div.teledysk-right-top,
 div#center > div.right-column > div.teledysk-right {
     background: $box-bg;
+}
+
+// Set no background for between top navbar and search box
+.topbar {
+    background: initial;
+}
+
+// Set no background for foot bar
+.footbar {
+    background: initial;
+}
+
+// Set no background for song metric
+.metric tr:nth-of-type(odd),
+.box-przeboje:nth-of-type(even) {
+    background: initial;
 }
 
 // Override the background fo popular songs container.
@@ -51,9 +73,24 @@ div#center > div.right-column > div.teledysk-right {
     background: $box-bg !important;
 }
 
+// Song title bar
+.belka {
+    width: 100%;
+}
+
+// Reset border radius for search container
+.search-box {
+    border-radius: 0;
+}
+
 // Footer.
 div#bottom {
     padding: 20px 0 10px;
+}
+
+// User profile card container
+.card {
+    display: initial;
 }
 
 // Popular artists.
