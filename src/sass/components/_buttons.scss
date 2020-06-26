@@ -203,3 +203,14 @@ td.pop_content .dialog_buttons input {
     padding: 8px 38px;
     margin: 12px 20px;
 }
+
+.btn-primary {
+    background: $button-primary-bg;
+    border-radius: 0;
+    border-width: 0;
+    transition: none;
+
+    &:hover, &:focus, &:active {
+        background: $button-primary-hover-bg;
+    }
+}

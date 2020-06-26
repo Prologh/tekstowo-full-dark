@@ -124,8 +124,8 @@ $button-box-border-color: $button-base-border-color;
 // Primary button
 $button-primary-color: $button-base-color;
 $button-primary-bg: $brand-primary-dark;
-$button-primary-hover-color: lighten($button-primary-color, 5%);
-$button-primary-hover-bg: lighten($button-primary-bg, 5%);
+$button-primary-hover-color: $button-base-color;
+$button-primary-hover-bg: darken($button-primary-bg, 5%);
 $button-primary-border-width: $button-base-border-width;
 $button-primary-border-style: $button-base-border-style;
 $button-primary-border-color: $button-base-border-color;

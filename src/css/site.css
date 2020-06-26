@@ -1,4 +1,11 @@
 @charset "UTF-8";
+/* ==UserScript==
+@name          Tekstowo - Full Dark
+@namespace     https://www.tekstowo.pl/
+@description   CSS theme for tekstowo.pl. Get flat, dark grey feeling for night surfing. Most of the images are converted into css rules.
+@include       https://www.tekstowo.pl/*
+@version       1.0
+==/UserScript== */
 /* ### Variables ### */
 /* SASS custom mixins */
 /* Borders */
@@ -49,8 +56,8 @@
         cursor: pointer;
         content: "Zaloguj"; }
       div.left-column div.left-box-content fieldset.login > .login-send:hover:after, div.left-column div.left-box-content fieldset.login > .login-send:focus:after {
-        color: #f6f6f6;
-        background: #6ec329; }
+        color: #e9e9e9;
+        background: #569921; }
     div.left-column div.left-box-content fieldset.login .fb-button {
       background: none;
       position: relative;
@@ -149,13 +156,20 @@
     .green-button:hover, .green-button:focus,
     .send-button:hover,
     .send-button:focus {
-      color: #f6f6f6;
-      background: #6ec329; }
+      color: #e9e9e9;
+      background: #569921; }
   .login_box .green-button {
     width: unset;
     height: unset;
     padding: 8px 38px;
     margin: 12px 20px; }
+  .btn-primary {
+    background: #62ae25;
+    border-radius: 0;
+    border-width: 0;
+    transition: none; }
+    .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+      background: #569921; }
   /* Rules that affect all kind of containers */
   #center,
   .top-row,
@@ -1083,10 +1097,12 @@ a.zaproponuj-utwor {
     margin-top: 10px; }
   .long-long {
     border: 1px solid #E5E5E5; }
-  fieldset.login .login-send {
-    background: #1C1C1C; }
-  fieldset.login input.login-text, fieldset.login input.login-text-long, fieldset.login input.long-long {
-    background: #1C1C1C; }
+  fieldset.login {
+    /*            & .login-send {
+                background: $button-primary-bg;
+            }*/ }
+    fieldset.login input.login-text, fieldset.login input.login-text-long, fieldset.login input.long-long {
+      background: #1C1C1C; }
   fieldset.rejestracja {
     padding-bottom: 1.5em; }
   fieldset .komunikat {

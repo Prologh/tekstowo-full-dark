@@ -1,4 +1,12 @@
-﻿// Import variables
+﻿/* ==UserScript==
+@name          Tekstowo - Full Dark
+@namespace     https://www.tekstowo.pl/
+@description   CSS theme for tekstowo.pl. Get flat, dark grey feeling for night surfing. Most of the images are converted into css rules.
+@include       https://www.tekstowo.pl/*
+@version       1.0
+==/UserScript== */
+
+// Import variables
 @import '_variables';
 @import '_mixins';
 
@@ -101,9 +109,9 @@
     fieldset {
         &.login {
             // Change background for submit button.
-            & .login-send {
-                background: $box-bg;
-            }
+/*            & .login-send {
+                background: $button-primary-bg;
+            }*/
             // Change background for all kind of form inputs.
             & input {
                 &.login-text,
