@@ -5,6 +5,7 @@ var gulp = require('gulp');
 var gulpAutoprefixer = require('gulp-autoprefixer');
 var gulpConcat = require('gulp-concat');
 var gulpCssMin = require('gulp-cssmin');
+var gulpDeleteLines = require('gulp-delete-lines');
 var gulpRename = require('gulp-rename');
 var gulpSass = require('gulp-sass');
 var nodeSass = require('node-sass');
@@ -53,6 +54,11 @@ gulp.task('compile:sass', () => {
     return gulp.src(paths.mainSass)
         .pipe(gulpSass().on('error', gulpSass.logError))
         .pipe(gulpAutoprefixer())
+        .pipe(gulpDeleteLines({
+            'filters': [
+                '\@charset \"UTF\-8\"\;'
+            ]
+        }))
         .pipe(gulp.dest(paths.cssDir));
 });
 

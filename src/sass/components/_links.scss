@@ -275,7 +275,7 @@ div.tlumaczenie {
     & > a.pokaz-tlumaczenie {
         color: $link-block-color;
         background: $link-block-bg;
-        padding: 5px 10px 5px 10px;
+        padding: 5px 10 5px 10;
         text-decoration: none;
 
         &:focus, &:hover {
@@ -286,7 +286,7 @@ div.tlumaczenie {
     }
 
     & > h2 + a.pokaz-tlumaczenie {
-        margin-left: 10px;
+        margin-left: 10;
         padding-right: 43px;
     }
 }

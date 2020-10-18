@@ -4,11 +4,11 @@
 input.search-send {
     background: transparent;
     border: 1px solid $border-dark-color;
-    width: 60px;
+    width: 60;
     height: 23px;
     padding: 0;
     position: absolute;
-    top: 0px;
+    top: 0;
     right: 23px;
     z-index: 60;
 }
@@ -32,26 +32,26 @@ fieldset.search {
 
 // Login containter
 div.left-column div.left-box-content fieldset.login {
-    margin: 10px 20px;
-    height: 30px;
+    margin: 10 20;
+    height: 30;
     // Login button
     & > .login-send {
         background: none;
         position: relative;
         margin-top: 0;
-        height: 0px;
-        width: 0px;
+        height: 0;
+        width: 0;
 
         &:after, &:hover:after, &:focus:after {
             color: $button-primary-color;
             background: $button-primary-bg;
             border: 1px solid $border-dark-color;
             display: block;
-            padding: 6px 20px;
+            padding: 6px 20;
             font-weight: bold;
             position: absolute;
-            top: 0px;
-            left: 0px;
+            top: 0;
+            left: 0;
             cursor: pointer;
             content: "Zaloguj";
         }
@@ -66,8 +66,8 @@ div.left-column div.left-box-content fieldset.login {
         background: none;
         position: relative;
         margin-top: 0;
-        height: 0px;
-        top: 0px;
+        height: 0;
+        top: 0;
 
         &:after, &:hover:after, &:focus:after {
             color: $button-info-color;
@@ -77,8 +77,8 @@ div.left-column div.left-box-content fieldset.login {
             padding: 6px 14px 6px 26px;
             font-weight: bold;
             position: absolute;
-            top: 0px;
-            right: 0px;
+            top: 0;
+            right: 0;
             cursor: pointer;
             content: "Zaloguj";
         }
@@ -125,7 +125,7 @@ input.addcomm-button[type=submit] {
         font-weight: bold;
         position: absolute;
         top: 9px;
-        right: 290px;
+        right: 290;
         z-index: 40;
         content: "Dodaj komentarz";
     }
@@ -137,7 +137,7 @@ td.pop_content .dialog_buttons input {
 }
 
 td.pop_content .dialog_buttons input:not(:first-of-type) {
-    margin-left: 10px;
+    margin-left: 10;
 }
 
 td.pop_content .dialog_buttons input {
@@ -188,7 +188,7 @@ td.pop_content .dialog_buttons input {
     color: $button-primary-color;
     background: $button-primary-bg;
     @include border($button-primary-border-width, $button-primary-border-style, $button-primary-border-color);
-    padding: 6px 20px;
+    padding: 6px 20;
     line-height: unset;
 
     &:hover, &:focus {
@@ -201,7 +201,7 @@ td.pop_content .dialog_buttons input {
     width: unset;
     height: unset;
     padding: 8px 38px;
-    margin: 12px 20px;
+    margin: 12px 20;
 }
 
 .btn-primary {
