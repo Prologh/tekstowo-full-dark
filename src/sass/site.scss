@@ -100,10 +100,6 @@
 
     fieldset {
         &.login {
-            // Change background for submit button.
-            /*            & .login-send {
-                background: $button-primary-bg;
-            }*/
             // Change background for all kind of form inputs.
             & input {
                 &.login-text,
