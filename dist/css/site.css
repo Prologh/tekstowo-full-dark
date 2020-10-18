@@ -572,46 +572,6 @@
     background: #1C1C1C;
     padding-left: 18px;
     position: relative;
-    /*// Add comment to song.
-    &.glo-komentuj {
-
-        &:before {
-            display: block;
-            color: $link-color;
-            font-size: 1.5em;
-            font-weight: bold;
-            position: absolute;
-            left: 2px;
-            content: '\21';
-        }
-
-        &:hover, &:focus {
-
-            &:before {
-                color: $link-hover-color;
-            }
-        }
-    }*/
-    /*// Share song lyrics.
-    &.glo-polec {
-
-        &:before {
-            display: block;
-            color: $link-color;
-            font-size: 1.5em;
-            font-weight: bold;
-            position: absolute;
-            left: 2px;
-            content: '\2709';
-        }
-
-        &:hover, &:focus {
-
-            &:before {
-                color: $link-hover-color;
-            }
-        }
-    }*/
   }
   .glosowanie .glo-links.glo-ulubione:before,
   .blue .glosowanie .glo-links.glo-ulubione:before {

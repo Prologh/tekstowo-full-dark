@@ -299,46 +299,6 @@ div.tlumaczenie > h2 + a.pokaz-tlumaczenie {
             }
         }
     }
-    /*// Add comment to song.
-    &.glo-komentuj {
-
-        &:before {
-            display: block;
-            color: $link-color;
-            font-size: 1.5em;
-            font-weight: bold;
-            position: absolute;
-            left: 2px;
-            content: '\21';
-        }
-
-        &:hover, &:focus {
-
-            &:before {
-                color: $link-hover-color;
-            }
-        }
-    }*/
-    /*// Share song lyrics.
-    &.glo-polec {
-
-        &:before {
-            display: block;
-            color: $link-color;
-            font-size: 1.5em;
-            font-weight: bold;
-            position: absolute;
-            left: 2px;
-            content: '\2709';
-        }
-
-        &:hover, &:focus {
-
-            &:before {
-                color: $link-hover-color;
-            }
-        }
-    }*/
     // Report error in song text.
     &.glo-zglos {
         padding-left: 14px;
