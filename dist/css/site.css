@@ -7,11 +7,11 @@
   input.search-send {
     background: transparent;
     border: 1px solid #333333;
-    width: 60;
+    width: 60px;
     height: 23px;
-    padding: 0;
+    padding: 0px;
     position: absolute;
-    top: 0;
+    top: 0px;
     right: 23px;
     z-index: 60;
   }
@@ -30,26 +30,26 @@
     content: "Szukaj";
   }
   div.left-column div.left-box-content fieldset.login {
-    margin: 10px 20;
-    height: 30;
+    margin: 10px 20px;
+    height: 30px;
   }
   div.left-column div.left-box-content fieldset.login > .login-send {
     background: none;
     position: relative;
-    margin-top: 0;
-    height: 0;
-    width: 0;
+    margin-top: 0px;
+    height: 0px;
+    width: 0px;
   }
   div.left-column div.left-box-content fieldset.login > .login-send:after, div.left-column div.left-box-content fieldset.login > .login-send:hover:after, div.left-column div.left-box-content fieldset.login > .login-send:focus:after {
     color: #e9e9e9;
     background: #62ae25;
     border: 1px solid #333333;
     display: block;
-    padding: 6px 20;
+    padding: 6px 20px;
     font-weight: bold;
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 0px;
+    left: 0px;
     cursor: pointer;
     content: "Zaloguj";
   }
@@ -60,9 +60,9 @@
   div.left-column div.left-box-content fieldset.login .fb-button {
     background: none;
     position: relative;
-    margin-top: 0;
-    height: 0;
-    top: 0;
+    margin-top: 0px;
+    height: 0px;
+    top: 0px;
   }
   div.left-column div.left-box-content fieldset.login .fb-button:after, div.left-column div.left-box-content fieldset.login .fb-button:hover:after, div.left-column div.left-box-content fieldset.login .fb-button:focus:after {
     color: #e9e9e9;
@@ -72,8 +72,8 @@
     padding: 6px 14px 6px 26px;
     font-weight: bold;
     position: absolute;
-    top: 0;
-    right: 0;
+    top: 0px;
+    right: 0px;
     cursor: pointer;
     content: "Zaloguj";
   }
@@ -96,7 +96,7 @@
     border: 1px solid #333333;
     width: 116px;
     height: 25px;
-    padding: 0;
+    padding: 0px;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
@@ -112,15 +112,15 @@
     font-weight: bold;
     position: absolute;
     top: 9px;
-    right: 290;
+    right: 290px;
     z-index: 40;
     content: "Dodaj komentarz";
   }
   td.pop_content .dialog_buttons input {
-    margin-left: 0;
+    margin-left: 0px;
   }
   td.pop_content .dialog_buttons input:not(:first-of-type) {
-    margin-left: 10;
+    margin-left: 10px;
   }
   td.pop_content .dialog_buttons input {
     color: #e9e9e9;
@@ -140,12 +140,12 @@
     border-width: 1px;
     border-style: solid;
     border-color: #666;
-    border-radius: 0;
+    border-radius: 0px;
     padding: 2px 12px;
   }
   .pokaz-rev.opened,
   .blue .pokaz-rev.opened {
-    border-radius: 0;
+    border-radius: 0px;
   }
   .pokaz-rev.opened .icon,
   .blue .pokaz-rev.opened .icon {
@@ -165,7 +165,7 @@
     color: #e9e9e9;
     background: #62ae25;
     border: 1px solid #666;
-    padding: 6px 20;
+    padding: 6px 20px;
     line-height: unset;
   }
   .green-button:hover, .green-button:focus,
@@ -178,12 +178,12 @@
     width: unset;
     height: unset;
     padding: 8px 38px;
-    margin: 12px 20;
+    margin: 12px 20px;
   }
   .btn-primary {
     background: #62ae25;
-    border-radius: 0;
-    border-width: 0;
+    border-radius: 0px;
+    border-width: 0px;
     transition: none;
   }
   .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
@@ -256,16 +256,16 @@
     width: 100%;
   }
   .search-box {
-    border-radius: 0;
+    border-radius: 0px;
   }
   div#bottom {
-    padding: 20px 0px 10;
+    padding: 20px 0px 10px;
   }
   .card {
     display: initial;
   }
   div.popularni {
-    margin-top: 10;
+    margin-top: 10px;
     height: 216px;
   }
   .box-big {
@@ -274,7 +274,7 @@
     padding: 5px 5px 5px 8px;
   }
   .teledysk-left, .teledysk-right {
-    padding: 0;
+    padding: 0px;
     height: 72px;
     border: none;
   }
@@ -291,7 +291,7 @@
   }
   .teledysk-right {
     width: 335px;
-    height: 40;
+    height: 40px;
     padding: 16px 15px;
   }
   .comm_show_more {
@@ -337,8 +337,8 @@
     color: #aaaaaa;
     background: #343434;
     border: none;
-    border-width: 0;
-    border-radius: 0;
+    border-width: 0px;
+    border-radius: 0px;
   }
   input[type="submit"]:enabled,
   input[type="button"]:enabled,
@@ -383,8 +383,8 @@
   .ranking-lista a.na-plus,
   .ranking-lista a.na-minus {
     top: 5px;
-    height: 20;
-    width: 20;
+    height: 20px;
+    width: 20px;
     background: #1C1C1C;
   }
   .ranking-lista a.na-plus:hover, .ranking-lista a.na-plus:focus,
@@ -401,7 +401,7 @@
   }
   .icon_pl:after {
     color: #c8c8c8;
-    line-height: 0;
+    line-height: 0px;
     text-transform: uppercase;
     top: 9px;
     left: 3px;
@@ -415,24 +415,24 @@
   .icon_kamera:before {
     background: #909090;
     width: 12px;
-    height: 10;
+    height: 10px;
     border-radius: 2px;
     top: 4px;
     left: 1.5px;
   }
   .icon_kamera:after {
     border-style: solid;
-    border-width: 4px 5px 4px 0;
+    border-width: 4px 5px 4px 0px;
     border-color: transparent;
     border-right-color: #909090;
     top: 5px;
     left: 12px;
   }
   body div#contener div#center > div.left-column > div:nth-child(6) > h3.marginb10.margint5 > img {
-    width: 0;
-    height: 0;
+    width: 0px;
+    height: 0px;
     margin: 0px 4px;
-    vertical-align: 0;
+    vertical-align: 0px;
   }
   body div#contener div#center > div.left-column > div:nth-child(6) > h3.marginb10.margint5:before {
     content: "5";
@@ -440,27 +440,27 @@
     left: 43px;
   }
   a#art_box_left {
-    width: 0;
-    height: 0;
+    width: 0px;
+    height: 0px;
     background: transparent;
     border-top: 20px solid transparent;
     border-bottom: 20px solid transparent;
     border-right: 27px solid #2b2b2b;
     top: 71px;
-    left: 10;
+    left: 10px;
   }
   a#art_box_left:hover, a#art_box_left:focus {
     border-right: 27px solid #3b3b3b;
   }
   a#art_box_right {
-    width: 0;
-    height: 0;
+    width: 0px;
+    height: 0px;
     background: transparent;
     border-top: 20px solid transparent;
     border-bottom: 20px solid transparent;
     border-left: 27px solid #2b2b2b;
     top: 71px;
-    right: 10;
+    right: 10px;
   }
   a#art_box_right:hover, a#art_box_right:focus {
     border-left: 27px solid #3b3b3b;
@@ -475,7 +475,7 @@
     position: absolute;
   }
   .drukuj:before {
-    right: 10;
+    right: 10px;
     width: 8px;
     height: 12px;
     border: 1.5px solid #a4a4a4;
@@ -507,7 +507,7 @@
     font-weight: 100;
     letter-spacing: 2px;
     position: absolute;
-    right: 10;
+    right: 10px;
     top: 5px;
     content: 'A某';
   }
@@ -537,8 +537,8 @@
     left: 25.5px;
     width: 14px;
     height: 14px;
-    border-width: 0px 1px 1px 0;
-    border-radius: 0px 0px 2px 0;
+    border-width: 0px 1px 1px 0px;
+    border-radius: 0px 0px 2px 0px;
     border-style: solid;
     border-color: #1C1C1C;
     transform: rotate(45deg);
@@ -621,7 +621,7 @@
   .fb-box {
     background-color: #272727;
     border: none;
-    border-radius: 0;
+    border-radius: 0px;
     color: unset;
   }
   .fb-panel {
@@ -661,7 +661,7 @@
   }
   /* Rules that affect labels */
   fieldset > label.big-text[for=s-autor] {
-    margin: 0px 10px 0px 0;
+    margin: 0px 10px 0px 0px;
   }
   label,
   fieldset.search label.mini {
@@ -734,7 +734,7 @@
     height: initial;
     width: initial;
     padding: 8.63px 6px;
-    margin-top: 0;
+    margin-top: 0px;
   }
   .dodaj-soundtrack:hover, .dodaj-soundtrack:focus,
   .dodaj-tekst:hover,
@@ -745,7 +745,7 @@
     background: #272727;
   }
   .big-buttons a {
-    border-width: 0;
+    border-width: 0px;
     border: none;
     color: #a4a4a4;
     background: #1C1C1C;
@@ -761,7 +761,7 @@
     text-align: center;
   }
   body div#contener div#center > div.right-column > div.box-lista > div.box-content {
-    margin-bottom: 0;
+    margin-bottom: 0px;
   }
   body div#contener div#center > div.right-column > div.box-lista > div.box-content a.bold.text-right.block {
     background: #131313;
@@ -773,7 +773,7 @@
     top: 46px;
   }
   div#art_box_move.to-move > div#art_box a.popularny {
-    margin: 0;
+    margin: 0px;
     padding: 7px;
     width: 76px;
     height: 135px;
@@ -827,7 +827,7 @@
   }
   ul.login li a, .blue ul.login li a {
     padding: 2.5px 14px 2.5px 24px;
-    margin-bottom: 0;
+    margin-bottom: 0px;
     display: block;
     width: initial;
   }
@@ -852,7 +852,7 @@
   }
   ul.arrows > li {
     list-style: none;
-    margin: 0;
+    margin: 0px;
   }
   ul.arrows > li a,
   ul.arrows > li a.green,
@@ -872,12 +872,12 @@
   }
   .top5 {
     width: 100%;
-    margin: 3px 0;
-    padding: 0;
+    margin: 3px 0px;
+    padding: 0px;
   }
   .top5 img {
     border: 1px solid #CCC;
-    padding: 0;
+    padding: 0px;
   }
   .top5 span {
     color: #74be2f;
@@ -899,7 +899,7 @@
   div.tlumaczenie > a.pokaz-tlumaczenie {
     color: #a4a4a4;
     background: #1C1C1C;
-    padding: 5px 10px 5px 10;
+    padding: 5px 10px 5px 10px;
     text-decoration: none;
   }
   div.tlumaczenie > a.pokaz-tlumaczenie:focus, div.tlumaczenie > a.pokaz-tlumaczenie:hover {
@@ -908,7 +908,7 @@
     text-decoration: none;
   }
   div.tlumaczenie > h2 + a.pokaz-tlumaczenie {
-    margin-left: 10;
+    margin-left: 10px;
     padding-right: 43px;
   }
   .belka .link-wykonawca {
@@ -920,8 +920,8 @@
   /* Rules that affect site logo */
   body > div#contener > div.top-top > a:before {
     position: absolute;
-    top: 10;
-    left: 20;
+    top: 10px;
+    left: 20px;
     color: #74be2f;
     font-size: 42px;
     content: "tekstowo.pl";
@@ -983,21 +983,21 @@
   .login_box .l-box {
     background: #272727;
     border: none;
-    border-radius: 0;
-    width: 170;
-    height: 150;
+    border-radius: 0px;
+    width: 170px;
+    height: 150px;
     overflow: hidden;
   }
   .login_box .fb-box {
-    width: 140;
-    height: 150;
+    width: 140px;
+    height: 150px;
     overflow: hidden;
   }
   #pop_content #yt-close {
     color: #74be2f;
     background: #1C1C1C;
-    margin: 0;
-    padding: 0px 6px 0px 0;
+    margin: 0px;
+    padding: 0px 6px 0px 0px;
   }
   /* Rules that affect site navbar */
   ul.topmenu,
@@ -1046,7 +1046,7 @@
     background: #74be2f !important;
   }
   body > div#contener div#center div.right-corner {
-    padding: 0;
+    padding: 0px;
     background: #131313;
     font-size: .9em;
     font-weight: initial;
@@ -1059,8 +1059,8 @@
     background: rgba(0, 0, 0, 0.7);
   }
   body::-webkit-scrollbar {
-    width: 10;
-    height: 10;
+    width: 10px;
+    height: 10px;
     background-color: #131313;
   }
   body::-webkit-scrollbar-thumb {
@@ -1073,8 +1073,8 @@
     background-color: #1d1d1d;
   }
   input::-webkit-scrollbar, textarea::-webkit-scrollbar, .user-info .opis p.ramka::-webkit-scrollbar {
-    width: 10;
-    height: 10;
+    width: 10px;
+    height: 10px;
     background-color: #343434;
   }
   input::-webkit-scrollbar-thumb, textarea::-webkit-scrollbar-thumb, .user-info .opis p.ramka::-webkit-scrollbar-thumb {
@@ -1211,7 +1211,7 @@
     color: #62ae25;
   }
   .blue-box fieldset.search {
-    margin-top: 10;
+    margin-top: 10px;
   }
   .long-long {
     border: 1px solid #E5E5E5;
@@ -1225,7 +1225,7 @@
   fieldset .komunikat {
     background: #272727;
     margin-bottom: 1.5em;
-    padding: 1em 0;
+    padding: 1em 0px;
     text-align: center;
   }
   fieldset .komunikat > .odstep {
@@ -1292,7 +1292,7 @@
     top: 0;
   }
   .box-top .box-top-right {
-    right: 0;
+    right: 0px;
     background: #1C1C1C;
   }
   .box-top h2 {
@@ -1300,11 +1300,11 @@
   }
   .box-home .box-top h2 {
     font-size: 1.4em;
-    padding-top: 10;
+    padding-top: 10px;
     height: 28px;
   }
   .box-home .box-top h2.h2-nowe-teledyski {
-    padding-left: 60;
+    padding-left: 60px;
   }
   .h2-lista {
     background: #1C1C1C;
@@ -1318,7 +1318,7 @@
   .box-content {
     background-color: #1c1c1c;
     border: none;
-    border-top: 0;
+    border-top: 0px;
     margin-bottom: 5px;
   }
   .adv-top {
@@ -1331,7 +1331,7 @@
     display: table;
     float: left;
     width: 336px !important;
-    height: 280;
+    height: 280px;
     text-align: center !important;
     line-height: 0;
   }
@@ -1343,7 +1343,7 @@
   }
   .adv-bottom {
     float: right;
-    margin: 5px 40px 0px 0;
+    margin: 5px 40px 0px 0px;
     display: inline;
   }
   .box-lista {
@@ -1353,47 +1353,47 @@
   .box-home {
     width: 352px;
     float: left;
-    margin-right: 10;
+    margin-right: 10px;
   }
   .box-home.box-teksty {
     width: 336px;
     margin-right: 13px;
   }
   .box-home.box-teksty .box-przeboje {
-    width: 300;
+    width: 300px;
   }
   .box-home.box-teledyski .box-przeboje {
-    width: 320;
+    width: 320px;
   }
   .box-home.box-teksty .box-przeboje a.title {
-    width: 230;
+    width: 230px;
   }
   .box-home.box-teledyski .box-przeboje a.title {
-    width: 250;
+    width: 250px;
   }
   .box-home.box-teledyski {
-    margin-right: 0;
+    margin-right: 0px;
     width: 365px;
   }
   .box-przeboje b {
     font-size: 1.4em;
     font-weight: bold;
     display: inline-block;
-    line-height: 40;
-    margin-right: 10;
+    line-height: 40px;
+    margin-right: 10px;
     vertical-align: -1px;
   }
   .box-przeboje a.title, .box-przeboje span.title {
     vertical-align: middle;
     display: inline-block;
-    margin-right: 10;
-    width: 200;
+    margin-right: 10px;
+    width: 200px;
   }
   .box-tracks .box-przeboje a.title, .box-tracks .box-przeboje span.title {
     width: 245px;
   }
   .box-przeboje span.title {
-    width: 190;
+    width: 190px;
   }
   .box-utwory .box-przeboje {
     width: 239px;
@@ -1461,26 +1461,26 @@
     right: 36px;
   }
   .cancel .icon_pl {
-    right: 60;
+    right: 60px;
   }
   .add-info .adds {
     position: absolute;
-    width: 120;
-    top: 10;
+    width: 120px;
+    top: 10px;
     right: 32px;
   }
   .add-info .icon_kamera {
-    right: 160;
+    right: 160px;
   }
   .add-info .icon_pl {
     right: 182px;
   }
   .popularni {
     width: 714px;
-    height: 230;
+    height: 230px;
     float: left;
     background: #1C1C1C;
-    margin-top: 20;
+    margin-top: 20px;
     position: relative;
   }
   .popularni h2 {
@@ -1495,7 +1495,7 @@
     background: #1C1C1C;
     display: block;
     position: absolute;
-    top: 60;
+    top: 60px;
     left: 4px;
   }
   .to-right {
@@ -1504,14 +1504,14 @@
     background: #1C1C1C;
     display: block;
     position: absolute;
-    top: 60;
+    top: 60px;
     right: 4px;
   }
   #art_box {
-    width: 1800;
+    width: 1800px;
   }
   .to-move {
-    width: 630;
+    width: 630px;
     position: absolute;
     top: 55px;
     left: 43px;
@@ -1553,9 +1553,9 @@
     height: 38px;
   }
   .belka.users {
-    width: 160;
+    width: 160px;
     float: right;
-    margin-bottom: 10;
+    margin-bottom: 10px;
   }
   .belka.users strong {
     width: auto;
@@ -1573,7 +1573,7 @@
     font-size: 0.848em;
   }
   .soundtrack.belka strong, .soundtrack.belka .strong {
-    width: 550;
+    width: 550px;
   }
   .belka strong .sup, .belka .strong .sup {
     font-size: 0.545em;
@@ -1587,13 +1587,13 @@
     margin-top: 5px;
   }
   .content.belka strong, .content.belka .strong {
-    width: 320;
+    width: 320px;
   }
   .belka .odslon {
     color: #909090;
     line-height: 58px;
     display: inline-block;
-    margin: 0px 10;
+    margin: 0px 10px;
     float: left;
   }
   .belka.short .odslon {
@@ -1603,7 +1603,7 @@
     float: right;
   }
   .belka.short .link-wykonawca {
-    margin-top: 10;
+    margin-top: 10px;
   }
   .belka-left, .belka-right {
     width: 4px;
@@ -1615,19 +1615,19 @@
     height: 38px;
   }
   .belka-left {
-    left: 0;
+    left: 0px;
     background: #1C1C1C;
   }
   .belka-right {
-    right: 0;
+    right: 0px;
     background: #1C1C1C;
   }
   .blue .belka-left {
-    left: 0;
+    left: 0px;
     background: #1C1C1C;
   }
   .blue .belka-right {
-    right: 0;
+    right: 0px;
     background: #1C1C1C;
   }
   .teledysk {
@@ -1639,7 +1639,7 @@
   }
   .teledysk .no-teledisc {
     width: 365px;
-    height: 280;
+    height: 280px;
     background: #1C1C1C;
   }
   .zdjecie {
@@ -1652,28 +1652,28 @@
     background: #1C1C1C;
   }
   .cover {
-    width: 300;
+    width: 300px;
     text-align: center;
   }
   .cover img {
-    max-width: 300;
-    max-height: 300;
+    max-width: 300px;
+    max-height: 300px;
   }
   #uploadImage {
     float: right;
-    width: 200;
+    width: 200px;
   }
   #uploadImage_form {
-    width: 300;
+    width: 300px;
     float: left;
-    margin-bottom: 20;
+    margin-bottom: 20px;
   }
   #uploadImage_progresscont {
     border-radius: 3px;
-    margin: 0;
+    margin: 0px;
     border: 1px solid #E6E6E6;
     padding: 3px;
-    width: 100;
+    width: 100px;
     float: right;
     display: none;
   }
@@ -1689,14 +1689,14 @@
   }
   .teledysk a {
     width: 225px;
-    height: 50;
+    height: 50px;
     display: inline-block;
     background: #1C1C1C;
-    line-height: 50;
+    line-height: 50px;
     font-size: 2em;
     color: #fff;
     padding-left: 25px;
-    top: 200;
+    top: 200px;
     left: 59px;
     position: absolute;
     letter-spacing: 1px;
@@ -1706,8 +1706,8 @@
     position: static;
     width: inherit;
     height: inherit;
-    left: 0;
-    top: 0;
+    left: 0px;
+    top: 0px;
     display: inline;
     padding: 0;
   }
@@ -1718,13 +1718,13 @@
     width: auto;
     background: transparent;
     color: inherit;
-    padding-left: 0;
+    padding-left: 0px;
     font-weight: bold;
     font-size: 1.3em;
   }
   .teledysk strong {
-    top: 20;
-    left: 90;
+    top: 20px;
+    left: 90px;
     position: absolute;
     color: #69b529;
     font-size: 2.4em;
@@ -1737,7 +1737,7 @@
     line-height: 32px;
   }
   #soundtrack-page .teledysk-left .box-przeboje.no-bg {
-    padding: 3px 10px 0px 10;
+    padding: 3px 10px 0px 10px;
   }
   .teledysk-left .box-przeboje a, .nick_link {
     color: #858585;
@@ -1765,8 +1765,8 @@
     width: 365px;
     height: 4px;
     background: #1C1C1C;
-    font-size: 0;
-    line-height: 0;
+    font-size: 0px;
+    line-height: 0px;
     float: right;
   }
   .teledysk-right-bottom {
@@ -1774,7 +1774,7 @@
   }
   .teledysk-right .social {
     text-align: right;
-    width: 290;
+    width: 290px;
     display: inline-block;
     position: relative;
     height: 17px;
@@ -1785,7 +1785,7 @@
     height: 24px;
     margin-left: 5px;
     vertical-align: middle;
-    text-indent: -20000;
+    text-indent: -20000px;
   }
   .social .link-gg {
     right: 192px;
@@ -1794,14 +1794,14 @@
   .emb {
     background-color: #f4f4f4;
     width: 232px;
-    margin-left: 10;
+    margin-left: 10px;
     vertical-align: middle;
     border: 1px solid #bfbfbf;
     font-size: 1em;
     padding: 2px 5px;
   }
   .teledysk-right fieldset {
-    margin-top: 10;
+    margin-top: 10px;
   }
   .glosowanie span {
     font-size: 1.3em;
@@ -1813,7 +1813,7 @@
     width: 714px;
     font-weight: bold;
     text-align: center;
-    line-height: 30;
+    line-height: 30px;
     border: 1px solid #ccc;
     font-size: 1.2em;
   }
@@ -1833,15 +1833,15 @@
     top: 0;
   }
   .glosowanie-error-left {
-    left: 0;
+    left: 0px;
     background: #1C1C1C;
   }
   .glosowanie-error-right {
-    right: 0;
+    right: 0px;
     background: #1C1C1C;
   }
   .tekst {
-    margin: 15px 0px 15px 10;
+    margin: 15px 0px 15px 10px;
     line-height: 1.2em;
   }
   .song-text {
@@ -1855,10 +1855,10 @@
     font-family: Tahoma;
   }
   .tlumaczenie b {
-    margin-top: 10;
+    margin-top: 10px;
   }
   .revisions {
-    padding: 7px 0;
+    padding: 7px 0px;
     max-width: 355px;
   }
   .revisions .entry {
@@ -1910,19 +1910,19 @@
     color: #909090;
   }
   .komentarz .desc {
-    width: 620;
+    width: 620px;
     float: right;
-    padding: 3px 10;
+    padding: 3px 10px;
   }
   .komentarz .discussion {
-    margin-left: 20;
+    margin-left: 20px;
   }
   .komentarz .discussion .bar, .komentarz .discussion .desc {
-    width: 600;
+    width: 600px;
   }
   .komentarz .discussion p {
-    margin-left: 20;
-    width: 600;
+    margin-left: 20px;
+    width: 600px;
   }
   .komentarz .desc .deleted {
     font-style: italic;
@@ -1937,7 +1937,7 @@
     margin-top: 3px;
   }
   .komentarz p {
-    width: 620;
+    width: 620px;
     float: right;
     line-height: 1.2em;
     margin: 10px 5px 5px;
@@ -1947,9 +1947,9 @@
     filter: none;
   }
   .reklama-komentarz img.avatar {
-    border: 0;
-    padding: 0;
-    margin-left: 10;
+    border: 0px;
+    padding: 0px;
+    margin-left: 10px;
   }
   .reklama-komentarz .bar strong {
     color: #970000;
@@ -1977,13 +1977,13 @@
     line-height: 1.3em;
     font-size: 1.1em;
     text-align: justify;
-    margin: 5px 0;
+    margin: 5px 0px;
   }
   .content .static ol {
     line-height: 1.3em;
     font-size: 1.1em;
     text-align: justify;
-    margin: 5px 0px 5px 20;
+    margin: 5px 0px 5px 20px;
   }
   .content .error {
     color: #970000;
@@ -2002,7 +2002,7 @@
     color: #970000;
     display: block;
     clear: both;
-    margin-left: 90;
+    margin-left: 90px;
     margin-bottom: 5px;
   }
   .content-belka, .content-belka-long {
@@ -2037,14 +2037,14 @@
   }
   #gsearch .gsc-cursor-current-page {
     background: none !important;
-    color: #970000px !important;
+    color: #970000 !important;
     padding: 0px 5px !important;
   }
   .box-big-top, .box-big-bottom {
     width: 531px;
     height: 4px;
     background: #1C1C1C;
-    font-size: 0;
+    font-size: 0px;
     line-height: 0;
   }
   .box-big-bottom {
@@ -2094,7 +2094,7 @@
   }
   .add-navigation {
     text-align: center;
-    margin: 0px 0px 20;
+    margin: 0px 0px 20px;
     white-space: nowrap;
   }
   .add-navigation a {
@@ -2109,7 +2109,7 @@
     text-decoration: none;
   }
   .user-info .opis {
-    width: 350;
+    width: 350px;
     float: right;
   }
   .user-info img.avatar {
@@ -2136,15 +2136,15 @@
   }
   .user-profile .add-info .adds {
     position: absolute;
-    width: 120;
-    top: 10;
+    width: 120px;
+    top: 10px;
     right: 0;
   }
   .user-profile .add-info .icon_kamera {
     right: 128px;
   }
   .user-profile .add-info .icon_pl {
-    right: 150;
+    right: 150px;
   }
   .zakladka {
     display: inline-block;
@@ -2153,9 +2153,9 @@
     line-height: 38px;
     font-size: 1.5em;
     font-weight: bold;
-    padding-left: 10;
+    padding-left: 10px;
     border: 1px solid #333333;
-    border-right: 0;
+    border-right: 0px;
     background: #1C1C1C;
   }
   .zakladka.zakladka-long {
@@ -2165,7 +2165,7 @@
     border-right: 1px solid #333333;
   }
   .zakladka-active {
-    border-bottom: 0;
+    border-bottom: 0px;
     line-height: 38px;
     height: 38px;
     background: none !important;
@@ -2173,11 +2173,11 @@
   }
   .zakladka-info {
     border: 1px solid #e5e5e5;
-    padding: 15px 20;
-    margin-bottom: 20;
+    padding: 15px 20px;
+    margin-bottom: 20px;
     line-height: 1.5em;
-    border-top: 0;
-    height: 140;
+    border-top: 0px;
+    height: 140px;
     overflow: auto;
   }
   .zakladka-wypelnienie {
@@ -2210,7 +2210,7 @@
     margin-right: 72px;
   }
   .zakladki-ranking {
-    margin: 20px 0;
+    margin: 20px 0px;
     font-size: .9em;
   }
   .blue .zakladki-ranking a {
@@ -2221,7 +2221,7 @@
   }
   .zakladki-ranking a {
     text-align: center;
-    padding: 0;
+    padding: 0px;
     width: 175px;
     color: #999;
   }
@@ -2232,12 +2232,12 @@
     color: #62ae25;
   }
   .zakladki-uzytkownicy {
-    margin: 20px 0;
+    margin: 20px 0px;
     font-size: .9em;
   }
   .zakladki-uzytkownicy a {
     text-align: center;
-    padding: 0;
+    padding: 0px;
     width: 131px;
     color: #999;
   }
@@ -2246,7 +2246,7 @@
   }
   .wykonawca-linki {
     border: 1px solid #e5e5e5;
-    padding: 5px 10;
+    padding: 5px 10px;
     height: 21px;
   }
   .wykonawca-linki .glo-fan {
@@ -2256,7 +2256,7 @@
     background: #1C1C1C;
   }
   .wykonawca-linki .glo-edytuj {
-    padding-left: 30;
+    padding-left: 30px;
     background: #1C1C1C;
   }
   .wykonawca-linki .glo-zglos {
@@ -2264,29 +2264,29 @@
     background: #1C1C1C;
   }
   .edycja .formRow {
-    margin: 5px 0;
+    margin: 5px 0px;
   }
   .edycja a.close {
-    margin: 0px 10;
+    margin: 0px 10px;
   }
   .edycja .formRow.action {
     text-align: right;
-    margin: 10;
+    margin: 10px;
   }
   .edycja .formRow.info {
-    margin: 10;
-    padding: 10;
+    margin: 10px;
+    padding: 10px;
     width: auto;
     font-size: 12px;
   }
   .edycja .formRow.info ol {
-    margin: 10px 20;
+    margin: 10px 20px;
   }
   .edycja .formRow.box {
     position: relative;
     border: 1px solid #ccc;
-    margin: 10;
-    padding: 10;
+    margin: 10px;
+    padding: 10px;
     border-radius: 3px;
     background-color: #CEE7FF;
     overflow: hidden;
@@ -2302,8 +2302,8 @@
     z-index: 99;
   }
   .edycja .formRow.box.hidden {
-    margin: 0;
-    border: 0;
+    margin: 0px;
+    border: 0px;
     padding: 0;
   }
   .edycja .formRow.box h2 {
@@ -2313,17 +2313,17 @@
     color: #255EAE;
   }
   .box #ytSearchResultdiv h2 {
-    margin-bottom: 10;
+    margin-bottom: 10px;
   }
   .center {
     text-align: center;
   }
   .edycja .textarea-big {
-    width: 510;
-    height: 150;
+    width: 510px;
+    height: 150px;
   }
   .edycja .textarea-big.big2 {
-    height: 350;
+    height: 350px;
   }
   .usun, .dodaj, .szukajacy {
     color: #74be2f;
@@ -2518,7 +2518,7 @@
     border-radius: 3px;
     background: #ff9900;
     background: #1C1C1C;
-    background: linear-gradient(to bottom, #ff9900px 0%, #ff6600px 100%);
+    background: linear-gradient(to bottom, #ff9900 px 0%, #ff6600 px 100%);
   }
   .grey-gradient {
     background: #ffffff;
@@ -2543,7 +2543,7 @@
   .orange-gradient {
     background: #ff9900;
     background: #1C1C1C;
-    background: linear-gradient(to bottom, #ff9900px 0%, #ff6600px 100%);
+    background: linear-gradient(to bottom, #ff9900 px 0%, #ff6600 px 100%);
   }
   .info-box {
     border: 1px solid #CCCCCC;
