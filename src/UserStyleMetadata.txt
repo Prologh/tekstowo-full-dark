@@ -1,4 +1,4 @@
-/* ==UserScript==
+/* ==UserStyle==
 
 @name			Tekstowo - Full Dark
 @namespace		github.com/Prologh/tekstowo-full-dark
@@ -12,4 +12,4 @@
 @version		1.0.0
 @license		MIT
 
-==/UserScript== */
+==/UserStyle== */

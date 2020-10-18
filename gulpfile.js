@@ -15,7 +15,7 @@ gulpSass.compiler = nodeSass;
 const themeName = 'tekstowo-full-dark';
 const mainCssFileName = 'site';
 const mainSassFileName = 'site';
-const metadataFileName = 'UserScriptMetadata.txt';
+const metadataFileName = 'UserStyleMetadata.txt';
 const userStyleFileName = themeName + '.user.styl';
 
 var paths = {
@@ -96,7 +96,7 @@ gulp.task('watch:sass', () => {
     return gulp.watch(paths.sassFiles, gulp.series(['compile', 'minify', 'build']));
 });
 
-// Watch user script metadata file
+// Watch user style metadata file
 gulp.task('watch:metadata', () => {
     return gulp.watch(paths.metadataFile, gulp.series('build'));
 });
