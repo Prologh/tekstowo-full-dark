@@ -101,7 +101,7 @@
     fieldset {
         &.login {
             // Change background for submit button.
-/*            & .login-send {
+            /*            & .login-send {
                 background: $button-primary-bg;
             }*/
             // Change background for all kind of form inputs.
@@ -1005,7 +1005,7 @@
 
     .komentarz-ukryj img.avatar, .komentarz-ukryj .bar, .op3 {
         opacity: 0.3;
-        filter: alpha(opacity=30)
+        filter: none;
     }
 
     .reklama-komentarz img.avatar {
@@ -1156,12 +1156,12 @@
 
     .wykonawca a {
         opacity: 0.6;
-        filter: alpha(opacity=60);
+        filter: none;
     }
 
     .wykonawca a:hover {
         opacity: 1;
-        filter: alpha(opacity=100);
+        filter: none;
     }
 
     .wykonawca strong {
@@ -1183,7 +1183,7 @@
         color: #ff8d00;
         text-decoration: underline;
         opacity: 1;
-        filter: alpha(opacity=100);
+        filter: none;
     }
 
     .add-navigation {

@@ -2040,7 +2040,7 @@ a.zaproponuj-utwor {
   }
   .komentarz-ukryj img.avatar, .komentarz-ukryj .bar, .op3 {
     opacity: 0.3;
-    filter: alpha(opacity=30);
+    filter: none;
   }
   .reklama-komentarz img.avatar {
     border: 0;
@@ -2163,11 +2163,11 @@ a.zaproponuj-utwor {
   }
   .wykonawca a {
     opacity: 0.6;
-    filter: alpha(opacity=60);
+    filter: none;
   }
   .wykonawca a:hover {
     opacity: 1;
-    filter: alpha(opacity=100);
+    filter: none;
   }
   .wykonawca strong {
     color: #62ae25;
@@ -2186,7 +2186,7 @@ a.zaproponuj-utwor {
     color: #ff8d00;
     text-decoration: underline;
     opacity: 1;
-    filter: alpha(opacity=100);
+    filter: none;
   }
   .add-navigation {
     text-align: center;
