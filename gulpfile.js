@@ -52,7 +52,7 @@ gulp.task('clean', gulp.series(['clean:dist']));
 // Compile sass files to css
 gulp.task('compile:sass', () => {
     return gulp.src(paths.mainSass)
-        .pipe(gulpSass().on('error', gulpSass.logError))
+        .pipe(gulpSass({ outputStyle: 'expanded' }).on('error', gulpSass.logError))
         .pipe(gulpAutoprefixer())
         .pipe(gulpDeleteLines({
             'filters': [
