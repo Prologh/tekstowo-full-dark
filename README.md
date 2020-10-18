@@ -18,7 +18,7 @@ Bootstrap alike, based on few colors (see [_variables.scss](https://github.com/P
 
 Download now the latest release from [userstyles.org](https://userstyles.org/styles/157867/tekstowo-full-dark) or install it directly from `.styl` file:
 
-[![Install with Stylus](https://img.shields.io/badge/install%20with%20stylus-stylus-green.svg)](https://github.com/Prologh/tekstowo-full-dark/raw/master/dist/tekstowo-full-dark.user.styl)
+[![Install with Stylus](https://img.shields.io/badge/Install%20with%20-Stylus-green.svg)](https://github.com/Prologh/tekstowo-full-dark/raw/master/dist/tekstowo-full-dark.user.styl)
 
 ## License
 
