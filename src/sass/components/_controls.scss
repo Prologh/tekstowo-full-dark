@@ -2,7 +2,7 @@
 
 textarea, textarea.textarea-comm {
     border: 1px solid $border-base-color;
-    min-height: 80 !important;
+    min-height: 80px !important;
     height: auto;
     resize: vertical;
 }
@@ -19,8 +19,8 @@ textarea.textarea-comm {
     color: $input-base-color;
     background: $input-base-bg;
     border: none;
-    border-width: 0;
-    border-radius: 0;
+    border-width: 0px;
+    border-radius: 0px;
 }
 
 input[type="submit"]:enabled,

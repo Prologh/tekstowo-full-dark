@@ -1,8 +1,8 @@
 ﻿body {
 
     &::-webkit-scrollbar {
-        width: 10;
-        height: 10;
+        width: 10px;
+        height: 10px;
         background-color: $scrollbar-body-bg;
     }
 
@@ -23,8 +23,8 @@
 input, textarea, .user-info .opis p.ramka {
 
     &::-webkit-scrollbar {
-        width: 10;
-        height: 10;
+        width: 10px;
+        height: 10px;
         background-color: $scrollbar-control-bg;
     }
 

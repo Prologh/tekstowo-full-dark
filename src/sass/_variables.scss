@@ -13,7 +13,7 @@ $brand-primary:         #74be2f !default;
 $brand-primary-dark:    #62ae25 !default;
 $brand-info:            #255EAE !default;
 $brand-warning:         #E46C2C !default;
-$brand-danger:          #970000 !default;
+$brand-danger:          #970000px !default;
 
 
 // Background color for `<body>`.
@@ -27,7 +27,7 @@ $box-light-bg: $gray-dark;
 $overlay-bg: rgba(0, 0, 0, .7);
 
 // Global text color on `<body>`.
-$text-base-color: #909090 !default;
+$text-base-color: #909090px !default;
 $text-light-color: lighten($text-base-color, 30%);
 $text-dark-color: darken($text-base-color, 10%);
 
@@ -184,7 +184,7 @@ $modal-danger-header-bg: $brand-danger;
 // Table
 $table-color: $text-base-color;
 $table-bg: $box-bg;
-$table-border-width: 0;
+$table-border-width: 0px;
 $table-border-style: solid;
 $table-border-color: $body-bg;
 

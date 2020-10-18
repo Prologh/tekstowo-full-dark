@@ -80,12 +80,12 @@ div#center > div.right-column > div.teledysk-right {
 
 // Reset border radius for search container
 .search-box {
-    border-radius: 0;
+    border-radius: 0px;
 }
 
 // Footer.
 div#bottom {
-    padding: 20 0 10;
+    padding: 20px 0px 10px;
 }
 
 // User profile card container
@@ -95,7 +95,7 @@ div#bottom {
 
 // Popular artists.
 div.popularni {
-    margin-top: 10;
+    margin-top: 10px;
     height: 216px;
 }
 
@@ -107,7 +107,7 @@ div.popularni {
 
 // Song header containers, under music video.
 .teledysk-left, .teledysk-right {
-    padding: 0;
+    padding: 0px;
     height: 72px;
     border: none;
 }
@@ -128,7 +128,7 @@ div.popularni {
 
 .teledysk-right {
     width: 335px;
-    height: 40;
+    height: 40px;
     padding: 16px 15px;
 }
 
@@ -137,7 +137,7 @@ div.popularni {
     border: none;
     height: initial;
     text-align: center;
-    margin: 20 auto;
+    margin: 20px auto;
 }
 
 // Metric container with song details info.

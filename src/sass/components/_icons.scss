@@ -52,8 +52,8 @@ a.na-minus {
     a.na-plus,
     a.na-minus {
         top: 5px;
-        height: 20;
-        width: 20;
+        height: 20px;
+        width: 20px;
         background: $box-bg;
 
         &:hover, &:focus {
@@ -74,7 +74,7 @@ a.na-minus {
 
     &:after {
         color: darken($text-light-color, 8%);
-        line-height: 0;
+        line-height: 0px;
         text-transform: uppercase;
         top: 9px;
         left: 3px;
@@ -95,7 +95,7 @@ a.na-minus {
     &:before {
         background: $text-base-color;
         width: 12px;
-        height: 10;
+        height: 10px;
         border-radius: 2px;
         top: 4px;
         left: 1.5px;
@@ -103,7 +103,7 @@ a.na-minus {
 
     &:after {
         border-style: solid;
-        border-width: 4px 5px 4px 0;
+        border-width: 4px 5px 4px 0px;
         border-color: transparent;
         border-right-color: $text-base-color;
         top: 5px;
@@ -114,10 +114,10 @@ a.na-minus {
 // Top 5 icon
 body div#contener div#center > div.left-column > div:nth-child(6) > h3.marginb10.margint5 {
     & > img {
-        width: 0;
-        height: 0;
-        margin: 0 4px;
-        vertical-align: 0;
+        width: 0px;
+        height: 0px;
+        margin: 0px 4px;
+        vertical-align: 0px;
     }
 
     &:before {
@@ -129,14 +129,14 @@ body div#contener div#center > div.left-column > div:nth-child(6) > h3.marginb10
 
 // Popular artists to left arrow.
 a#art_box_left {
-    width: 0;
-    height: 0;
+    width: 0px;
+    height: 0px;
     background: transparent;
-    border-top: 20 solid transparent;
-    border-bottom: 20 solid transparent;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
     border-right: 27px solid lighten($link-block-bg, 6%);
     top: 71px;
-    left: 10;
+    left: 10px;
 
     &:hover, &:focus {
         border-right: 27px solid lighten($link-block-bg, 12%);
@@ -145,14 +145,14 @@ a#art_box_left {
 
 // Popular artists to right arrow.
 a#art_box_right {
-    width: 0;
-    height: 0;
+    width: 0px;
+    height: 0px;
     background: transparent;
-    border-top: 20 solid transparent;
-    border-bottom: 20 solid transparent;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
     border-left: 27px solid lighten($link-block-bg, 6%);
     top: 71px;
-    right: 10;
+    right: 10px;
 
     &:hover, &:focus {
         border-left: 27px solid lighten($link-block-bg, 12%);
@@ -171,7 +171,7 @@ a#art_box_right {
     }
 
     &:before {
-        right: 10;
+        right: 10px;
         width: 8px;
         height: 12px;
         border: 1.5px solid $link-block-color;
@@ -209,7 +209,7 @@ div.tlumaczenie > h2 + a.pokaz-tlumaczenie {
         font-weight: 100;
         letter-spacing: 2px;
         position: absolute;
-        right: 10;
+        right: 10px;
         top: 5px;
         content: 'A某';
     }
@@ -243,8 +243,8 @@ div.tlumaczenie > h2 + a.pokaz-tlumaczenie {
             left: 25.5px;
             width: 14px;
             height: 14px;
-            border-width: 0 1px 1px 0;
-            border-radius: 0 0 2px 0;
+            border-width: 0px 1px 1px 0px;
+            border-radius: 0px 0px 2px 0px;
             border-style: solid;
             border-color: $link-block-bg;
             transform: rotate(45deg);

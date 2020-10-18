@@ -53,7 +53,7 @@ ul.nav.alfabet li a {
     height: initial;
     width: initial;
     padding: 8.63px 6px;
-    margin-top: 0;
+    margin-top: 0px;
 
     &:hover, &:focus {
         color: $link-hover-color;
@@ -64,7 +64,7 @@ ul.nav.alfabet li a {
 // Add song/sountrack big buttons
 .big-buttons {
     & a {
-        border-width: 0;
+        border-width: 0px;
         border: none;
         color: $link-color;
         background: $link-block-bg;
@@ -90,11 +90,11 @@ body div#contener div#center div.big-buttons {
 
 // Go to rankings link
 body div#contener div#center > div.right-column > div.box-lista > div.box-content {
-    margin-bottom: 0;
+    margin-bottom: 0px;
 
     & a.bold.text-right.block {
         background: $body-bg;
-        margin: 0 !important;
+        margin: 0px !important;
         font-weight: initial;
         padding-top: 5px;
     }
@@ -105,7 +105,7 @@ div#art_box_move.to-move {
     top: 46px;
 
     & > div#art_box a.popularny {
-        margin: 0;
+        margin: 0px;
         padding: 7px;
         width: 76px;
         height: 135px;
@@ -170,13 +170,13 @@ div#art_box_move.to-move {
 
 // Links on left navbar for signed in user.
 ul.login, .blue ul.login {
-    margin: 0 -9px;
+    margin: 0px -9px;
 
     & li {
 
         & a {
             padding: 2.5px 14px 2.5px 24px;
-            margin-bottom: 0;
+            margin-bottom: 0px;
             display: block;
             width: initial;
             // Override background-image rule for various classes.
@@ -205,7 +205,7 @@ div.left-box-content {
 
 // Remove background color and border color for signed in user links
 .left-box,
-.soundtracks .left-box, {
+.soundtracks .left-box {
     &.bg-green {
         background: initial;
         border-color: initial;
@@ -217,7 +217,7 @@ ul.arrows {
 
     & > li {
         list-style: none;
-        margin: 0;
+        margin: 0px;
 
         & a,
         & a.green,
@@ -238,12 +238,12 @@ ul.arrows {
 // Top 5 user profiles on left navbar.
 .top5 {
     width: 100%;
-    margin: 3px 0;
-    padding: 0;
+    margin: 3px 0px;
+    padding: 0px;
 
     & img {
         @include border($image-border-width, $image-border-style, $image-border-color);
-        padding: 0;
+        padding: 0px;
     }
 
     & span {
@@ -275,7 +275,7 @@ div.tlumaczenie {
     & > a.pokaz-tlumaczenie {
         color: $link-block-color;
         background: $link-block-bg;
-        padding: 5px 10 5px 10;
+        padding: 5px 10px 5px 10px;
         text-decoration: none;
 
         &:focus, &:hover {
@@ -286,7 +286,7 @@ div.tlumaczenie {
     }
 
     & > h2 + a.pokaz-tlumaczenie {
-        margin-left: 10;
+        margin-left: 10px;
         padding-right: 43px;
     }
 }
