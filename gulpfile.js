@@ -3,6 +3,7 @@
 // Load plugins
 var gulp = require('gulp');
 var gulpAutoprefixer = require('gulp-autoprefixer');
+var gulpConcat = require('gulp-concat');
 var gulpCssMin = require('gulp-cssmin');
 var gulpRename = require('gulp-rename');
 var gulpSass = require('gulp-sass');
@@ -11,16 +12,20 @@ var rimraf = require('rimraf');
 
 gulpSass.compiler = nodeSass;
 
+const themeName = 'tekstowo-full-dark';
 const mainCssFileName = 'site';
 const mainSassFileName = 'site';
+const metadataFileName = 'UserScriptMetadata.txt';
+const userStyleFileName = themeName + '.user.styl';
 
 var paths = {
     nodeModules: './node_modules/',
     source: './src/'
 };
 
-paths.cssDir = paths.source + 'css/';
 paths.sassDir = paths.source + 'sass/';
+paths.distDir = './dist/';
+paths.cssDir = paths.distDir + 'css/';
 
 paths.sassFiles = paths.sassDir + '**/*.scss';
 
@@ -28,13 +33,16 @@ paths.mainCss = paths.cssDir + mainCssFileName + '.css';
 paths.mainMinCss = paths.cssDir + mainCssFileName + '.min.css';
 paths.mainSass = paths.sassDir + mainSassFileName + '.scss';
 
+paths.metadataFile = paths.source + metadataFileName;
+paths.userStyle = paths.cssDir + userStyleFileName;
+
 
 
 /* ### Clean ### */
 
 // Clean output files
-gulp.task('clean:cssDir', done => rimraf(paths.cssDir, done));
-gulp.task('clean', gulp.series(['clean:cssDir']));
+gulp.task('clean:dist', done => rimraf(paths.distDir, done));
+gulp.task('clean', gulp.series(['clean:dist']));
 
 
 
@@ -68,18 +76,36 @@ gulp.task('minify', gulp.series(['minify:css']));
 
 
 
+/* ### Build ### */
+
+// Build user styl file from metadata & compiled CSS
+gulp.task("build:userStyle", () => {
+    return gulp.src([paths.metadataFile, paths.mainCss])
+        .pipe(gulpConcat(userStyleFileName))
+        .pipe(gulp.dest(paths.distDir));
+});
+
+// Global buidl task
+gulp.task('build', gulp.series(['build:userStyle']));
+
+
 /* ### Watch ### */
 
 // Watch sass files
 gulp.task('watch:sass', () => {
-    return gulp.watch(paths.sassFiles, gulp.series(['compile', 'minify:css']));
+    return gulp.watch(paths.sassFiles, gulp.series(['compile', 'minify', 'build']));
+});
+
+// Watch user script metadata file
+gulp.task('watch:metadata', () => {
+    return gulp.watch(paths.metadataFile, gulp.series('build'));
 });
 
 //// Global watch
-gulp.task('watch', gulp.parallel(['watch:sass']));
+gulp.task('watch', gulp.parallel(['watch:sass', 'watch:metadata']));
 
 
 
 /* ### Default ### */
 
-gulp.task('default', gulp.series(['compile', 'minify']));
+gulp.task('default', gulp.series(['compile', 'minify', 'build']));

@@ -1,0 +1,15 @@
+/* ==UserScript==
+
+@name			Tekstowo - Full Dark
+@namespace		github.com/Prologh/tekstowo-full-dark
+@description	CSS theme for tekstowo.pl. Get flat, dark grey feeling for night surfing. Most of the images are converted into css rules.
+@author			prologh (https://github.com/Prologh)
+@include		https://www.tekstowo.pl/*
+@homepageURL	https://github.com/Prologh/tekstowo-full-dark
+@supportURL		https://github.com/Prologh/tekstowo-full-dark/issues
+@updateURL		https://github.com/Prologh/tekstowo-full-dark/raw/master/dist/tekstowo-full-dark.user.styl
+@preprocessor	stylus
+@version		1.0.0
+@license		MIT
+
+==/UserScript== */

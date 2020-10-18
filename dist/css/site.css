@@ -1,11 +1,4 @@
 @charset "UTF-8";
-/* ==UserScript==
-@name          Tekstowo - Full Dark
-@namespace     https://www.tekstowo.pl/
-@description   CSS theme for tekstowo.pl. Get flat, dark grey feeling for night surfing. Most of the images are converted into css rules.
-@include       https://www.tekstowo.pl/*
-@version       1.0
-==/UserScript== */
 /* ### Variables ### */
 /* SASS custom mixins */
 /* Borders */
