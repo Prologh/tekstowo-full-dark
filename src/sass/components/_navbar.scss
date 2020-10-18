@@ -45,17 +45,6 @@ li.topmenu-last a {
             }
         }
     }
-    /*&:not(.active) {
-
-        &:focus {
-            background: darken($navbar-link-bg, 2%) !important;
-        }
-
-        &:active {
-            color: $navbar-link-active-color !important;
-            background: $navbar-link-active-bg !important;
-        }
-    }*/
 }
 
 // Reset the background of site stats under navbar
