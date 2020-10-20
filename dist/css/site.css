@@ -1347,8 +1347,8 @@
     display: inline;
   }
   .box-lista {
-    width: 366px;
-    float: right;
+    width: auto;
+    float: none;
   }
   .box-home {
     width: 352px;
@@ -1356,30 +1356,30 @@
     margin-right: 10px;
   }
   .box-home.box-teksty {
-    width: 336px;
+    width: 100%;
     margin-right: 13px;
   }
   .box-home.box-teksty .box-przeboje {
-    width: 300px;
+    width: 100%;
   }
   .box-home.box-teledyski .box-przeboje {
     width: 320px;
   }
   .box-home.box-teksty .box-przeboje a.title {
-    width: 230px;
+    width: 100%;
   }
   .box-home.box-teledyski .box-przeboje a.title {
     width: 250px;
   }
   .box-home.box-teledyski {
     margin-right: 0px;
-    width: 365px;
+    width: 100%;
   }
   .box-przeboje b {
     font-size: 1.4em;
     font-weight: bold;
     display: inline-block;
-    line-height: 40px;
+    line-height: 34px;
     margin-right: 10px;
     vertical-align: -1px;
   }
@@ -1402,7 +1402,7 @@
     font-size: 1em;
     margin-right: 3px;
     font-weight: normal;
-    line-height: 30;
+    line-height: 30px;
   }
   .box-utwory .box-przeboje a.title {
     width: 155px;
@@ -1429,7 +1429,7 @@
     font-size: 1em;
     margin-right: 3px;
     font-weight: normal;
-    line-height: 30;
+    line-height: 30px;
   }
   .left-box-content .box-przeboje a.title {
     width: 165px;
@@ -1476,7 +1476,7 @@
     right: 182px;
   }
   .popularni {
-    width: 714px;
+    width: 100%;
     height: 230px;
     float: left;
     background: #1C1C1C;
@@ -1511,10 +1511,10 @@
     width: 1800px;
   }
   .to-move {
-    width: 630px;
-    position: absolute;
-    top: 55px;
-    left: 43px;
+    width: 89%;
+    position: unset;
+    top: auto;
+    left: auto;
     overflow: hidden;
   }
   .to-move .popularny {
