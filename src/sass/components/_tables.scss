@@ -1,0 +1,16 @@
+.table {
+    color: unset;
+}
+
+.table td, .table th {
+    border-top-color: $border-base-color;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: lighten($body-bg, 5%);
+}
+
+.table-hover tbody tr:hover {
+    color: unset;
+    background-color: lighten($body-bg, 7.5%);
+}
