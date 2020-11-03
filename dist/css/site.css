@@ -744,15 +744,30 @@
     color: #cbcbcb;
     background: #272727;
   }
+  .big-buttons {
+    margin-bottom: 10px;
+  }
   .big-buttons a {
     border-width: 0px;
     border: none;
     color: #a4a4a4;
     background: #1C1C1C;
+    margin-right: 0;
+    margin-bottom: 0;
   }
   .big-buttons a:hover, .big-buttons a:focus, .big-buttons a:not(:disabled):not(.disabled):active {
     color: #cbcbcb;
     background: #292929;
+  }
+  .big-buttons a:nth-child(3n+1) {
+    margin-right: 0;
+  }
+  .big-buttons a:nth-child(3n+3) {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .big-buttons a:last-of-type {
+    border-radius: 0;
   }
   body div#contener div#center div.big-buttons div,
   body div#contener div#center div.big-buttons div.marginb5 {
@@ -2370,7 +2385,6 @@
     border-right-color: #c3c3c3;
     border-bottom-color: #ddd;
     background-color: #fff;
-    background-color: #fff;
   }
   ul.autocompleter-choices li.autocompleter-selected {
     background-color: #444;
@@ -2428,7 +2442,6 @@
     color: unset;
   }
   .msg-head {
-    background-color: #f7f7f7;
     background: #1C1C1C;
   }
   .msg-head a {
@@ -2463,8 +2476,8 @@
   }
   .left-column .login .new {
     color: #fff;
-    background-color: #62ae25;
-    background: #1C1C1C;
+    background: #62ae25;
+    /*background: $box-bg;*/
   }
   .blue.left-column .login .new {
     background-color: #255EAE;

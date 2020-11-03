@@ -1506,7 +1506,6 @@
         border-left-color: #c3c3c3;
         border-right-color: #c3c3c3;
         border-bottom-color: #ddd;
-        background-color: #fff;
         background-color: #fff
     }
 
@@ -1587,7 +1586,6 @@
     }
 
     .msg-head {
-        background-color: #f7f7f7;
         background: $box-bg;
     }
 
@@ -1635,8 +1633,8 @@
 
     .left-column .login .new {
         color: #fff;
-        background-color: $brand-primary-dark;
-        background: $box-bg;
+        background: $brand-primary-dark;
+        /*background: $box-bg;*/
     }
 
     .blue.left-column .login .new {

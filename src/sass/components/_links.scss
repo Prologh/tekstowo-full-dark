@@ -63,17 +63,34 @@ ul.nav.alfabet li a {
 
 // Add song/sountrack big buttons
 .big-buttons {
+    margin-bottom: 10px;
+
     & a {
         border-width: 0px;
         border: none;
         color: $link-color;
         background: $link-block-bg;
+        margin-right: 0;
+        margin-bottom: 0;
 
         &:hover,
         &:focus,
         &:not(:disabled):not(.disabled):active {
             color: $link-hover-color;
             background: $link-block-hover-bg;
+        }
+
+        &:nth-child(3n+1) {
+            margin-right: 0;
+        }
+
+        &:nth-child(3n+3) {
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+
+        &:last-of-type {
+            border-radius: 0;
         }
     }
 }
