@@ -54,6 +54,10 @@
         color: #fff
     }
 
+    hr {
+        border-top-color: change-color($gray-lighter, $alpha: 0.1);
+    }
+
     textarea:focus, input:focus {
         outline: none;
     }
@@ -71,8 +75,7 @@
     }
 
     #stopka p {
-        border-top: 1px solid $border-base-color;
-        border-bottom: 1px solid $border-base-color;
+        border: none;
     }
     /** CENTER **/
     a.search-adv {
