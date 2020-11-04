@@ -12,39 +12,52 @@ li.topmenu-last a {
 }
 
 // Main navbar
-ul.topmenu li a,
-li.topmenu-last a {
-    color: $navbar-link-color;
-    background: $navbar-link-bg;
+.topmenu li,
+.topmenu > ul li,
+.topmenu-first,
+.topmenu-last {
+    padding: 0;
+    border-bottom: none;
 
-    &:hover, &:focus {
-        color: $navbar-link-hover-color;
-        background: $navbar-link-hover-bg;
-    }
-
-    &.active {
-        color: $navbar-link-active-color;
-        background: $navbar-link-active-bg;
+    & a {
+        color: $navbar-link-color;
+        background: $navbar-link-bg;
 
         &:hover, &:focus {
-            color: $navbar-link-active-hover-color;
-            background: $navbar-link-active-hover-bg;
-        }
-    }
-
-    &.no-bg {
-        &:hover, &:focus {
-            background: $navbar-link-hover-bg !important;
+            color: $navbar-link-hover-color;
+            background: $navbar-link-hover-bg;
         }
 
         &.active {
-            background: $navbar-link-active-bg !important;
+            color: $navbar-link-active-color;
+            background: $navbar-link-active-bg;
 
             &:hover, &:focus {
-                background: $navbar-link-active-hover-bg !important;
+                color: $navbar-link-active-hover-color;
+                background: $navbar-link-active-hover-bg;
+            }
+        }
+
+        &.no-bg {
+            &:hover, &:focus {
+                background: $navbar-link-hover-bg !important;
+            }
+
+            &.active {
+                background: $navbar-link-active-bg !important;
+
+                &:hover, &:focus {
+                    background: $navbar-link-active-hover-bg !important;
+                }
             }
         }
     }
+}
+
+.topmenu li,
+.topmenu > ul li,
+.topmenu-first {
+    border-right-color: $border-base-color;
 }
 
 // Reset the background of site stats under navbar

@@ -1152,41 +1152,75 @@
   li.topmenu-last a {
     background: #1C1C1C;
   }
-  ul.topmenu li a,
-  li.topmenu-last a {
+  .topmenu li,
+  .topmenu > ul li,
+  .topmenu-first,
+  .topmenu-last {
+    padding: 0;
+    border-bottom: none;
+  }
+  .topmenu li a,
+  .topmenu > ul li a,
+  .topmenu-first a,
+  .topmenu-last a {
     color: #bebebe;
     background: #1C1C1C;
   }
-  ul.topmenu li a:hover, ul.topmenu li a:focus,
-  li.topmenu-last a:hover,
-  li.topmenu-last a:focus {
+  .topmenu li a:hover, .topmenu li a:focus,
+  .topmenu > ul li a:hover,
+  .topmenu > ul li a:focus,
+  .topmenu-first a:hover,
+  .topmenu-first a:focus,
+  .topmenu-last a:hover,
+  .topmenu-last a:focus {
     color: #cbcbcb;
     background: #292929;
   }
-  ul.topmenu li a.active,
-  li.topmenu-last a.active {
+  .topmenu li a.active,
+  .topmenu > ul li a.active,
+  .topmenu-first a.active,
+  .topmenu-last a.active {
     color: #d7d7d7;
     background: #62ae25;
   }
-  ul.topmenu li a.active:hover, ul.topmenu li a.active:focus,
-  li.topmenu-last a.active:hover,
-  li.topmenu-last a.active:focus {
+  .topmenu li a.active:hover, .topmenu li a.active:focus,
+  .topmenu > ul li a.active:hover,
+  .topmenu > ul li a.active:focus,
+  .topmenu-first a.active:hover,
+  .topmenu-first a.active:focus,
+  .topmenu-last a.active:hover,
+  .topmenu-last a.active:focus {
     color: white;
     background: #74be2f;
   }
-  ul.topmenu li a.no-bg:hover, ul.topmenu li a.no-bg:focus,
-  li.topmenu-last a.no-bg:hover,
-  li.topmenu-last a.no-bg:focus {
+  .topmenu li a.no-bg:hover, .topmenu li a.no-bg:focus,
+  .topmenu > ul li a.no-bg:hover,
+  .topmenu > ul li a.no-bg:focus,
+  .topmenu-first a.no-bg:hover,
+  .topmenu-first a.no-bg:focus,
+  .topmenu-last a.no-bg:hover,
+  .topmenu-last a.no-bg:focus {
     background: #292929 !important;
   }
-  ul.topmenu li a.no-bg.active,
-  li.topmenu-last a.no-bg.active {
+  .topmenu li a.no-bg.active,
+  .topmenu > ul li a.no-bg.active,
+  .topmenu-first a.no-bg.active,
+  .topmenu-last a.no-bg.active {
     background: #62ae25 !important;
   }
-  ul.topmenu li a.no-bg.active:hover, ul.topmenu li a.no-bg.active:focus,
-  li.topmenu-last a.no-bg.active:hover,
-  li.topmenu-last a.no-bg.active:focus {
+  .topmenu li a.no-bg.active:hover, .topmenu li a.no-bg.active:focus,
+  .topmenu > ul li a.no-bg.active:hover,
+  .topmenu > ul li a.no-bg.active:focus,
+  .topmenu-first a.no-bg.active:hover,
+  .topmenu-first a.no-bg.active:focus,
+  .topmenu-last a.no-bg.active:hover,
+  .topmenu-last a.no-bg.active:focus {
     background: #74be2f !important;
+  }
+  .topmenu li,
+  .topmenu > ul li,
+  .topmenu-first {
+    border-right-color: #666;
   }
   body > div#contener div#center div.right-corner {
     padding: 0px;
