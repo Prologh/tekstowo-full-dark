@@ -746,6 +746,7 @@
   }
   .big-buttons,
   .show > .big-buttons {
+    background: unset;
     margin-top: 0;
     margin-bottom: 10px;
   }
@@ -758,7 +759,8 @@
     color: #a4a4a4;
     background: #1C1C1C;
     margin-right: 0;
-    margin-bottom: 0;
+    margin-bottom: 12px;
+    padding: 14px 10px;
   }
   .big-buttons a:hover, .big-buttons a.focus, .big-buttons a:focus, .big-buttons a:not(:disabled):not(.disabled).active, .big-buttons a:not(:disabled):not(.disabled):active,
   .big-buttons a.dropdown-toggle:hover,
