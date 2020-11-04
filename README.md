@@ -1,7 +1,7 @@
 
 # Tekstowo Full Dark Theme
 
-README / 18 October 2020
+README / 04 November 2020
 
 ## About
 
@@ -16,7 +16,7 @@ Bootstrap alike, based on few colors (see [_variables.scss](https://github.com/P
 
 ## Download & Installation
 
-Download now the latest release from [userstyles.org](https://userstyles.org/styles/157867/tekstowo-full-dark) or install it directly from `.styl` file:
+Download now the latest release from [userstyles.org](https://userstyles.org/styles/157867/tekstowo-full-dark) or install it directly from source code file using browser extension [Stylus](https://add0n.com/stylus.html):
 
 [![Install with Stylus](https://img.shields.io/badge/Install%20with%20-Stylus-green.svg)](https://github.com/Prologh/tekstowo-full-dark/raw/master/dist/tekstowo-full-dark.user.styl)
 
