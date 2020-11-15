@@ -357,6 +357,9 @@
   .content .box-przeboje {
     width: 521px;
   }
+  .komentarz .desc {
+    display: block;
+  }
   /* Rules that affect textareas */
   textarea, textarea.textarea-comm {
     border: 1px solid #666;
@@ -2010,15 +2013,11 @@
   .komentarz .bar {
     color: #909090;
   }
-  .komentarz .desc {
-    width: 620px;
-    float: right;
-    padding: 3px 10px;
-  }
   .komentarz .discussion {
     margin-left: 20px;
   }
-  .komentarz .discussion .bar, .komentarz .discussion .desc {
+  .komentarz .discussion .bar,
+  .komentarz .discussion .desc {
     width: 600px;
   }
   .komentarz .discussion p {

@@ -967,17 +967,12 @@
         color: $text-base-color;
     }
 
-    .komentarz .desc {
-        width: 620px;
-        float: right;
-        padding: 3px 10px;
-    }
-
     .komentarz .discussion {
         margin-left: 20px;
     }
 
-    .komentarz .discussion .bar, .komentarz .discussion .desc {
+    .komentarz .discussion .bar,
+    .komentarz .discussion .desc {
         width: 600px;
     }
 
