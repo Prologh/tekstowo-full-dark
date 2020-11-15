@@ -936,8 +936,8 @@
   }
   .left-box.bg-green,
   .soundtracks .left-box.bg-green {
-    background: initial;
-    border-color: initial;
+    background: #1C1C1C;
+    border: none;
   }
   ul.arrows {
     float: none !important;

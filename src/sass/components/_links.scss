@@ -311,8 +311,8 @@ div.left-box-content {
 .left-box,
 .soundtracks .left-box {
     &.bg-green {
-        background: initial;
-        border-color: initial;
+        background: $box-bg;
+        border: none;
     }
 }
 // Links under sign in buttons on left navbar.
