@@ -8,7 +8,7 @@
 @supportURL     https://github.com/Prologh/tekstowo-full-dark/issues
 @updateURL      https://github.com/Prologh/tekstowo-full-dark/raw/master/dist/tekstowo-full-dark.user.styl
 @preprocessor   stylus
-@version        1.1.7
+@version        1.1.8
 @license        MIT
 
 ==/UserStyle== */
@@ -388,7 +388,8 @@
   input,
   label,
   .form-control,
-  .focus {
+  .focus,
+  .custom-control-input:focus ~ .custom-control-label::before {
     box-shadow: none !important;
   }
   /* Rules that affect icons */

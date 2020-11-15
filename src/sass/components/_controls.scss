@@ -36,6 +36,7 @@ textarea,
 input,
 label,
 .form-control,
-.focus {
+.focus,
+.custom-control-input:focus ~ .custom-control-label::before {
     box-shadow: none !important;
 }
