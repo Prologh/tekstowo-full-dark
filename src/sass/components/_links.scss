@@ -87,13 +87,6 @@ ul.nav.alfabet li a {
             background: $link-block-hover-bg;
         }
 
-        &.focus,
-        &:focus,
-        &:not(:disabled):not(.disabled).active:focus,
-        &:not(:disabled):not(.disabled):active:focus {
-            box-shadow: none;
-        }
-
         &.disabled,
         &:disabled {
             background: darken($link-block-bg, 5%);

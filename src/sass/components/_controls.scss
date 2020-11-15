@@ -28,3 +28,13 @@ input[type="button"]:enabled,
 button:enabled {
     cursor: pointer;
 }
+
+// Remove Bootstrap outline
+a,
+button,
+textarea,
+input,
+.form-control,
+.focus {
+    box-shadow: none !important;
+}

@@ -8,7 +8,7 @@
 @supportURL     https://github.com/Prologh/tekstowo-full-dark/issues
 @updateURL      https://github.com/Prologh/tekstowo-full-dark/raw/master/dist/tekstowo-full-dark.user.styl
 @preprocessor   stylus
-@version        1.1.0
+@version        1.1.1
 @license        MIT
 
 ==/UserStyle== */
@@ -359,6 +359,14 @@
   input[type="button"]:enabled,
   button:enabled {
     cursor: pointer;
+  }
+  a,
+  button,
+  textarea,
+  input,
+  .form-control,
+  .focus {
+    box-shadow: none !important;
   }
   /* Rules that affect icons */
   a.na-plus,
@@ -795,21 +803,6 @@
   .show > .big-buttons a.dropdown-toggle:not(:disabled):not(.disabled):active {
     color: #cbcbcb;
     background: #292929;
-  }
-  .big-buttons a.focus, .big-buttons a:focus, .big-buttons a:not(:disabled):not(.disabled).active:focus, .big-buttons a:not(:disabled):not(.disabled):active:focus,
-  .big-buttons a.dropdown-toggle.focus,
-  .big-buttons a.dropdown-toggle:focus,
-  .big-buttons a.dropdown-toggle:not(:disabled):not(.disabled).active:focus,
-  .big-buttons a.dropdown-toggle:not(:disabled):not(.disabled):active:focus,
-  .show > .big-buttons a.focus,
-  .show > .big-buttons a:focus,
-  .show > .big-buttons a:not(:disabled):not(.disabled).active:focus,
-  .show > .big-buttons a:not(:disabled):not(.disabled):active:focus,
-  .show > .big-buttons a.dropdown-toggle.focus,
-  .show > .big-buttons a.dropdown-toggle:focus,
-  .show > .big-buttons a.dropdown-toggle:not(:disabled):not(.disabled).active:focus,
-  .show > .big-buttons a.dropdown-toggle:not(:disabled):not(.disabled):active:focus {
-    box-shadow: none;
   }
   .big-buttons a.disabled, .big-buttons a:disabled,
   .big-buttons a.dropdown-toggle.disabled,
