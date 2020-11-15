@@ -364,8 +364,21 @@ ul.arrows {
 }
 
 // Link to song's author page on header bar.
-.belka .link-wykonawca {
-    background: unset;
+.right-column {
+    & .belka {
+        & .link-wykonawca {
+            color: $link-primary-color;
+            background: $link-block-bg;
+            border-radius: 0;
+            padding: 10px;
+            font-size: 0.9em;
+
+            &:hover, &:active, &:focus {
+                color: $link-primary-hover-color;
+                background: $link-block-hover-bg;
+            }
+        }
+    }
 }
 
 // LLinks on voting bar.

@@ -512,13 +512,7 @@
     }
 
     .belka {
-        height: 58px;
-        background: $box-bg;
         margin-bottom: 13px;
-        color: $header-2-color;
-        display: block;
-        line-height: 1em;
-        position: relative
     }
 
     .blue .belka {
@@ -581,31 +575,10 @@
 
     .belka .odslon {
         color: $text-base-color;
-        line-height: 58px;
-        display: inline-block;
-        margin: 0px 10px;
-        float: left
     }
-
-    .belka.short .odslon {
-        line-height: 38px
-    }
-
-    .belka .odslon.right {
-        float: right
-    }
-
-
 
     .belka.short .link-wykonawca {
         margin-top: 10px;
-    }
-
-    .belka-left, .belka-right {
-        width: 4px;
-        height: 58px;
-        position: absolute;
-        top: 0
     }
 
     .short .belka-left, .short .belka-right {
@@ -613,22 +586,18 @@
     }
 
     .belka-left {
-        left: 0px;
         background: $box-bg;
     }
 
     .belka-right {
-        right: 0px;
         background: $box-bg;
     }
 
     .blue .belka-left {
-        left: 0px;
         background: $box-bg;
     }
 
     .blue .belka-right {
-        right: 0px;
         background: $box-bg;
     }
 
