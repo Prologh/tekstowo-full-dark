@@ -1,5 +1,16 @@
 ﻿/* Rules that affect buttons */
 
+// Remove border
+.btn-light2 {
+    border: none;
+}
+
+// Remove buton border radius
+.btn,
+.search-box .inner .search-form .submit {
+    border-radius: 0;
+}
+
 .blue-box input.search-send,
 input.search-send {
     background: transparent;
@@ -204,6 +215,28 @@ div.tlumaczenie {
     }
 }
 
+// Send message button.
+#msg-users .actions,
+.user-info {
+
+    & .send {
+        color: $link-block-color;
+        background: $link-block-bg;
+        padding: 8px 28px 8px 54px;
+        margin: unset;
+        width: 100%;
+
+        &:hover,
+        &:focus,
+        &:active,
+        &:not(:disabled):not(.disabled).active,
+        &:not(:disabled):not(.disabled):active {
+            color: $link-block-hover-color;
+            background: $link-block-hover-bg;
+        }
+    }
+}
+
 // Green button general rules
 .green-button,
 .send-button {
@@ -235,15 +268,4 @@ div.tlumaczenie {
     &:hover, &:focus, &:active {
         background: $button-primary-hover-bg;
     }
-}
-
-// Remove border
-.btn-light2 {
-    border: none;
-}
-
-// Remove buton border radius
-.btn,
-.search-box .inner .search-form .submit {
-    border-radius: 0;
 }

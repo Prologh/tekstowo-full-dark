@@ -3,6 +3,13 @@
 /* Borders */
 @-moz-document regexp("https?://www\\.tekstowo\\.pl/.*") {
   /* Rules that affect buttons */
+  .btn-light2 {
+    border: none;
+  }
+  .btn,
+  .search-box .inner .search-form .submit {
+    border-radius: 0;
+  }
   .blue-box input.search-send,
   input.search-send {
     background: transparent;
@@ -174,6 +181,23 @@
   .blue .pokaz-rev.opened {
     border-radius: 0px;
   }
+  #msg-users .actions .send,
+  .user-info .send {
+    color: #a4a4a4;
+    background: #1C1C1C;
+    padding: 8px 28px 8px 54px;
+    margin: unset;
+    width: 100%;
+  }
+  #msg-users .actions .send:hover, #msg-users .actions .send:focus, #msg-users .actions .send:active, #msg-users .actions .send:not(:disabled):not(.disabled).active, #msg-users .actions .send:not(:disabled):not(.disabled):active,
+  .user-info .send:hover,
+  .user-info .send:focus,
+  .user-info .send:active,
+  .user-info .send:not(:disabled):not(.disabled).active,
+  .user-info .send:not(:disabled):not(.disabled):active {
+    color: #cbcbcb;
+    background: #292929;
+  }
   .green-button,
   .send-button {
     color: #e9e9e9;
@@ -202,13 +226,6 @@
   }
   .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
     background: #569921;
-  }
-  .btn-light2 {
-    border: none;
-  }
-  .btn,
-  .search-box .inner .search-form .submit {
-    border-radius: 0;
   }
   /* Rules that affect all kind of containers */
   #center,
@@ -515,59 +532,6 @@
   }
   div.tlumaczenie > h2 + a.pokaz-tlumaczenie:hover:after, div.tlumaczenie > h2 + a.pokaz-tlumaczenie:focus:after {
     color: #cbcbcb;
-  }
-  #msg-users .actions .send,
-  .user-info .send {
-    color: #74be2f;
-    background: #1C1C1C;
-    padding: 8px 28px 8px 54px;
-    margin: unset;
-    text-decoration: none;
-    position: relative;
-  }
-  #msg-users .actions .send:before, #msg-users .actions .send:after,
-  .user-info .send:before,
-  .user-info .send:after {
-    position: absolute;
-    background: transparent;
-    content: '';
-  }
-  #msg-users .actions .send:before,
-  .user-info .send:before {
-    z-index: 10;
-    top: 3px;
-    left: 25.5px;
-    width: 14px;
-    height: 14px;
-    border-width: 0px 1px 1px 0px;
-    border-radius: 0px 0px 2px 0px;
-    border-style: solid;
-    border-color: #1C1C1C;
-    transform: rotate(45deg);
-  }
-  #msg-users .actions .send:after,
-  .user-info .send:after {
-    border: 6px solid #74be2f;
-    width: 6px;
-    left: 24px;
-    top: 11px;
-  }
-  #msg-users .actions .send:hover, #msg-users .actions .send:focus,
-  .user-info .send:hover,
-  .user-info .send:focus {
-    color: #81ce39;
-    background: #292929;
-    text-decoration: none;
-  }
-  #msg-users .actions .send:hover:before, #msg-users .actions .send:focus:before,
-  .user-info .send:hover:before,
-  .user-info .send:focus:before {
-    border-color: #292929;
-  }
-  #msg-users .actions .send:hover:after, #msg-users .actions .send:focus:after,
-  .user-info .send:hover:after,
-  .user-info .send:focus:after {
-    border-color: #81ce39;
   }
   /* Rules that affect facebook plugin */
   ul.topmenu li.fb a {
@@ -1269,6 +1233,22 @@
   .tlumaczenie {
     font-size: 14px;
     line-height: 1.4;
+  }
+  .user-info img.avatar {
+    border: none;
+    padding: 0;
+    margin: 0;
+  }
+  .user-info .opis p {
+    line-height: 1.3em;
+  }
+  .user-info .opis p.ramka {
+    padding: 8px 6px;
+    border: none;
+    margin-top: 6px;
+  }
+  .user-info > span {
+    color: unset;
   }
   body {
     background: #131313;
@@ -2229,31 +2209,8 @@
     color: #970000;
     text-decoration: none;
   }
-  .user-info .opis {
-    width: 350px;
-    float: right;
-  }
-  .user-info img.avatar {
-    float: left;
-    padding: 2px;
-    border: 1px solid #cdcdcd;
-    margin: 0px 10px 0px 0;
-  }
-  .user-info .opis p {
-    text-align: justify;
-    line-height: 1.2em;
-  }
-  .user-info .opis p.ramka {
-    padding: 8px 6px;
-    border: none;
-    background: #272727;
-    margin-top: 6px;
-  }
   .user-profile h2 {
     margin: 10px 0;
-  }
-  .user-info > span {
-    color: unset;
   }
   .user-profile .add-info .adds {
     position: absolute;

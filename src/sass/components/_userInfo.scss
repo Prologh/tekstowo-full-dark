@@ -1,0 +1,25 @@
+.user-info {
+
+    & img.avatar {
+        border: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    & .opis {
+
+        & p {
+            line-height: 1.3em;
+
+            &.ramka {
+                padding: 8px 6px;
+                border: none;
+                margin-top: 6px;
+            }
+        }
+    }
+
+    & > span {
+        color: unset;
+    }
+}

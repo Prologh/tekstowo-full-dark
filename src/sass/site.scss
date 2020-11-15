@@ -20,6 +20,7 @@
     @import 'components/_tables';
     @import 'components/_tabs';
     @import 'components/_typography';
+    @import 'components/_userInfo';
 
     body {
         background: $body-bg;
@@ -1209,36 +1210,8 @@
         text-decoration: none
     }
 
-    .user-info .opis {
-        width: 350px;
-        float: right
-    }
-
-    .user-info img.avatar {
-        float: left;
-        padding: 2px;
-        border: 1px solid #cdcdcd;
-        margin: 0px 10px 0px 0
-    }
-
-    .user-info .opis p {
-        text-align: justify;
-        line-height: 1.2em
-    }
-
-    .user-info .opis p.ramka {
-        padding: 8px 6px;
-        border: none;
-        background: darken($input-base-bg, 5%);
-        margin-top: 6px;
-    }
-
     .user-profile h2 {
         margin: 10px 0
-    }
-    // Clear text color for user first name.
-    .user-info > span {
-        color: unset;
     }
 
     .user-profile .add-info .adds {
