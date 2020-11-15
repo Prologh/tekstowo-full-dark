@@ -219,16 +219,6 @@
         color: $header-2-color;
     }
 
-    .box-home .box-top h2 {
-        font-size: 1.4em;
-        padding-top: 10px;
-        height: 28px
-    }
-
-    .box-home .box-top h2.h2-nowe-teledyski {
-        padding-left: 60px;
-    }
-
     .h2-lista {
         background: $box-bg;
     }
@@ -290,7 +280,6 @@
     }
 
     .box-home {
-        width: 352px;
         float: left;
         margin-right: 10px;
     }
