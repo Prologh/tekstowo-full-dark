@@ -189,6 +189,13 @@
   .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
     background: #569921;
   }
+  .btn-light2 {
+    border: none;
+  }
+  .btn,
+  .search-box .inner .search-form .submit {
+    border-radius: 0;
+  }
   /* Rules that affect all kind of containers */
   #center,
   .top-row,
@@ -239,6 +246,17 @@
   div#center > div.right-column > div.teledysk-right {
     background: #1C1C1C;
   }
+  .teledysk-left,
+  .teledysk-right,
+  .box-big,
+  .comm_show_more,
+  .metric,
+  .glosowanie,
+  .left-box,
+  .login-wrap,
+  .user-info {
+    border: none;
+  }
   .topbar {
     background: initial;
   }
@@ -270,13 +288,11 @@
   }
   .box-big {
     width: 518px;
-    border: none;
     padding: 5px 5px 5px 8px;
   }
   .teledysk-left, .teledysk-right {
     padding: 0px;
     height: 72px;
-    border: none;
   }
   .teledysk-left,
   .teledysk-left .box-przeboje {
@@ -295,13 +311,9 @@
     padding: 16px 15px;
   }
   .comm_show_more {
-    border: none;
     height: initial;
     text-align: center;
     margin: 20px auto;
-  }
-  .metric {
-    border: none;
   }
   .glosowanie-top {
     background: unset;
@@ -309,11 +321,7 @@
     height: 5px;
   }
   .glosowanie {
-    border: none;
     width: initial;
-  }
-  .user-info {
-    border: none;
   }
   .content .box-przeboje {
     width: 521px;

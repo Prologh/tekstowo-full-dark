@@ -214,3 +214,14 @@ td.pop_content .dialog_buttons input {
         background: $button-primary-hover-bg;
     }
 }
+
+// Remove border
+.btn-light2 {
+    border: none;
+}
+
+// Remove buton border radius
+.btn,
+.search-box .inner .search-form .submit {
+    border-radius: 0;
+}

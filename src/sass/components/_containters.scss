@@ -52,6 +52,19 @@ div#center > div.right-column > div.teledysk-right {
     background: $box-bg;
 }
 
+// Remove border
+.teledysk-left,
+.teledysk-right,
+.box-big,
+.comm_show_more,
+.metric,
+.glosowanie,
+.left-box,
+.login-wrap,
+.user-info {
+    border: none;
+}
+
 // Set no background for between top navbar and search box
 .topbar {
     background: initial;
@@ -101,7 +114,6 @@ div.popularni {
 
 .box-big {
     width: 518px;
-    border: none;
     padding: 5px 5px 5px 8px
 }
 
@@ -109,7 +121,6 @@ div.popularni {
 .teledysk-left, .teledysk-right {
     padding: 0px;
     height: 72px;
-    border: none;
 }
 
 .teledysk-left,
@@ -134,15 +145,9 @@ div.popularni {
 
 // Load more comments container.
 .comm_show_more {
-    border: none;
     height: initial;
     text-align: center;
     margin: 20px auto;
-}
-
-// Metric container with song details info.
-.metric {
-    border: none;
 }
 
 // Song voting box right under the metric container.
@@ -153,13 +158,7 @@ div.popularni {
 }
 
 .glosowanie {
-    border: none;
     width: initial;
-}
-
-// User profile container.
-.user-info {
-    border: none;
 }
 
 // Child container of site content.
