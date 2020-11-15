@@ -174,10 +174,6 @@
   .blue .pokaz-rev.opened {
     border-radius: 0px;
   }
-  .pokaz-rev .icon,
-  .blue .pokaz-rev .icon {
-    filter: invert(0.5);
-  }
   .green-button,
   .send-button {
     color: #e9e9e9;
@@ -381,6 +377,9 @@
     box-shadow: none !important;
   }
   /* Rules that affect icons */
+  .icon {
+    filter: invert(0.45);
+  }
   a.na-plus,
   a.na-minus {
     background: #1C1C1C;

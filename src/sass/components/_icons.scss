@@ -1,5 +1,10 @@
 ﻿/* Rules that affect icons */
 
+// Global filter for icons.
+.icon {
+    filter: invert(0.45);
+}
+
 // Voting icons
 a.na-plus,
 a.na-minus {
