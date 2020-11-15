@@ -363,38 +363,6 @@ ul.arrows {
     }
 }
 
-// Print song lyrics link.
-.drukuj {
-    color: $link-block-color;
-    background: $link-block-bg;
-
-    &:focus, &:hover {
-        color: $link-block-hover-color;
-        background: $link-block-hover-bg;
-    }
-}
-
-// Show song's translation.
-div.tlumaczenie {
-    & > a.pokaz-tlumaczenie {
-        color: $link-block-color;
-        background: $link-block-bg;
-        padding: 5px 10px 5px 10px;
-        text-decoration: none;
-
-        &:focus, &:hover {
-            color: $link-block-hover-color;
-            background: $link-block-hover-bg;
-            text-decoration: none;
-        }
-    }
-
-    & > h2 + a.pokaz-tlumaczenie {
-        margin-left: 10px;
-        padding-right: 43px;
-    }
-}
-
 // Link to song's author page on header bar.
 .belka .link-wykonawca {
     background: unset;

@@ -153,32 +153,58 @@ td.pop_content .dialog_buttons input {
     }
 }
 
-// Show song revision history.
-.pokaz-rev,
-.blue .pokaz-rev {
-    color: $button-box-color;
-    background: $button-box-bg;
-    border-width: $button-box-border-width;
-    border-style: $button-box-border-style;
-    border-color: $button-box-border-color;
-    border-radius: 0px;
-    padding: 2px 12px;
+// Print song lyrics link.
+.drukuj {
+    color: $link-block-color;
+    background: $link-block-bg;
 
-    &.opened {
-        border-radius: 0px;
+    &:focus, &:hover {
+        color: $link-block-hover-color;
+        background: $link-block-hover-bg;
+    }
+}
 
-        & .icon {
-            background: $button-box-bg;
+// Show song's translation.
+div.tlumaczenie {
+    & > a.pokaz-tlumaczenie {
+        color: $link-block-color;
+        background: $link-block-bg;
+        padding: 5px 10px 5px 10px;
+        text-decoration: none;
+
+        &:focus, &:hover {
+            color: $link-block-hover-color;
+            background: $link-block-hover-bg;
+            text-decoration: none;
         }
     }
 
+    & > h2 + a.pokaz-tlumaczenie {
+        margin-left: 10px;
+        padding-right: 43px;
+    }
+}
+
+// Show song revision history.
+.pokaz-rev,
+.blue .pokaz-rev {
+    color: $link-block-color;
+    background: $link-block-bg;
+    border: none;
+    border-radius: 0px;
+    padding: 2px 12px;
+
+    &:focus, &:hover {
+        color: $link-block-hover-color;
+        background: $link-block-hover-bg;
+    }
+
+    &.opened {
+        border-radius: 0px;
+    }
+
     & .icon {
-        display: block;
-        width: 12px;
-        height: 12px;
-        float: right;
-        background: $button-box-bg;
-        margin-top: 8px
+        filter: invert(0.5);
     }
 }
 
