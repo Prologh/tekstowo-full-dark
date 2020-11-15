@@ -34,6 +34,7 @@ ul.alfabet li a {
     &:hover, &:focus {
         color: $link-hover-color;
         background: $box-light-bg;
+        border-radius: 0;
     }
 }
 

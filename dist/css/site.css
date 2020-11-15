@@ -656,6 +656,7 @@
   ul.alfabet li a:hover, ul.alfabet li a:focus {
     color: #cbcbcb;
     background: #272727;
+    border-radius: 0;
   }
   ul.nav.alfabet li a:hover, ul.nav.alfabet li a:focus {
     color: #970000;
