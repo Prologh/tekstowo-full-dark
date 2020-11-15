@@ -393,31 +393,20 @@
         width: 165px
     }
 
-    .icon_pl, .icon_kamera, .icon_cancel, .icon_inst {
-        position: absolute;
-        top: 6px;
-        display: block;
-        width: 18px;
-        height: 18px
-    }
-
     .icon_pl {
         right: 32px;
         background: $box-bg;
     }
 
     .icon_kamera {
-        right: 8px;
         background: $box-bg;
     }
 
     .icon_inst {
-        right: 32px;
         background: $box-bg;
     }
 
     .icon_cancel {
-        right: 8px;
         background: $box-bg;
     }
 
