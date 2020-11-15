@@ -375,12 +375,102 @@
   .blue-box input.search-text,
   input.search-text,
   textarea,
-  textarea.textarea-comm {
+  textarea.textarea-comm,
+  .form-control {
     color: #aaaaaa;
     background: #343434;
     border: none;
     border-width: 0px;
     border-radius: 0px;
+  }
+  input[type=text]::-moz-placeholder, input[type=email]::-moz-placeholder, input[type=number]::-moz-placeholder, input[type=password]::-moz-placeholder, input[type=tel]::-moz-placeholder, .blue-box input.search-text::-moz-placeholder, input.search-text::-moz-placeholder, textarea::-moz-placeholder, textarea.textarea-comm::-moz-placeholder, .form-control::-moz-placeholder {
+    color: #909090;
+  }
+  input[type=text]::placeholder,
+  input[type=email]::placeholder,
+  input[type=number]::placeholder,
+  input[type=password]::placeholder,
+  input[type=tel]::placeholder,
+  .blue-box input.search-text::placeholder,
+  input.search-text::placeholder,
+  textarea::placeholder,
+  textarea.textarea-comm::placeholder,
+  .form-control::placeholder {
+    color: #909090;
+  }
+  input[type=text]:hover,
+  input[type=email]:hover,
+  input[type=number]:hover,
+  input[type=password]:hover,
+  input[type=tel]:hover,
+  .blue-box input.search-text:hover,
+  input.search-text:hover,
+  textarea:hover,
+  textarea.textarea-comm:hover,
+  .form-control:hover {
+    color: #aaaaaa;
+    background: #343434;
+  }
+  input[type=text]:hover::-moz-placeholder, input[type=email]:hover::-moz-placeholder, input[type=number]:hover::-moz-placeholder, input[type=password]:hover::-moz-placeholder, input[type=tel]:hover::-moz-placeholder, .blue-box input.search-text:hover::-moz-placeholder, input.search-text:hover::-moz-placeholder, textarea:hover::-moz-placeholder, textarea.textarea-comm:hover::-moz-placeholder, .form-control:hover::-moz-placeholder {
+    color: #909090;
+  }
+  input[type=text]:hover::placeholder,
+  input[type=email]:hover::placeholder,
+  input[type=number]:hover::placeholder,
+  input[type=password]:hover::placeholder,
+  input[type=tel]:hover::placeholder,
+  .blue-box input.search-text:hover::placeholder,
+  input.search-text:hover::placeholder,
+  textarea:hover::placeholder,
+  textarea.textarea-comm:hover::placeholder,
+  .form-control:hover::placeholder {
+    color: #909090;
+  }
+  input[type=text]:active, input[type=text]:focus,
+  input[type=email]:active,
+  input[type=email]:focus,
+  input[type=number]:active,
+  input[type=number]:focus,
+  input[type=password]:active,
+  input[type=password]:focus,
+  input[type=tel]:active,
+  input[type=tel]:focus,
+  .blue-box input.search-text:active,
+  .blue-box input.search-text:focus,
+  input.search-text:active,
+  input.search-text:focus,
+  textarea:active,
+  textarea:focus,
+  textarea.textarea-comm:active,
+  textarea.textarea-comm:focus,
+  .form-control:active,
+  .form-control:focus {
+    color: #c3c3c3;
+    background: #414141;
+  }
+  input[type=text]:active::-moz-placeholder, input[type=text]:focus::-moz-placeholder, input[type=email]:active::-moz-placeholder, input[type=email]:focus::-moz-placeholder, input[type=number]:active::-moz-placeholder, input[type=number]:focus::-moz-placeholder, input[type=password]:active::-moz-placeholder, input[type=password]:focus::-moz-placeholder, input[type=tel]:active::-moz-placeholder, input[type=tel]:focus::-moz-placeholder, .blue-box input.search-text:active::-moz-placeholder, .blue-box input.search-text:focus::-moz-placeholder, input.search-text:active::-moz-placeholder, input.search-text:focus::-moz-placeholder, textarea:active::-moz-placeholder, textarea:focus::-moz-placeholder, textarea.textarea-comm:active::-moz-placeholder, textarea.textarea-comm:focus::-moz-placeholder, .form-control:active::-moz-placeholder, .form-control:focus::-moz-placeholder {
+    color: #c3c3c3;
+  }
+  input[type=text]:active::placeholder, input[type=text]:focus::placeholder,
+  input[type=email]:active::placeholder,
+  input[type=email]:focus::placeholder,
+  input[type=number]:active::placeholder,
+  input[type=number]:focus::placeholder,
+  input[type=password]:active::placeholder,
+  input[type=password]:focus::placeholder,
+  input[type=tel]:active::placeholder,
+  input[type=tel]:focus::placeholder,
+  .blue-box input.search-text:active::placeholder,
+  .blue-box input.search-text:focus::placeholder,
+  input.search-text:active::placeholder,
+  input.search-text:focus::placeholder,
+  textarea:active::placeholder,
+  textarea:focus::placeholder,
+  textarea.textarea-comm:active::placeholder,
+  textarea.textarea-comm:focus::placeholder,
+  .form-control:active::placeholder,
+  .form-control:focus::placeholder {
+    color: #c3c3c3;
   }
   input[type="submit"]:enabled,
   input[type="button"]:enabled,

@@ -15,12 +15,35 @@ input[type=tel],
 .blue-box input.search-text,
 input.search-text,
 textarea,
-textarea.textarea-comm {
+textarea.textarea-comm,
+.form-control {
     color: $input-base-color;
     background: $input-base-bg;
     border: none;
     border-width: 0px;
     border-radius: 0px;
+
+    &::placeholder {
+        color: $input-base-placeholder-color;
+    }
+
+    &:hover {
+        color: $input-base-hover-color;
+        background: $input-base-hover-bg;
+
+        &::placeholder {
+            color: $input-base-placeholder-hover-color;
+        }
+    }
+
+    &:active, &:focus {
+        color: $input-base-focus-color;
+        background: $input-base-focus-bg;
+
+        &::placeholder {
+            color: $input-base-placeholder-focus-color;
+        }
+    }
 }
 
 input[type="submit"]:enabled,

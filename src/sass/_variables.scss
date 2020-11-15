@@ -42,6 +42,25 @@ $header-6-color: lighten($text-base-color, 10%);
 // Headers background color
 $header-bg: $box-light-bg;
 
+// Controls, inputs, textareas
+$input-base-color: lighten($text-base-color, 10%);
+$input-base-bg: lighten($box-light-bg, 5%);
+$input-base-placeholder-color: $text-base-color;
+
+// Inputs hover
+$input-base-hover-color: $input-base-color;
+$input-base-hover-bg: $input-base-bg;
+$input-base-placeholder-hover-color: $input-base-placeholder-color;
+
+// Input focused
+$input-base-focus-color: lighten($input-base-color, 10%);
+$input-base-focus-bg: lighten($input-base-bg, 5%);
+$input-base-placeholder-focus-color: lighten($input-base-placeholder-color, 20%);
+
+// Labels
+$label-base-color: lighten($text-base-color, 5%);
+$label-base-bg: $box-bg;
+
 // Links color
 $link-color: lighten($text-base-color, 8%);
 $link-hover-color: lighten($link-color, 15%);
@@ -94,14 +113,6 @@ $border-base-width: 1px;
 
 // Border style
 $border-base-style: solid;
-
-// Controls, inputs, textareas
-$input-base-color: lighten($text-base-color, 10%);
-$input-base-bg: lighten($box-light-bg, 5%);
-
-// Labels
-$label-base-color: lighten($text-base-color, 5%);
-$label-base-bg: $box-bg;
 
 // Base button
 $button-base-color: lighten($text-base-color, 35%);
