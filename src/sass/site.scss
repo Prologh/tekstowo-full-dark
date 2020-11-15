@@ -951,71 +951,77 @@
         color: $brand-info;
     }
 
-    .komentarz .icons span {
-        display: block;
-        float: left;
-        margin: -1px 5px 0
+    .komentarz {
+        & .icons span {
+            display: block;
+            float: left;
+            margin: -1px 5px 0
+        }
+
+        & img.avatar {
+            padding: 0;
+            border: none;
+        }
+
+        & .bar {
+            color: $text-base-color;
+
+            & .icons {
+                float: right;
+                margin-top: 3px
+            }
+        }
+
+        & .discussion {
+
+            & .bar,
+            & .desc {
+
+                & .deleted {
+                    font-style: italic;
+                    color: #ccc
+                }
+            }
+
+            & p {
+                margin-left: 0;
+            }
+        }
+
+        & textarea {
+            width: 100%;
+            margin-top: 5px
+        }
+
+        & p {
+            line-height: 1.2em;
+            margin: 10px 5px 5px
+        }
     }
 
-    .komentarz img.avatar {
-        float: left;
-        padding: 2px;
-        border: 1px solid #cdcdcd
+    .komentarz-ukryj {
+        & img.avatar,
+        & .bar {
+            opacity: 0.3;
+            filter: none;
+        }
     }
 
-    .komentarz .bar {
-        color: $text-base-color;
-    }
-
-    .komentarz .discussion {
-        margin-left: 20px;
-    }
-
-    .komentarz .discussion .bar,
-    .komentarz .discussion .desc {
-        width: 600px;
-    }
-
-    .komentarz .discussion p {
-        margin-left: 20px;
-        width: 600px;
-    }
-
-    .komentarz .desc .deleted {
-        font-style: italic;
-        color: #ccc
-    }
-
-    .komentarz textarea {
-        width: 100%;
-        margin-top: 5px
-    }
-
-    .komentarz .bar .icons {
-        float: right;
-        margin-top: 3px
-    }
-
-    .komentarz p {
-        width: 620px;
-        float: right;
-        line-height: 1.2em;
-        margin: 10px 5px 5px
-    }
-
-    .komentarz-ukryj img.avatar, .komentarz-ukryj .bar, .op3 {
+    .op3 {
         opacity: 0.3;
         filter: none;
     }
 
-    .reklama-komentarz img.avatar {
-        border: 0px;
-        padding: 0px;
-        margin-left: 10px;
-    }
+    .reklama-komentarz {
+        & img.avatar {
+            border: 0px;
+            padding: 0px;
+            margin-left: 10px;
+        }
 
-    .reklama-komentarz .bar strong {
-        color: $brand-danger;
+        & .bar strong {
+            color: $brand-danger;
+        }
     }
 
     form .error {

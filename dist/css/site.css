@@ -2006,43 +2006,38 @@
     margin: -1px 5px 0;
   }
   .komentarz img.avatar {
-    float: left;
-    padding: 2px;
-    border: 1px solid #cdcdcd;
+    padding: 0;
+    border: none;
   }
   .komentarz .bar {
     color: #909090;
-  }
-  .komentarz .discussion {
-    margin-left: 20px;
-  }
-  .komentarz .discussion .bar,
-  .komentarz .discussion .desc {
-    width: 600px;
-  }
-  .komentarz .discussion p {
-    margin-left: 20px;
-    width: 600px;
-  }
-  .komentarz .desc .deleted {
-    font-style: italic;
-    color: #ccc;
-  }
-  .komentarz textarea {
-    width: 100%;
-    margin-top: 5px;
   }
   .komentarz .bar .icons {
     float: right;
     margin-top: 3px;
   }
+  .komentarz .discussion .bar .deleted,
+  .komentarz .discussion .desc .deleted {
+    font-style: italic;
+    color: #ccc;
+  }
+  .komentarz .discussion p {
+    margin-left: 0;
+  }
+  .komentarz textarea {
+    width: 100%;
+    margin-top: 5px;
+  }
   .komentarz p {
-    width: 620px;
-    float: right;
     line-height: 1.2em;
     margin: 10px 5px 5px;
   }
-  .komentarz-ukryj img.avatar, .komentarz-ukryj .bar, .op3 {
+  .komentarz-ukryj img.avatar,
+  .komentarz-ukryj .bar {
+    opacity: 0.3;
+    filter: none;
+  }
+  .op3 {
     opacity: 0.3;
     filter: none;
   }
