@@ -8,7 +8,7 @@
 @supportURL     https://github.com/Prologh/tekstowo-full-dark/issues
 @updateURL      https://github.com/Prologh/tekstowo-full-dark/raw/master/dist/tekstowo-full-dark.user.styl
 @preprocessor   stylus
-@version        1.2.8
+@version        1.2.9
 @license        MIT
 
 ==/UserStyle== */
@@ -2519,6 +2519,17 @@
   }
   .grey-bkg {
     background-color: #1d1d1d !important;
+  }
+  ul.arrows {
+    padding-left: 0px;
+  }
+  ul.arrows li {
+    padding-bottom: 0;
+  }
+  ul.arrows li:before {
+    content: none;
+    width: 0;
+    height: 0;
   }
   .ytVidHref span {
     color: #909090;

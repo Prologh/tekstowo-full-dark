@@ -1461,7 +1461,19 @@
         background-color: #1d1d1d !important
     }
 
+    ul.arrows {
+        padding-left: 0px;
 
+        & li {
+            padding-bottom: 0;
+
+            &:before {
+                content: none;
+                width: 0;
+                height: 0;
+            }
+        }
+    }
 
     .ytVidHref span {
         color: $text-base-color;
