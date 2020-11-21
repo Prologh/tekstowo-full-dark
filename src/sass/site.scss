@@ -816,10 +816,8 @@
     }
 
     .revisions .entry {
-        padding: 5px;
         border-bottom-color: $border-base-color;
-        white-space: nowrap;
-        font-size: 12px
+        font-size: 12px;
     }
 
     .revisions .entry .fixed {
@@ -834,19 +832,6 @@
         text-decoration: none;
         color: $brand-primary;
         font-weight: normal
-    }
-
-    .revisions .hour, .revisions .date {
-        text-align: right;
-        padding-left: 16px
-    }
-
-    .revisions .hour {
-        background: $box-bg;
-    }
-
-    .revisions .date {
-        background: $box-bg;
     }
 
     .text-link {

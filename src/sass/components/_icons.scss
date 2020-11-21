@@ -91,7 +91,7 @@ a.na-minus {
 // Music video icon on song list
 .icon_kamera {
     filter: none;
-/*    &:before,
+    /*    &:before,
     &:after {
         position: absolute;
         content: '';
@@ -181,5 +181,13 @@ div.tlumaczenie > h2 + a.pokaz-tlumaczenie {
 
     &:hover:after, &:focus:after {
         color: $link-block-hover-color;
+    }
+}
+
+// Revision hour and date icons
+.revisions {
+    & .date, & .hour {
+        background-position: unset;
+        background-size: 14px;
     }
 }

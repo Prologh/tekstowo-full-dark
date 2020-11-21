@@ -638,6 +638,10 @@
   div.tlumaczenie > h2 + a.pokaz-tlumaczenie:hover:after, div.tlumaczenie > h2 + a.pokaz-tlumaczenie:focus:after {
     color: #cbcbcb;
   }
+  .revisions .date, .revisions .hour {
+    background-position: unset;
+    background-size: 14px;
+  }
   /* Rules that affect facebook plugin */
   ul.topmenu li.fb a {
     background-color: #255EAE;
@@ -1998,9 +2002,7 @@
     padding: 7px 0px;
   }
   .revisions .entry {
-    padding: 5px;
     border-bottom-color: #666;
-    white-space: nowrap;
     font-size: 12px;
   }
   .revisions .entry .fixed {
@@ -2013,16 +2015,6 @@
     text-decoration: none;
     color: #74be2f;
     font-weight: normal;
-  }
-  .revisions .hour, .revisions .date {
-    text-align: right;
-    padding-left: 16px;
-  }
-  .revisions .hour {
-    background: #1C1C1C;
-  }
-  .revisions .date {
-    background: #1C1C1C;
   }
   .text-link {
     color: #62ae25;
