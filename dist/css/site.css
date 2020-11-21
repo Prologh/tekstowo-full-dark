@@ -2188,14 +2188,6 @@
   }
   .wykonawca a.usun {
     position: static;
-    display: inline-block;
-    line-height: 16px;
-    padding-left: 23px;
-    background: #1C1C1C;
-    color: #ff8d00;
-    text-decoration: underline;
-    opacity: 1;
-    filter: none;
   }
   .add-navigation {
     text-align: center;
