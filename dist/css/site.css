@@ -321,9 +321,6 @@
     width: 518px;
     padding: 5px 5px 5px 8px;
   }
-  .box-przeboje {
-    width: auto;
-  }
   .teledysk-left-top,
   .teledysk-left-bottom {
     width: auto;
@@ -340,9 +337,6 @@
   }
   .glosowanie {
     width: initial;
-  }
-  .content .box-przeboje {
-    width: 521px;
   }
   .komentarz .desc {
     display: block;
@@ -2076,13 +2070,6 @@
     color: #970000;
     font-size: 12px;
     font-weight: bold;
-  }
-  .content {
-    float: left;
-    width: 531px;
-  }
-  .content.box-przeboje {
-    width: 521px;
   }
   .content.add-soundtrack {
     width: 100%;
