@@ -8,7 +8,7 @@
 @supportURL     https://github.com/Prologh/tekstowo-full-dark/issues
 @updateURL      https://github.com/Prologh/tekstowo-full-dark/raw/master/dist/tekstowo-full-dark.user.styl
 @preprocessor   stylus
-@version        1.2.9
+@version        1.3.1
 @license        MIT
 
 ==/UserStyle== */
@@ -336,25 +336,12 @@
     width: 518px;
     padding: 5px 5px 5px 8px;
   }
-  .teledysk-left, .teledysk-right {
-    padding: 0px;
-    height: 72px;
-  }
-  .teledysk-left,
-  .teledysk-left .box-przeboje {
-    width: auto;
-  }
   .box-przeboje {
     width: auto;
   }
   .teledysk-left-top,
   .teledysk-left-bottom {
     width: auto;
-  }
-  .teledysk-right {
-    width: 335px;
-    height: 40px;
-    padding: 16px 15px;
   }
   .comm_show_more {
     height: initial;
@@ -486,6 +473,25 @@
   .form-control:active::placeholder,
   .form-control:focus::placeholder {
     color: #c3c3c3;
+  }
+  .form-control:disabled,
+  .form-control[readonly] {
+    color: #aaaaaa;
+    background: #272727;
+    border: none;
+    border-width: 0px;
+    border-radius: 0px;
+  }
+  .form-control:disabled:hover,
+  .form-control[readonly]:hover {
+    color: #aaaaaa;
+    background: #272727;
+  }
+  .form-control:disabled:active, .form-control:disabled:focus,
+  .form-control[readonly]:active,
+  .form-control[readonly]:focus {
+    color: #c3c3c3;
+    background: #343434;
   }
   input[type="submit"]:enabled,
   input[type="button"]:enabled,
@@ -1915,7 +1921,8 @@
   .blue .teledysk-left .box-przeboje a.new {
     color: #255EAE;
   }
-  .teledysk-right-top, .teledysk-right-bottom {
+  .teledysk-right-top,
+  .teledysk-right-bottom {
     width: 365px;
     height: 4px;
     background: #1C1C1C;
@@ -1926,12 +1933,8 @@
   .teledysk-right-bottom {
     background: #1C1C1C;
   }
-  .teledysk-right .social {
-    text-align: right;
-    width: 290px;
-    display: inline-block;
-    position: relative;
-    height: 17px;
+  .teledysk-right .social label {
+    background: unset;
   }
   .teledysk-udo {
     display: inline-block;
@@ -1946,16 +1949,12 @@
     position: absolute;
   }
   .emb {
-    background-color: #f4f4f4;
-    width: 232px;
-    margin-left: 10px;
-    vertical-align: middle;
-    border: 1px solid #bfbfbf;
-    font-size: 1em;
-    padding: 2px 5px;
+    color: #a4a4a4;
+    background-color: #343434;
   }
-  .teledysk-right fieldset {
-    margin-top: 10px;
+  .emb:hover, .emb:active, .embfocus {
+    color: #cbcbcb;
+    background-color: #343434;
   }
   .glosowanie span {
     font-size: 1.3em;

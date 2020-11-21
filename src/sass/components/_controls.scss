@@ -46,6 +46,25 @@ textarea.textarea-comm,
     }
 }
 
+.form-control:disabled,
+.form-control[readonly] {
+    color: $input-disabled-color;
+    background: $input-disabled-bg;
+    border: none;
+    border-width: 0px;
+    border-radius: 0px;
+
+    &:hover {
+        color: $input-disabled-hover-color;
+        background: $input-disabled-hover-bg;
+    }
+
+    &:active, &:focus {
+        color: $input-disabled-focus-color;
+        background: $input-disabled-focus-bg;
+    }
+}
+
 input[type="submit"]:enabled,
 input[type="button"]:enabled,
 button:enabled {

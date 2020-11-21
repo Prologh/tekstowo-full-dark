@@ -57,6 +57,18 @@ $input-base-focus-color: lighten($input-base-color, 10%);
 $input-base-focus-bg: lighten($input-base-bg, 5%);
 $input-base-placeholder-focus-color: lighten($input-base-placeholder-color, 20%);
 
+// Disabled input
+$input-disabled-color: $input-base-color;
+$input-disabled-bg: darken($input-base-bg, 5%);
+
+// Disabled input hover
+$input-disabled-hover-color: $input-disabled-color;
+$input-disabled-hover-bg: $input-disabled-bg;
+
+// Disabled input focued
+$input-disabled-focus-color: lighten($input-disabled-color, 10%);
+$input-disabled-focus-bg: lighten($input-disabled-bg, 5%);
+
 // Labels
 $label-base-color: lighten($text-base-color, 5%);
 $label-base-bg: $box-bg;

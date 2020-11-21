@@ -703,7 +703,8 @@
         color: #255EAE
     }
 
-    .teledysk-right-top, .teledysk-right-bottom {
+    .teledysk-right-top,
+    .teledysk-right-bottom {
         width: 365px;
         height: 4px;
         background: $box-bg;
@@ -717,11 +718,10 @@
     }
 
     .teledysk-right .social {
-        text-align: right;
-        width: 290px;
-        display: inline-block;
-        position: relative;
-        height: 17px
+
+        & label {
+            background: unset;
+        }
     }
 
     .teledysk-udo {
@@ -739,17 +739,13 @@
     }
 
     .emb {
-        background-color: #f4f4f4;
-        width: 232px;
-        margin-left: 10px;
-        vertical-align: middle;
-        border: 1px solid #bfbfbf;
-        font-size: 1em;
-        padding: 2px 5px
-    }
+        color: $link-color;
+        background-color: $input-base-bg;
 
-    .teledysk-right fieldset {
-        margin-top: 10px;
+        &:hover, &:active, &focus {
+            color: $link-hover-color;
+            background-color: $input-base-hover-bg;
+        }
     }
 
     .glosowanie span {

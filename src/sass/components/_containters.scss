@@ -118,16 +118,6 @@ div.popularni {
 }
 
 // Song header containers, under music video.
-.teledysk-left, .teledysk-right {
-    padding: 0px;
-    height: 72px;
-}
-
-.teledysk-left,
-.teledysk-left .box-przeboje {
-    width: auto;
-}
-
 .box-przeboje {
     width: auto;
 }
@@ -135,12 +125,6 @@ div.popularni {
 .teledysk-left-top,
 .teledysk-left-bottom {
     width: auto;
-}
-
-.teledysk-right {
-    width: 335px;
-    height: 40px;
-    padding: 16px 15px;
 }
 
 // Load more comments container.
