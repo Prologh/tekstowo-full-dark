@@ -1,0 +1,38 @@
+.page-link {
+    margin-left: 0;
+}
+
+.page-item {
+    & .page-link {
+        color: $page-selector-color;
+        background-color: $page-selector-bg;
+        border-color: $border-base-color;
+        border: none;
+
+        &:hover, &:active, &:focus {
+            color: $page-selector-hover-color;
+            background-color: $page-selector-hover-bg;
+        }
+    }
+
+    &.active {
+        & .page-link {
+            color: $page-selector-selected-color;
+            background-color: $page-selector-selected-bg;
+            border-color: $border-base-color;
+
+            &:hover, &:active, &:focus {
+                color: $page-selector-selected-hover-color;
+                background-color: $page-selector-selected-hover-bg;
+            }
+        }
+    }
+
+    &:first-child .page-link {
+        border-radius: 0;
+    }
+
+    &:last-child .page-link {
+        border-radius: 0;
+    }
+}

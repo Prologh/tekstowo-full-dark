@@ -256,3 +256,19 @@ $scrollbar-control-bg: $input-base-bg;
 $scrollbar-control-thumb-bg: lighten($scrollbar-control-bg, 10%);
 $scrollbar-control-thumb-hover-bg: lighten($scrollbar-control-thumb-bg, 8%);
 $scrollbar-control-corner-bg: darken($scrollbar-control-thumb-bg, 4%);
+
+// Page selectors
+$page-selector-color: $text-light-color;
+$page-selector-bg: $box-bg;
+
+// Page selectors hover
+$page-selector-hover-color: lighten($page-selector-color, 6%);
+$page-selector-hover-bg: lighten($page-selector-bg, 6%);
+
+// Page selectors selected
+$page-selector-selected-color: lighten($page-selector-color, 6%);
+$page-selector-selected-bg: $brand-primary-dark;
+
+// Page selectors selected hover
+$page-selector-selected-hover-color: lighten($page-selector-selected-color, 6%);
+$page-selector-selected-hover-bg: lighten($page-selector-selected-bg, 6%);
