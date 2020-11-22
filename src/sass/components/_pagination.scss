@@ -6,7 +6,6 @@
     & .page-link {
         color: $page-selector-color;
         background-color: $page-selector-bg;
-        border-color: $border-base-color;
         border: none;
 
         &:hover, &:active, &:focus {
@@ -19,7 +18,6 @@
         & .page-link {
             color: $page-selector-selected-color;
             background-color: $page-selector-selected-bg;
-            border-color: $border-base-color;
 
             &:hover, &:active, &:focus {
                 color: $page-selector-selected-hover-color;

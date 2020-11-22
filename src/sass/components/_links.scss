@@ -25,22 +25,38 @@ a.search-adv,
 }
 
 // Alphabet
-ul.alfabet li a {
-    color: $link-color;
-    padding: 4px 7.5px;
-    width: initial;
-    height: initial;
+ul.alfabet li,
+ul.nav.alfabet li {
 
-    &:hover, &:focus {
-        color: $link-hover-color;
-        background: $box-light-bg;
+    & a {
+        padding: 4px 7.5px;
+        width: initial;
+        height: initial;
         border-radius: 0;
-    }
-}
+        border: none;
+        color: $page-selector-color;
 
-ul.nav.alfabet li a {
-    &:hover, &:focus {
-        color: $brand-danger;
+        &:hover, &:active, &:focus {
+            border-radius: 0;
+            border: none;
+            outline: none;
+            color: $page-selector-hover-color;
+            background-color: $page-selector-hover-bg;
+        }
+    }
+
+    &.active a {
+        border-radius: 0;
+        border: none;
+        color: $page-selector-selected-color;
+        background-color: $page-selector-selected-bg;
+
+        &:hover, &:focus, &:active {
+            border-radius: 0;
+            border: none;
+            color: $page-selector-selected-hover-color;
+            background-color: $page-selector-selected-hover-bg;
+        }
     }
 }
 

@@ -736,19 +736,40 @@
     color: #81ce39;
     text-decoration: none;
   }
-  ul.alfabet li a {
-    color: #a4a4a4;
+  ul.alfabet li a,
+  ul.nav.alfabet li a {
     padding: 4px 7.5px;
     width: initial;
     height: initial;
-  }
-  ul.alfabet li a:hover, ul.alfabet li a:focus {
-    color: #cbcbcb;
-    background: #272727;
     border-radius: 0;
+    border: none;
+    color: #dddddd;
   }
-  ul.nav.alfabet li a:hover, ul.nav.alfabet li a:focus {
-    color: #970000;
+  ul.alfabet li a:hover, ul.alfabet li a:active, ul.alfabet li a:focus,
+  ul.nav.alfabet li a:hover,
+  ul.nav.alfabet li a:active,
+  ul.nav.alfabet li a:focus {
+    border-radius: 0;
+    border: none;
+    outline: none;
+    color: #ececec;
+    background-color: #2b2b2b;
+  }
+  ul.alfabet li.active a,
+  ul.nav.alfabet li.active a {
+    border-radius: 0;
+    border: none;
+    color: #ececec;
+    background-color: #62ae25;
+  }
+  ul.alfabet li.active a:hover, ul.alfabet li.active a:focus, ul.alfabet li.active a:active,
+  ul.nav.alfabet li.active a:hover,
+  ul.nav.alfabet li.active a:focus,
+  ul.nav.alfabet li.active a:active {
+    border-radius: 0;
+    border: none;
+    color: #fbfbfb;
+    background-color: #70c72a;
   }
   .dodaj-soundtrack,
   .dodaj-tekst,
@@ -1238,7 +1259,6 @@
   .page-item .page-link {
     color: #dddddd;
     background-color: #1C1C1C;
-    border-color: #666;
     border: none;
   }
   .page-item .page-link:hover, .page-item .page-link:active, .page-item .page-link:focus {
@@ -1248,7 +1268,6 @@
   .page-item.active .page-link {
     color: #ececec;
     background-color: #62ae25;
-    border-color: #666;
   }
   .page-item.active .page-link:hover, .page-item.active .page-link:active, .page-item.active .page-link:focus {
     color: #fbfbfb;
