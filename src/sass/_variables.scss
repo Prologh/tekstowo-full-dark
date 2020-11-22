@@ -11,6 +11,7 @@ $gray-lighter:          #CCC    !default;
 // Brand colors
 $brand-primary:         #74be2f !default;
 $brand-primary-dark:    #62ae25 !default;
+$brand-secondary:       #E46C2C !default;
 $brand-info:            #255EAE !default;
 $brand-warning:         #E46C2C !default;
 $brand-danger:          #970000 !default;
@@ -152,6 +153,14 @@ $button-primary-hover-bg: darken($button-primary-bg, 5%);
 $button-primary-border-width: $button-base-border-width;
 $button-primary-border-style: $button-base-border-style;
 $button-primary-border-color: $button-base-border-color;
+
+// Primary button
+$button-secondary-color: $button-base-color;
+$button-secondary-bg: darken($brand-secondary, 6%);
+$button-secondary-hover-color: darken($button-secondary-color, 6%);
+$button-secondary-hover-bg: darken($button-secondary-bg, 8%);
+$button-secondary-active-color: darken($button-secondary-hover-color, 6%);
+$button-secondary-active-bg: darken($button-secondary-hover-bg, 8%);
 
 // Info button
 $button-info-color: $button-base-color;

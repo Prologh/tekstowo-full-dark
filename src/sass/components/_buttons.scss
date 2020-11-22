@@ -25,19 +25,20 @@ input.search-send {
 }
 
 // Search button after
-fieldset.search {
-    position: relative;
+.btn-secondary,
+.search-box .inner .search-form .submit {
+    color: $button-secondary-color;
+    background: $button-secondary-bg;
+    border: none;
 
-    &::after {
-        color: $button-primary-color;
-        background: $button-primary-bg;
-        padding: 2.5px 12px;
-        font-weight: bold;
-        position: absolute;
-        top: 1px;
-        right: 24px;
-        z-index: 40;
-        content: "Szukaj";
+    &:hover, &:focus {
+        color: $button-secondary-hover-color;
+        background: $button-secondary-hover-bg;
+    }
+
+    &:not(:disabled):not(.disabled):active {
+        color: $button-secondary-active-color;
+        background: $button-secondary-active-bg;
     }
 }
 
