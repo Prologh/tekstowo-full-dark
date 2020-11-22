@@ -1331,24 +1331,6 @@
         height: 350px;
     }
 
-    .usun, .dodaj, .szukajacy {
-        color: $brand-primary;
-        text-decoration: underline;
-        line-height: 19px;
-        position: absolute;
-        top: 6px;
-        display: block;
-        height: 19px
-    }
-
-    .dodaj {
-        background: $box-bg;
-    }
-
-    .poszukiwane .usun {
-        background: $box-bg;
-    }
-
     #error404 h2 {
         color: $brand-danger;
     }

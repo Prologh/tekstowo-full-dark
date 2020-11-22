@@ -2421,21 +2421,6 @@
   .edycja .textarea-big.big2 {
     height: 350px;
   }
-  .usun, .dodaj, .szukajacy {
-    color: #74be2f;
-    text-decoration: underline;
-    line-height: 19px;
-    position: absolute;
-    top: 6px;
-    display: block;
-    height: 19px;
-  }
-  .dodaj {
-    background: #1C1C1C;
-  }
-  .poszukiwane .usun {
-    background: #1C1C1C;
-  }
   #error404 h2 {
     color: #970000;
   }
