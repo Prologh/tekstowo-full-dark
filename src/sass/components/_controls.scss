@@ -81,4 +81,5 @@ label,
 .focus,
 .custom-control-input:focus ~ .custom-control-label::before {
     box-shadow: none !important;
+    outline: none !important;
 }

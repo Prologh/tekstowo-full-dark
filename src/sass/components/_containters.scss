@@ -8,7 +8,6 @@
 
 // Set background color for all kind of boxes and containers.
 .box-big,
-.card,
 .box-przeboje,
 .box-przeboje.sort,
 .login-wrap,
@@ -105,6 +104,7 @@ div#bottom {
 
 // User profile card container
 .card {
+    background-color: unset;
 }
 
 .activity-feed .feed-item {

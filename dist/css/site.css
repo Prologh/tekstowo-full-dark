@@ -237,7 +237,6 @@
     background: #131313;
   }
   .box-big,
-  .card,
   .box-przeboje,
   .box-przeboje.sort,
   .login-wrap,
@@ -314,6 +313,9 @@
   }
   div#bottom {
     padding: 20px 0px 10px;
+  }
+  .card {
+    background-color: unset;
   }
   .activity-feed .feed-item {
     border-left-color: #666;
@@ -495,6 +497,7 @@
   .focus,
   .custom-control-input:focus ~ .custom-control-label::before {
     box-shadow: none !important;
+    outline: none !important;
   }
   /* Rules that affect icons */
   .icon {
@@ -790,6 +793,39 @@
     border: none;
     color: #fbfbfb;
     background-color: #70c72a;
+  }
+  .nav-pills .nav-link,
+  .nav-pills .navbar-nav > li > a {
+    color: #ececec;
+    background: #1C1C1C;
+    border-radius: 0;
+  }
+  .nav-pills .nav-link:hover, .nav-pills .nav-link:focus, .nav-pills .nav-link:active,
+  .nav-pills .navbar-nav > li > a:hover,
+  .nav-pills .navbar-nav > li > a:focus,
+  .nav-pills .navbar-nav > li > a:active {
+    color: #f9f9f9;
+    background: #292929;
+  }
+  .nav-pills .nav-link.active,
+  .nav-pills .navbar-nav > li.show > a,
+  .nav-pills .navbar-nav > li > a.active,
+  .nav-pills .show > .nav-link {
+    color: white;
+    background: #62ae25;
+  }
+  .nav-pills .nav-link.active:hover, .nav-pills .nav-link.active:focus, .nav-pills .nav-link.active:active,
+  .nav-pills .navbar-nav > li.show > a:hover,
+  .nav-pills .navbar-nav > li.show > a:focus,
+  .nav-pills .navbar-nav > li.show > a:active,
+  .nav-pills .navbar-nav > li > a.active:hover,
+  .nav-pills .navbar-nav > li > a.active:focus,
+  .nav-pills .navbar-nav > li > a.active:active,
+  .nav-pills .show > .nav-link:hover,
+  .nav-pills .show > .nav-link:focus,
+  .nav-pills .show > .nav-link:active {
+    color: white;
+    background: #74be2f;
   }
   .dodaj-soundtrack,
   .dodaj-tekst,
@@ -1345,15 +1381,15 @@
   .tabs a.recived,
   .tabs a.sended,
   .tabs a.send {
-    color: #bebebe;
+    color: #ececec;
     background: #1C1C1C;
   }
   .tabs a.active,
   .tabs a.recived.active,
   .tabs a.sended.active,
   .tabs a.send.active {
-    color: #62ae25;
-    background: #1C1C1C;
+    color: white;
+    background: #62ae25;
   }
   .tabs a.active:hover, .tabs a.active:focus,
   .tabs a.recived.active:hover,
@@ -1362,8 +1398,8 @@
   .tabs a.sended.active:focus,
   .tabs a.send.active:hover,
   .tabs a.send.active:focus {
-    color: #74be2f;
-    background: #292929;
+    color: white;
+    background: #74be2f;
   }
   .tabs a:hover, .tabs a:focus,
   .tabs a.recived:hover,
@@ -1372,35 +1408,35 @@
   .tabs a.sended:focus,
   .tabs a.send:hover,
   .tabs a.send:focus {
-    color: #cbcbcb;
+    color: #f9f9f9;
     background: #292929;
   }
   .user-box .tabs a,
   .user-box .tabs a.fav,
   .user-box .tabs a.blocked {
-    color: #bebebe;
+    color: #ececec;
     background: #1C1C1C;
   }
   .user-box .tabs a.active,
   .user-box .tabs a.fav.active,
   .user-box .tabs a.blocked.active {
-    color: #62ae25;
-    background: #1C1C1C;
+    color: white;
+    background: #62ae25;
   }
   .user-box .tabs a.active:hover, .user-box .tabs a.active:focus,
   .user-box .tabs a.fav.active:hover,
   .user-box .tabs a.fav.active:focus,
   .user-box .tabs a.blocked.active:hover,
   .user-box .tabs a.blocked.active:focus {
-    color: #74be2f;
-    background: #292929;
+    color: white;
+    background: #74be2f;
   }
   .user-box .tabs a:hover, .user-box .tabs a:focus,
   .user-box .tabs a.fav:hover,
   .user-box .tabs a.fav:focus,
   .user-box .tabs a.blocked:hover,
   .user-box .tabs a.blocked:focus {
-    color: #cbcbcb;
+    color: #f9f9f9;
     background: #292929;
   }
   .song-text,
