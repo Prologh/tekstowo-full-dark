@@ -237,6 +237,7 @@
     background: #131313;
   }
   .box-big,
+  .card,
   .box-przeboje,
   .box-przeboje.sort,
   .login-wrap,
@@ -314,8 +315,12 @@
   div#bottom {
     padding: 20px 0px 10px;
   }
-  .card {
-    display: initial;
+  .activity-feed .feed-item {
+    border-left-color: #666;
+  }
+  .activity-feed .feed-item:after {
+    background: #E46C2C;
+    border-color: #E46C2C;
   }
   div.popularni {
     margin-top: 10px;
@@ -2596,12 +2601,6 @@
   a.enlarge:hover {
     background-color: #EAFADA;
     border-color: #EAFADA;
-  }
-  .text {
-    border: 1px solid #ccc;
-    background: #ffffff;
-    background: #1C1C1C;
-    background: linear-gradient(to bottom, #ffffff 0%, #efefef 100%);
   }
   .edycja .text {
     color: #666;

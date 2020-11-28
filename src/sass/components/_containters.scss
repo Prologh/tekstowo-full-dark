@@ -8,6 +8,7 @@
 
 // Set background color for all kind of boxes and containers.
 .box-big,
+.card,
 .box-przeboje,
 .box-przeboje.sort,
 .login-wrap,
@@ -104,7 +105,15 @@ div#bottom {
 
 // User profile card container
 .card {
-    display: initial;
+}
+
+.activity-feed .feed-item {
+    border-left-color: $border-base-color;
+
+    &:after {
+        background: $brand-secondary;
+        border-color: $brand-secondary;
+    }
 }
 
 // Popular artists.
