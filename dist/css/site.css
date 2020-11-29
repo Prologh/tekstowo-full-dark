@@ -1381,7 +1381,11 @@
   .table {
     color: unset;
   }
-  .table td, .table th {
+  .table thead th {
+    border: none;
+  }
+  .table td,
+  .table th {
     border-top-color: #666;
   }
   .table-striped tbody tr:nth-of-type(odd) {

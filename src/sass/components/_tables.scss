@@ -1,8 +1,15 @@
 .table {
     color: unset;
+
+    & thead {
+        & th {
+            border: none;
+        }
+    }
 }
 
-.table td, .table th {
+.table td,
+.table th {
     border-top-color: $border-base-color;
 }
 

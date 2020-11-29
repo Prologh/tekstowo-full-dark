@@ -8,7 +8,7 @@
 @supportURL     https://github.com/Prologh/tekstowo-full-dark/issues
 @updateURL      https://github.com/Prologh/tekstowo-full-dark/raw/master/dist/tekstowo-full-dark.user.styl
 @preprocessor   stylus
-@version        1.4.7
+@version        1.4.8
 @license        MIT
 
 ==/UserStyle== */
@@ -1396,7 +1396,11 @@
   .table {
     color: unset;
   }
-  .table td, .table th {
+  .table thead th {
+    border: none;
+  }
+  .table td,
+  .table th {
     border-top-color: #666;
   }
   .table-striped tbody tr:nth-of-type(odd) {
