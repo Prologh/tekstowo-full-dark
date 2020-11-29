@@ -51,6 +51,15 @@
     }
 }
 
+// Tabs
+.nav-tabs {
+    border: none;
+}
+
+.msg > .nav.nav-tabs {
+    margin-top: 0;
+}
+
 // Tabs links
 .nav-tabs .nav-link,
 .nav-tabs .navbar-nav > li > a {

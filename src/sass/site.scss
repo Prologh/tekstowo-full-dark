@@ -457,12 +457,6 @@
         height: 38px
     }
 
-    .belka.users {
-        width: 160px;
-        float: right;
-        margin-bottom: 10px;
-    }
-
     .belka.users strong {
         width: auto;
     }
@@ -1009,8 +1003,8 @@
     }
 
     .wykonawca img {
-        padding: 2px;
-        border: 1px solid #cecece
+        padding: 0;
+        border: none;
     }
 
     .wykonawca a {
@@ -1025,8 +1019,6 @@
 
     .wykonawca strong {
         color: $brand-primary-dark;
-        margin: 0px 0px 5px;
-        display: inline-block
     }
 
     .wykonawca strong.grey {
@@ -1035,6 +1027,7 @@
 
     .wykonawca a.usun {
         position: static;
+        margin-left: 0;
     }
 
     .add-navigation {
@@ -1435,15 +1428,6 @@
 
     .box-soundtrack .cover {
         border: 1px solid #ccc;
-    }
-
-    #msg-users .favs img {
-        border: 1px solid #cdcdcd;
-    }
-
-    #msg-users .actions .delete {
-        background: $box-bg;
-        color: $brand-primary;
     }
 
     input.search-user {

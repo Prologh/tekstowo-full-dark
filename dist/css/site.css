@@ -185,21 +185,35 @@
     border-radius: 0px;
   }
   #msg-users .actions .send,
-  .user-info .send {
+  #msg-users .actions .delete,
+  .user-info .send,
+  .user-info .delete {
     color: #a4a4a4;
-    background: #1C1C1C;
-    padding: 8px 28px 8px 54px;
-    margin: unset;
+    background: unset;
     width: 100%;
   }
   #msg-users .actions .send:hover, #msg-users .actions .send:focus, #msg-users .actions .send:active, #msg-users .actions .send:not(:disabled):not(.disabled).active, #msg-users .actions .send:not(:disabled):not(.disabled):active,
+  #msg-users .actions .delete:hover,
+  #msg-users .actions .delete:focus,
+  #msg-users .actions .delete:active,
+  #msg-users .actions .delete:not(:disabled):not(.disabled).active,
+  #msg-users .actions .delete:not(:disabled):not(.disabled):active,
   .user-info .send:hover,
   .user-info .send:focus,
   .user-info .send:active,
   .user-info .send:not(:disabled):not(.disabled).active,
-  .user-info .send:not(:disabled):not(.disabled):active {
-    color: #cbcbcb;
-    background: #292929;
+  .user-info .send:not(:disabled):not(.disabled):active,
+  .user-info .delete:hover,
+  .user-info .delete:focus,
+  .user-info .delete:active,
+  .user-info .delete:not(:disabled):not(.disabled).active,
+  .user-info .delete:not(:disabled):not(.disabled):active {
+    color: #a4a4a4;
+    background: #1C1C1C;
+  }
+  #msg-users .favs img {
+    padding: 0;
+    border: none;
   }
   .green-button,
   .send-button {
@@ -1204,7 +1218,7 @@
   .topmenu > ul li a,
   .topmenu-first a,
   .topmenu-last a {
-    color: #bebebe;
+    color: #dddddd;
     background: #1C1C1C;
   }
   .topmenu li a:hover, .topmenu li a:focus,
@@ -1214,14 +1228,14 @@
   .topmenu-first a:focus,
   .topmenu-last a:hover,
   .topmenu-last a:focus {
-    color: #cbcbcb;
+    color: #e9e9e9;
     background: #292929;
   }
   .topmenu li a.active,
   .topmenu > ul li a.active,
   .topmenu-first a.active,
   .topmenu-last a.active {
-    color: #d7d7d7;
+    color: #f6f6f6;
     background: #62ae25;
   }
   .topmenu li a.active:hover, .topmenu li a.active:focus,
@@ -1439,6 +1453,12 @@
   .user-box .tabs a.blocked:focus {
     color: #f9f9f9;
     background: #292929;
+  }
+  .nav-tabs {
+    border: none;
+  }
+  .msg > .nav.nav-tabs {
+    margin-top: 0;
   }
   .nav-tabs .nav-link,
   .nav-tabs .navbar-nav > li > a {
@@ -1834,11 +1854,6 @@
   }
   .belka.short {
     height: 38px;
-  }
-  .belka.users {
-    width: 160px;
-    float: right;
-    margin-bottom: 10px;
   }
   .belka.users strong {
     width: auto;
@@ -2272,8 +2287,8 @@
     padding: 5px;
   }
   .wykonawca img {
-    padding: 2px;
-    border: 1px solid #cecece;
+    padding: 0;
+    border: none;
   }
   .wykonawca a {
     opacity: 0.6;
@@ -2285,14 +2300,13 @@
   }
   .wykonawca strong {
     color: #62ae25;
-    margin: 0px 0px 5px;
-    display: inline-block;
   }
   .wykonawca strong.grey {
     color: #555;
   }
   .wykonawca a.usun {
     position: static;
+    margin-left: 0;
   }
   .add-navigation {
     text-align: center;
@@ -2607,13 +2621,6 @@
   }
   .box-soundtrack .cover {
     border: 1px solid #ccc;
-  }
-  #msg-users .favs img {
-    border: 1px solid #cdcdcd;
-  }
-  #msg-users .actions .delete {
-    background: #1C1C1C;
-    color: #74be2f;
   }
   input.search-user {
     color: #999;

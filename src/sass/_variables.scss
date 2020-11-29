@@ -102,7 +102,7 @@ $link-block-hover-color: $link-hover-color;
 $link-block-hover-bg: lighten($link-block-bg, 5%);
 
 // Navbar links
-$navbar-link-color: lighten($link-color, 10%);
+$navbar-link-color: $text-light-color;
 $navbar-link-bg: $box-bg;
 $navbar-link-hover-color: lighten($navbar-link-color, 5%);
 $navbar-link-hover-bg: lighten($navbar-link-bg, 5%);
