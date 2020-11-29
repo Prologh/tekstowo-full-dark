@@ -146,8 +146,9 @@
   .drukuj {
     color: #a4a4a4;
     background: #1C1C1C;
+    transition: none;
   }
-  .drukuj:focus, .drukuj:hover {
+  .drukuj:focus, .drukuj:hover, .drukuj:active, .drukuj:not(:disabled):not(.disabled):active, .drukuj:not(:disabled):not(.disabled).active {
     color: #cbcbcb;
     background: #292929;
   }

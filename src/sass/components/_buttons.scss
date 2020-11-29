@@ -169,8 +169,13 @@ td.pop_content .dialog_buttons input {
 .drukuj {
     color: $link-block-color;
     background: $link-block-bg;
+    transition: none;
 
-    &:focus, &:hover {
+    &:focus,
+    &:hover,
+    &:active,
+    &:not(:disabled):not(.disabled):active,
+    &:not(:disabled):not(.disabled).active {
         color: $link-block-hover-color;
         background: $link-block-hover-bg;
     }

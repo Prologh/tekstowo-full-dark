@@ -8,7 +8,7 @@
 @supportURL     https://github.com/Prologh/tekstowo-full-dark/issues
 @updateURL      https://github.com/Prologh/tekstowo-full-dark/raw/master/dist/tekstowo-full-dark.user.styl
 @preprocessor   stylus
-@version        1.4.9
+@version        1.5.0
 @license        MIT
 
 ==/UserStyle== */
@@ -161,8 +161,9 @@
   .drukuj {
     color: #a4a4a4;
     background: #1C1C1C;
+    transition: none;
   }
-  .drukuj:focus, .drukuj:hover {
+  .drukuj:focus, .drukuj:hover, .drukuj:active, .drukuj:not(:disabled):not(.disabled):active, .drukuj:not(:disabled):not(.disabled).active {
     color: #cbcbcb;
     background: #292929;
   }
