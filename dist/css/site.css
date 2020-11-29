@@ -794,39 +794,6 @@
     color: #fbfbfb;
     background-color: #70c72a;
   }
-  .nav-pills .nav-link,
-  .nav-pills .navbar-nav > li > a {
-    color: #ececec;
-    background: #1C1C1C;
-    border-radius: 0;
-  }
-  .nav-pills .nav-link:hover, .nav-pills .nav-link:focus, .nav-pills .nav-link:active,
-  .nav-pills .navbar-nav > li > a:hover,
-  .nav-pills .navbar-nav > li > a:focus,
-  .nav-pills .navbar-nav > li > a:active {
-    color: #f9f9f9;
-    background: #292929;
-  }
-  .nav-pills .nav-link.active,
-  .nav-pills .navbar-nav > li.show > a,
-  .nav-pills .navbar-nav > li > a.active,
-  .nav-pills .show > .nav-link {
-    color: white;
-    background: #62ae25;
-  }
-  .nav-pills .nav-link.active:hover, .nav-pills .nav-link.active:focus, .nav-pills .nav-link.active:active,
-  .nav-pills .navbar-nav > li.show > a:hover,
-  .nav-pills .navbar-nav > li.show > a:focus,
-  .nav-pills .navbar-nav > li.show > a:active,
-  .nav-pills .navbar-nav > li > a.active:hover,
-  .nav-pills .navbar-nav > li > a.active:focus,
-  .nav-pills .navbar-nav > li > a.active:active,
-  .nav-pills .show > .nav-link:hover,
-  .nav-pills .show > .nav-link:focus,
-  .nav-pills .show > .nav-link:active {
-    color: white;
-    background: #74be2f;
-  }
   .dodaj-soundtrack,
   .dodaj-tekst,
   .zaproponuj-utwor {
@@ -1335,6 +1302,40 @@
   .page-item:last-child .page-link {
     border-radius: 0;
   }
+  .nav-pills .nav-link,
+  .nav-pills .navbar-nav > li > a {
+    color: #ececec;
+    background: #1C1C1C;
+    border-radius: 0;
+    border: none;
+  }
+  .nav-pills .nav-link:hover, .nav-pills .nav-link:focus, .nav-pills .nav-link:active,
+  .nav-pills .navbar-nav > li > a:hover,
+  .nav-pills .navbar-nav > li > a:focus,
+  .nav-pills .navbar-nav > li > a:active {
+    color: #f9f9f9;
+    background: #292929;
+  }
+  .nav-pills .nav-link.active,
+  .nav-pills .navbar-nav > li.show > a,
+  .nav-pills .navbar-nav > li > a.active,
+  .nav-pills .show > .nav-link {
+    color: white;
+    background: #62ae25;
+  }
+  .nav-pills .nav-link.active:hover, .nav-pills .nav-link.active:focus, .nav-pills .nav-link.active:active,
+  .nav-pills .navbar-nav > li.show > a:hover,
+  .nav-pills .navbar-nav > li.show > a:focus,
+  .nav-pills .navbar-nav > li.show > a:active,
+  .nav-pills .navbar-nav > li > a.active:hover,
+  .nav-pills .navbar-nav > li > a.active:focus,
+  .nav-pills .navbar-nav > li > a.active:active,
+  .nav-pills .show > .nav-link:hover,
+  .nav-pills .show > .nav-link:focus,
+  .nav-pills .show > .nav-link:active {
+    color: white;
+    background: #74be2f;
+  }
   body::-webkit-scrollbar {
     width: 10px;
     height: 10px;
@@ -1438,6 +1439,40 @@
   .user-box .tabs a.blocked:focus {
     color: #f9f9f9;
     background: #292929;
+  }
+  .nav-tabs .nav-link,
+  .nav-tabs .navbar-nav > li > a {
+    color: #ececec;
+    background: #1C1C1C;
+    border-radius: 0;
+    border: none;
+  }
+  .nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus, .nav-tabs .nav-link:active,
+  .nav-tabs .navbar-nav > li > a:hover,
+  .nav-tabs .navbar-nav > li > a:focus,
+  .nav-tabs .navbar-nav > li > a:active {
+    color: #f9f9f9;
+    background: #292929;
+  }
+  .nav-tabs .nav-link.active,
+  .nav-tabs .navbar-nav > li.show > a,
+  .nav-tabs .navbar-nav > li > a.active,
+  .nav-tabs .show > .nav-link {
+    color: white;
+    background: #62ae25;
+  }
+  .nav-tabs .nav-link.active:hover, .nav-tabs .nav-link.active:focus, .nav-tabs .nav-link.active:active,
+  .nav-tabs .navbar-nav > li.show > a:hover,
+  .nav-tabs .navbar-nav > li.show > a:focus,
+  .nav-tabs .navbar-nav > li.show > a:active,
+  .nav-tabs .navbar-nav > li > a.active:hover,
+  .nav-tabs .navbar-nav > li > a.active:focus,
+  .nav-tabs .navbar-nav > li > a.active:active,
+  .nav-tabs .show > .nav-link:hover,
+  .nav-tabs .show > .nav-link:focus,
+  .nav-tabs .show > .nav-link:active {
+    color: white;
+    background: #74be2f;
   }
   .song-text,
   .tlumaczenie {
@@ -1808,20 +1843,8 @@
   .belka.users strong {
     width: auto;
   }
-  .belka strong, .belka .strong {
-    font-size: 1.5em;
-    font-weight: bold;
-    display: inline-block;
-    width: 415px;
-    line-height: 1em;
-    float: left;
-    margin: 0;
-  }
   .belka strong .org-title, .belka .strong .org-title {
     font-size: 0.848em;
-  }
-  .soundtrack.belka strong, .soundtrack.belka .strong {
-    width: 550px;
   }
   .belka strong .sup, .belka .strong .sup {
     font-size: 0.545em;
@@ -1833,9 +1856,6 @@
   }
   .belka strong.long, .belka .strong.long {
     margin-top: 5px;
-  }
-  .content.belka strong, .content.belka .strong {
-    width: 320px;
   }
   .belka .odslon {
     color: #909090;

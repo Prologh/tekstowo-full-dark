@@ -60,33 +60,6 @@ ul.nav.alfabet li {
     }
 }
 
-// Pills links
-.nav-pills .nav-link,
-.nav-pills .navbar-nav > li > a {
-    color: $tab-color;
-    background: $tab-bg;
-    border-radius: 0;
-
-    &:hover, &:focus, &:active {
-        color: $tab-hover-color;
-        background: $tab-hover-bg;
-    }
-}
-
-// Active pills links
-.nav-pills .nav-link.active,
-.nav-pills .navbar-nav > li.show > a,
-.nav-pills .navbar-nav > li > a.active,
-.nav-pills .show > .nav-link {
-    color: $tab-active-color;
-    background: $tab-active-bg;
-
-    &:hover, &:focus, &:active {
-        color: $tab-active-hover-color;
-        background: $tab-active-hover-bg;
-    }
-}
-
 // Add song/sountrack
 .dodaj-soundtrack,
 .dodaj-tekst,

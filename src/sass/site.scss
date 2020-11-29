@@ -17,6 +17,7 @@
     @import 'components/_navbar';
     @import 'components/_overlays';
     @import 'components/_pagination';
+    @import 'components/_pills';
     @import 'components/_scrollbar';
     @import 'components/_tables';
     @import 'components/_tabs';
@@ -466,22 +467,8 @@
         width: auto;
     }
 
-    .belka strong, .belka .strong {
-        font-size: 1.5em;
-        font-weight: bold;
-        display: inline-block;
-        width: 415px;
-        line-height: 1em;
-        float: left;
-        margin: 0;
-    }
-
     .belka strong .org-title, .belka .strong .org-title {
         font-size: 0.848em
-    }
-
-    .soundtrack.belka strong, .soundtrack.belka .strong {
-        width: 550px;
     }
 
     .belka strong .sup, .belka .strong .sup {
@@ -496,10 +483,6 @@
 
     .belka strong.long, .belka .strong.long {
         margin-top: 5px
-    }
-
-    .content.belka strong, .content.belka .strong {
-        width: 320px;
     }
 
     .belka .odslon {
