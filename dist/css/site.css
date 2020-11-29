@@ -295,6 +295,12 @@
   div#center > div.right-column > div.teledysk-right {
     background: #1C1C1C;
   }
+  .bg-light {
+    background: #272727 !important;
+  }
+  .card-header:first-child {
+    border-radius: 0;
+  }
   .teledysk-left,
   .teledysk-right,
   .box-big,

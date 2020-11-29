@@ -53,6 +53,14 @@ div#center > div.right-column > div.teledysk-right {
     background: $box-bg;
 }
 
+.bg-light {
+    background: $box-light-bg !important;
+}
+
+.card-header:first-child {
+    border-radius: 0;
+}
+
 // Remove border
 .teledysk-left,
 .teledysk-right,
