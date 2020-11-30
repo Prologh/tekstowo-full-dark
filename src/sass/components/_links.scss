@@ -3,21 +3,21 @@
 // Global links color
 a,
 a.search-adv,
-.metric a,
+.metric a:not(.edit),
 .belka .link-wykonawca {
     color: $link-color;
     text-decoration: none;
 
-    &:hover, &:focus {
+    &:hover, &:focus, &:active {
         color: $link-hover-color;
         text-decoration: none;
     }
 
-    &.green, &.edit {
+    &.green {
         color: $link-primary-color;
         text-decoration: none;
 
-        &:hover, &:focus {
+        &:hover, &:focus, &:active {
             color: $link-primary-hover-color;
             text-decoration: none;
         }
