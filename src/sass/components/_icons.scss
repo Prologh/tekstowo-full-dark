@@ -10,9 +10,11 @@ a.na-plus,
 a.na-minus {
     background: $link-block-bg;
     position: relative;
+    margin: 0;
 
     &:hover, &:focus {
         background: $link-block-hover-bg;
+        opacity: 1;
     }
 }
 
