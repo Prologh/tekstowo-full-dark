@@ -76,6 +76,21 @@ a.na-minus {
     }
 }
 
+// Voting icons on song comments
+.komentarz {
+    & .bar {
+        & .icons {
+            & a {
+                margin: 0;
+
+                &:hover, &:focus, &:active {
+                    background-color: $link-block-hover-bg;
+                }
+            }
+        }
+    }
+}
+
 // Translation icon on song list
 .box-przeboje .icon.i18 {
     filter: none;

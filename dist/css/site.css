@@ -584,6 +584,12 @@
     left: 9px;
     height: 16px;
   }
+  .komentarz .bar .icons a {
+    margin: 0;
+  }
+  .komentarz .bar .icons a:hover, .komentarz .bar .icons a:focus, .komentarz .bar .icons a:active {
+    background-color: #292929;
+  }
   .box-przeboje .icon.i18 {
     filter: none;
   }
