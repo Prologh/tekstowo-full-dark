@@ -10,6 +10,9 @@
   .search-box .inner .search-form .submit {
     border-radius: 0;
   }
+  .btn {
+    transition: none;
+  }
   .blue-box input.search-send,
   input.search-send {
     background: transparent;
@@ -42,7 +45,6 @@
   .btn-outline-primary {
     color: #62ae25;
     border-color: #62ae25;
-    transition: none;
   }
   .btn-outline-primary:hover, .btn-outline-primary:focus, .btn-outline-primary:active {
     background: #62ae25;
@@ -155,7 +157,6 @@
   .drukuj {
     color: #a4a4a4;
     background: #1C1C1C;
-    transition: none;
   }
   .drukuj:focus, .drukuj:hover, .drukuj:active, .drukuj:not(:disabled):not(.disabled):active, .drukuj:not(:disabled):not(.disabled).active {
     color: #cbcbcb;
@@ -250,7 +251,6 @@
     background: #62ae25;
     border-radius: 0px;
     border-width: 0px;
-    transition: none;
   }
   .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
     color: #e9e9e9;

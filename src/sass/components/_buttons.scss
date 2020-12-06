@@ -11,6 +11,11 @@
     border-radius: 0;
 }
 
+// Remove transition
+.btn {
+    transition: none;
+}
+
 .blue-box input.search-send,
 input.search-send {
     background: transparent;
@@ -45,7 +50,6 @@ input.search-send {
 .btn-outline-primary {
     color: $button-primary-bg;
     border-color: $button-primary-bg;
-    transition: none;
 
     &:hover, &:focus, &:active {
         background: $button-primary-bg;
@@ -180,7 +184,6 @@ td.pop_content .dialog_buttons input {
 .drukuj {
     color: $link-block-color;
     background: $link-block-bg;
-    transition: none;
 
     &:focus,
     &:hover,
@@ -285,7 +288,6 @@ div.tlumaczenie {
     background: $button-primary-bg;
     border-radius: 0px;
     border-width: 0px;
-    transition: none;
 
     &:hover, &:focus, &:active {
         color: $button-primary-hover-color;
