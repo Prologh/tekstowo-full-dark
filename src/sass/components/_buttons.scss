@@ -42,6 +42,17 @@ input.search-send {
     }
 }
 
+.btn-outline-primary {
+    color: $button-primary-bg;
+    border-color: $button-primary-bg;
+    transition: none;
+
+    &:hover, &:focus, &:active {
+        background: $button-primary-bg;
+        color: $button-primary-color;
+    }
+}
+
 // Login containter
 div.left-column div.left-box-content fieldset.login {
     margin: 10px 20px;

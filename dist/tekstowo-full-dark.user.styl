@@ -8,7 +8,7 @@
 @supportURL     https://github.com/Prologh/tekstowo-full-dark/issues
 @updateURL      https://github.com/Prologh/tekstowo-full-dark/raw/master/dist/tekstowo-full-dark.user.styl
 @preprocessor   stylus
-@version        1.5.4
+@version        1.5.5
 @license        MIT
 
 ==/UserStyle== */
@@ -53,6 +53,15 @@
   .search-box .inner .search-form .submit:not(:disabled):not(.disabled):active {
     color: #cbcbcb;
     background: #8e3d12;
+  }
+  .btn-outline-primary {
+    color: #62ae25;
+    border-color: #62ae25;
+    transition: none;
+  }
+  .btn-outline-primary:hover, .btn-outline-primary:focus, .btn-outline-primary:active {
+    background: #62ae25;
+    color: #e9e9e9;
   }
   div.left-column div.left-box-content fieldset.login {
     margin: 10px 20px;
@@ -523,6 +532,9 @@
   .form-control[readonly]:focus {
     color: #c3c3c3;
     background: #343434;
+  }
+  .custom-control-input:checked ~ .custom-control-label:before {
+    background: #62ae25;
   }
   input[type="submit"]:enabled,
   input[type="button"]:enabled,

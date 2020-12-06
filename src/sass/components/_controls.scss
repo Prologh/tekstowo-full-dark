@@ -65,6 +65,10 @@ textarea.textarea-comm,
     }
 }
 
+.custom-control-input:checked ~ .custom-control-label:before {
+    background: $brand-primary-dark;
+}
+
 input[type="submit"]:enabled,
 input[type="button"]:enabled,
 button:enabled {
