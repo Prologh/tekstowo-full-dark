@@ -2397,33 +2397,9 @@
     background: none !important;
     color: #62ae25;
   }
-  .zakladka-info {
-    border: 1px solid #e5e5e5;
-    padding: 15px 20px;
-    margin-bottom: 20px;
-    line-height: 1.5em;
-    border-top: 0px;
-    height: 140px;
-    overflow: auto;
-  }
-  .zakladka-wypelnienie {
-    border-bottom: 1px solid #e5e5e5;
-    line-height: 37px;
-    height: 37px;
-    width: 377px;
-    display: inline-block;
-    vertical-align: bottom;
-    border-left: 0;
-  }
-  .zakladka-wypelnienie.zakladka-long {
-    width: 231px;
-  }
-  .zakladka-info p {
-    text-align: justify;
-    font-size: 1.1em;
-    line-height: 1.4em;
-  }
-  .zakladka-info .box-big, .zakladka-info .box-big-top, .zakladka-info .box-big-bottom {
+  .zakladka-info .box-big,
+  .zakladka-info .box-big-top,
+  .zakladka-info .box-big-bottom {
     margin: 0px auto;
   }
   .zakladka-info .box-big-top {
