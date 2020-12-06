@@ -387,6 +387,16 @@
   .komentarz .desc {
     display: block;
   }
+  .lb-container {
+    background: #1C1C1C;
+    display: block;
+    height: 100%;
+    width: 100%;
+    border-radius: 3px;
+  }
+  .lightbox .lb-image {
+    border-color: #333333;
+  }
   /* Rules that affect textareas */
   textarea, textarea.textarea-comm {
     border: 1px solid #666;

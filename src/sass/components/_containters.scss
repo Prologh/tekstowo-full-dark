@@ -162,3 +162,16 @@ div.popularni {
 .komentarz .desc {
     display: block;
 }
+
+// Image loader background
+.lb-container {
+    background: $box-bg;
+    display: block;
+    height: 100%;
+    width: 100%;
+    border-radius: 3px;
+}
+
+.lightbox .lb-image {
+    border-color: $border-dark-color;
+}
