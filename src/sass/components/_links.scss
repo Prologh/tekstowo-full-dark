@@ -225,10 +225,13 @@ div#art_box_move.to-move {
     top: 46px;
 
     & > div#art_box a.popularny {
-        margin: 0px;
-        padding: 7px;
-        width: 76px;
-        height: 135px;
+
+        & > img {
+            margin-top: 0;
+            padding: 0;
+            background: none;
+            border: 2px solid $border-base-color;
+        }
 
         & b.fanow {
             width: 100%;

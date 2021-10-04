@@ -1007,11 +1007,11 @@
   div#art_box_move.to-move {
     top: 46px;
   }
-  div#art_box_move.to-move > div#art_box a.popularny {
-    margin: 0px;
-    padding: 7px;
-    width: 76px;
-    height: 135px;
+  div#art_box_move.to-move > div#art_box a.popularny > img {
+    margin-top: 0;
+    padding: 0;
+    background: none;
+    border: 2px solid #666;
   }
   div#art_box_move.to-move > div#art_box a.popularny b.fanow {
     width: 100%;
@@ -1824,29 +1824,11 @@
     color: #62ae25;
     font-size: 1.5em;
     font-weight: bold;
-    margin: 10px 0px 0px 52px;
+    margin: 10px 0px 4px 52px;
   }
-  /*    .to-left {
-        width: 32px;
-        height: 59px;
-        background: $box-bg;
-        display: block;
-        position: absolute;
-        top: 60px;
-        left: 4px
-    }
-
-    .to-right {
-        width: 32px;
-        height: 59px;
-        background: $box-bg;
-        display: block;
-        position: absolute;
-        top: 60px;
-        right: 4px
-    }*/
   #art_box {
     width: 1800px;
+    margin-top: 5px;
   }
   .to-move {
     width: 89%;
@@ -1854,23 +1836,6 @@
     top: auto;
     left: auto;
     overflow: hidden;
-  }
-  .to-move .popularny {
-    display: inline-block;
-    float: left;
-    margin: 0px 7px;
-    width: 76px;
-    height: 135px;
-    line-height: 1.1em;
-    text-align: center;
-    font-weight: bold;
-    position: relative;
-  }
-  .to-move .popularny img {
-    margin-bottom: 5px;
-    padding: 2px;
-    border: 1px solid #cdcdcd;
-    background: #fff;
   }
   .belka {
     margin-bottom: 13px;
