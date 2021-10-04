@@ -140,35 +140,17 @@ body div#contener div#center > div.left-column > div:nth-child(6) > h3.marginb10
     }
 }
 
-// Popular artists to left arrow.
-a#art_box_left {
-    width: 0px;
-    height: 0px;
-    background: transparent;
-    border-top: 20px solid transparent;
-    border-bottom: 20px solid transparent;
-    border-right: 27px solid lighten($link-block-bg, 6%);
-    top: 71px;
-    left: 10px;
-
-    &:hover, &:focus {
-        border-right: 27px solid lighten($link-block-bg, 12%);
-    }
-}
-
+// Popular artists arrows.
 // Popular artists to right arrow.
-a#art_box_right {
-    width: 0px;
-    height: 0px;
-    background: transparent;
-    border-top: 20px solid transparent;
-    border-bottom: 20px solid transparent;
-    border-left: 27px solid lighten($link-block-bg, 6%);
-    top: 71px;
-    right: 10px;
+.to-left,
+.to-right {
+    border-color: lighten($link-block-bg, 6%);
+    border-right-width: 5px;
+    border-bottom-width: 5px;
 
-    &:hover, &:focus {
-        border-left: 27px solid lighten($link-block-bg, 12%);
+    &:hover,
+    &:focus {
+        border-color: lighten($link-block-bg, 12%);
     }
 }
 
